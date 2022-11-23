@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ошибка 404</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css" integrity="sha512-gCJkkUMGTe73+FMwog6gIBCVJIMXRoc21l6/IPCuzxCex/1sxvO8ctb6Zd4/WWs2UMqmtnDrAdhJht5pEY0LXg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css" integrity="sha512-qveKnGrvOChbSzAdtSs8p69eoLegyh+1hwOMbmpCViIwj7rn4oJjdmMvWOuyQlTOZgTlZA0N2PXA7iA8/2TUYA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+    <div class="header-wrap">
+        <header class="header">
+            <a href="index.html" class="header-logo">
+                <img loading="lazy" src="img/logo.png" alt="">
+                <p class="hidden-mobile">Международная <span>онлайн -платформа авторских курсов</span></p>
+            </a>
+            <div class="header-nav">
+                <div class="header-nav__close hidden-desktop">&times;</div>
+                <a href="index.html#direction">Курсы</a>
+                <a href="index.html#authors">Авторы</a>
+                <a href="index.html#tools">О платформе</a>
+                <a href="index.html#talk">Партнерская программа</a>
+                <a href="index.html#history">Истории успеха</a>
+                <a href="index.html#create">Свой курс</a>
+                <a href="index.html#answer">Ответы на вопросы</a>
+            </div>
+            <div class="header-login popup-login__open link-line hidden-mobile">
+                <p>Войти</p>
+                <img loading="lazy" src="img/main/arrow.png" alt="">
+            </div>
+            <div class="header-reg popup-reg__open hidden-mobile">
+                <img loading="lazy" src="img/main/sign.png" alt="">
+                <p>Регистрация</p>
+            </div>
+
+            <div class="header-mobile header-mobile__reg popup-login__open hidden-desktop"><img src="img/mobile/login.png" alt=""></div>
+
+            <div class="header-mobile header-mobile__reg popup-reg__open hidden-desktop"><img src="img/mobile/reg.png" alt=""></div>
+
+            <div class="header-menu hidden-desktop">
+                <span></span><span></span><span></span>
+            </div>
+        </header>
+    </div>
+
+    <div class="error">
+        <img src="img/404.png" alt="">
+        <h2>Похоже мы <span class="text-stroke text-stroke__green">не можем найти</span> нужную вам страницу</h2>
+        <a href="index.html">
+            <button class="btn">
+          <p class="btn-title">Вернуться на главную</p>
+         </button>
+        </a>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-wrap">
+            <div class="header-logo">
+                <img src="img/logo.png" alt="">
+                <p>Международная <span>онлайн -платформа авторских курсов</span></p>
+            </div>
+            <div class="footer-text">
+                <p>Copyright 2022 <br> Все права защищены</p>
+            </div>
+            <div class="footer-text">
+                <a href="platform.html">Политика Платформы</a>
+                <a href="privacy.html">Политика конфединциальности</a>
+            </div>
+            <!-- <div class="footer-text footer-paradigma">Сделано с любовью <br> в <a target="_blank" href="https://paradigma.website">paradigma.website</a></div> -->
+        </div>
+    </div>
+    <!-- /.footer -->
+
+    <div class="popup popup-login">
+        <div class="popup-bg"></div>
+        <div class="popup-main">
+            <div class="popup-header">
+                <div class="popup-header__switch">
+                    <div class="popup-header__switch-btn"></div>
+                </div>
+                <p>Войти</p>
+            </div>
+            <form action="#">
+                <input type="text" placeholder="Ваш логин">
+                <input type="password" placeholder="Ваш пароль">
+                <button class="popup-btn">Вход</button>
+            </form>
+            <div class="popup-footer">Забыли пароль?</div>
+        </div>
+    </div>
+    <!-- /.popup-login -->
+
+    <div class="popup popup-reg">
+        <div class="popup-bg"></div>
+        <div class="popup-main">
+            <div class="popup-header">
+                <p>Регистрация</p>
+            </div>
+            <form action="#">
+                <input type="text" placeholder="Ваш логин">
+                <input type="password" placeholder="Ваш пароль">
+                <input type="password" placeholder="Придумайте пароль">
+                <input type="password" placeholder="Повторите пароль">
+                <button class="popup-btn">Зарегистрироваться</button>
+            </form>
+            <div class="popup-footer">Уже есть аккаунт? <span>Войдите</span></div>
+        </div>
+    </div>
+    <!-- /.popup-login -->
+
+    <div class="popup popup-reg-2">
+        <div class="popup-bg"></div>
+        <div class="popup-main">
+            <div class="popup-title"> Зарегистрируйтесь </div>
+            <div class="popup-text">чтобы узнать подробнее</div>
+            <form action="#">
+                <input type="text" placeholder="Ваш логин">
+                <input type="password" placeholder="Ваш пароль">
+                <input type="password" placeholder="Придумайте пароль">
+                <input type="password" placeholder="Повторите пароль">
+                <button class="popup-btn">Зарегистрироваться</button>
+            </form>
+            <div class="popup-footer">Уже есть аккаунт? <span>Войдите</span></div>
+        </div>
+    </div>
+    <!-- /.popup-login -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.js" integrity="sha512-ZKqmaRVpwWCw7S7mEjC89jDdWRD/oMS0mlfH96mO0u3wrPYoN+lXmqvyptH4P9mY6zkoPTSy5U2SwKVXRY5tYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

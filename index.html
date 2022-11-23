@@ -1,0 +1,1997 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lime academy</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css"
+        integrity="sha512-gCJkkUMGTe73+FMwog6gIBCVJIMXRoc21l6/IPCuzxCex/1sxvO8ctb6Zd4/WWs2UMqmtnDrAdhJht5pEY0LXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css"
+        integrity="sha512-qveKnGrvOChbSzAdtSs8p69eoLegyh+1hwOMbmpCViIwj7rn4oJjdmMvWOuyQlTOZgTlZA0N2PXA7iA8/2TUYA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+        integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/fonts/stylesheet.css">
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+<div class="main">
+  <header class="header">
+    <a href="index.html" class="header-logo">
+      <img loading="lazy" src="img/logo.png" alt="">
+      <p class="hidden-mobile"><span data-i18n="header.logo"></span></p>
+    </a>
+    <div class="header-nav">
+      <div class="header-nav__close hidden-desktop">&times;</div>
+      <a href="#direction" data-i18n="header.navbar.courses"></a>
+      <a href="#authors" data-i18n="header.navbar.authors"></a>
+      <a href="#tools" data-i18n="header.navbar.about_platform"></a>
+      <a href="#talk" data-i18n="header.navbar.partners_program"></a>
+      <a href="#history" data-i18n="header.navbar.successful_stories"></a>
+      <a href="#create" data-i18n="header.navbar.own_course"></a>
+      <a href="#answer" data-i18n="header.navbar.answers"></a>
+    </div>
+    <div class="header-login link-line hidden-mobile">
+      <a id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_in" style="color: white;">
+        <p data-i18n="button.sign_in"></p>
+      </a>
+      <img loading="lazy" src="img/main/arrow.png" alt="">
+    </div>
+    <div class="header-reg hidden-mobile">
+      <img loading="lazy" src="img/main/sign.png" alt="">
+      <a id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up" style="color: white;">
+        <p data-i18n="button.sign_up"></p>
+      </a>
+    </div>
+
+    <div class="header-mobile header-mobile__reg  hidden-desktop">
+      <a id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up">
+        <img src="img/mobile/login.png" alt="">
+      </a>
+    </div>
+
+    <div class="header-mobile header-mobile__reg  hidden-desktop">
+      <a id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up">
+        <img src="img/mobile/reg.png" alt="">
+      </a>
+    </div>
+
+    <div class="header-menu hidden-desktop">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <div class="main-left">
+      <h1 class="main-header" data-i18n="[html]main.title"></h1>
+      <div class="main-footer hidden-mobile">
+        <a id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up">
+          <div class="btn-wrap ">
+            <button class="btn">
+              <div class="btn-title" data-i18n="button.start_free"></div>
+              <div class="btn-text" data-i18n="button.register"></div>
+            </button>
+            <div class="btn-light"></div>
+          </div>
+        </a>
+        <div class="main-text" data-i18n="main.description"></div>
+      </div>
+    </div>
+    <div class="main-list">
+      <div class="main-list__item">
+        <img src="img/main/star.png" alt="" class="hidden-desktop">
+        <p data-i18n="[html]main.list_info.any_age"></p>
+        <img loading="lazy" src="img/main/star.png" alt="">
+      </div>
+      <div class="main-list__item">
+        <img src="img/main/star.png" alt="" class="hidden-desktop">
+        <p data-i18n="[html]main.list_info.unlimited_access"></p>
+        <img loading="lazy" src="img/main/star.png" alt="">
+      </div>
+      <div class="main-list__item">
+        <img src="img/main/star.png" alt="" class="hidden-desktop">
+        <p data-i18n="[html]main.list_info.areas_of_study"></p>
+        <img loading="lazy" src="img/main/star.png" alt="">
+      </div>
+    </div>
+    <div class="main-footer hidden-desktop">
+      <div class="btn-wrap ">
+        <a id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up">
+          <div class="btn-wrap ">
+            <button class="btn">
+              <div class="btn-title" data-i18n="button.start_free"></div>
+              <div class="btn-text" data-i18n="button.register"></div>
+            </button>
+            <div class="btn-light"></div>
+          </div>
+        </a>
+        <div class="btn-light"></div>
+      </div>
+      <div class="main-text" data-i18n="main.description"></div>
+    </div>
+  </div>
+</div>
+<!-- /.main -->
+
+
+<div class="become">
+  <img loading="lazy" src="img/become/bg.png" alt="" class="become-bg">
+  <div class="become-container">
+
+    <div class="become-top">
+      <div class="become-header">
+        <div class="become-header__switch">
+          <div class="become-header__switch-btn"></div>
+        </div>
+        <h2 class="become-header__text wow fadeInUp" data-i18n="[html]become.title"></h2>
+      </div>
+      <p class="become-text become-text__right" data-i18n="[html]become.description"></p>
+    </div>
+    <!-- /.become-top -->
+    <div class="become-main">
+      <div class="become-main__left">
+        <p class="become-text" data-i18n="[html]become.main.intro"></p>
+        <p class="become-text" data-i18n="[html]become.main.info"></p>
+        <p class="become-text" data-i18n="[html]become.main.mission"></p>
+      </div>
+      <div class="become-main__right">
+        <div class="become-circle become-circle-1 popup-video__open">
+          <img loading="lazy" src="img/become/circle.png" alt="">
+          <img loading="lazy" src="img/become/play.png" alt="">
+        </div>
+        <div class="become-circle become-circle-2" data-i18n="[html]become.about.programs"></div>
+        <div class="become-circle become-circle-3" data-i18n="[html]become.about.trainers"></div>
+        <div class="become-circle become-circle-4" data-i18n="[html]become.about.members"></div>
+      </div>
+    </div>
+    <!-- /.become-main -->
+
+  </div>
+</div>
+<!-- /.become -->
+
+<div class="direction" id="direction">
+  <div class="direction-top">
+    <div class="direction-header">
+      <h2 class="wow fadeInUp" data-i18n="[html]direction.header.title"></h2>
+    </div>
+    <div class="direction-header__text" data-i18n="[html]direction.header.text"></div>
+  </div>
+  <!-- /.direction-top -->
+
+  <div class="direction-buttons">
+    <button direction-btn="grow" disabled="true"
+            class="direction-btn direction-btn-1 direction-btn__active" data-i18n="direction.buttons.0"></button>
+    <button direction-btn="marketing" disabled="true" class="direction-btn direction-btn-2"
+            data-i18n="direction.buttons.1"></button>
+    <button direction-btn="general" disabled="true" class="direction-btn direction-btn-3"
+            data-i18n="direction.buttons.2"></button>
+    <button direction-btn="languages" disabled="true" class="direction-btn direction-btn-4"
+            data-i18n="direction.buttons.3"></button>
+    <button direction-btn="finance" disabled="true" class="direction-btn direction-btn-5"
+            data-i18n="direction.buttons.4"></button>
+    <button direction-btn="digital" disabled="true" class="direction-btn direction-btn-6"
+            data-i18n="direction.buttons.5"></button>
+    <button direction-btn="special" disabled="true" class="direction-btn direction-btn-7"
+            data-i18n="direction.buttons.6"></button>
+    <button direction-btn="name" disabled="true" class="direction-btn direction-btn-8"
+            data-i18n="direction.buttons.7"></button>
+  </div>
+
+  <div class="direction-slider__wrap">
+    <div class="slider-arrows">
+      <div class="slider-arrow slider-arrow-prev direction-slider__arrow-prev"><img loading="lazy"
+                                                                                    src="img/direction/arrow.png"
+                                                                                    alt=""></div>
+      <div class="slider-arrow slider-arrow-next direction-slider__arrow-next"><img loading="lazy"
+                                                                                    src="img/direction/arrow.png"
+                                                                                    alt=""></div>
+    </div>
+
+    <div direction-block="grow" class="direction-slider owl-carousel">
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.0"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.0"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.0"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.1"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.1"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.3"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.2"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.2"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.3"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.3"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.3"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.0"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.4"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.4"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.6"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.6"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.4"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.6"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.6"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.4"></div>
+        </div>
+      </div>
+      <div class="direction-line">
+        <div class="direction-block ">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.8"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.8"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.9"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.9"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.10"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.6"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.11"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.4"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+    </div>
+    <!-- /.direction-slider -->
+
+    <div direction-block="marketing" class="direction-slider owl-carousel">
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.12"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.0"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.1"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.1"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.1"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.2"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.3"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.3"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.5"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.5"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.5"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.5"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+    </div>
+    <!-- /.direction-slider -->
+
+    <div direction-block="general" class="direction-slider owl-carousel">
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+    </div>
+    <!-- /.direction-slider -->
+
+    <div direction-block="languages" class="direction-slider owl-carousel">
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+    </div>
+    <!-- /.direction-slider -->
+
+    <div direction-block="finance" class="direction-slider owl-carousel">
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+    </div>
+    <!-- /.direction-slider -->
+
+    <div direction-block="digital" class="direction-slider owl-carousel">
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+    </div>
+    <!-- /.direction-slider -->
+
+    <div direction-block="special" class="direction-slider owl-carousel">
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7">=</div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7">=</div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1">=</div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+    </div>
+    <!-- /.direction-slider -->
+
+    <div direction-block="name" class="direction-slider owl-carousel">
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.13"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.11"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.14"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+      <div class="direction-line">
+        <div class="direction-block direction-block__orange">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+        <div class="direction-block">
+          <img loading="lazy" alt="" class="direction-block__star" src="img/direction/star.png">
+          <div class="direction-block__wrap">
+            <div class="direction-block__title" data-i18n="direction.slider.title.7"></div>
+            <div class="direction-block__text" data-i18n="direction.slider.descriptions.7"></div>
+          </div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+        </div>
+      </div>
+      <!-- /.direction-line -->
+    </div>
+    <!-- /.direction-slider -->
+
+  </div>
+
+  <div class="advertising-container" id="advertising-container"></div>
+  <!-- /.direction-slider__wrap -->
+
+  <div class="direction-footer">
+    <p class="block-footer__text" data-i18n="[html]direction.footer.text"></p>
+    <div class="btn-wrap btn-center">
+      <a id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up">
+        <div class="btn-wrap ">
+          <button class="btn">
+            <div class="btn-title" data-i18n="direction.start_free"></div>
+            <div class="btn-text" data-i18n="direction.register"></div>
+          </button>
+          <div class="btn-light"></div>
+        </div>
+      </a>
+      <div class="btn-light"></div>
+    </div>
+  </div>
+</div>
+<!-- /.direction -->
+
+
+<div class="authors" id="authors">
+
+  <img loading="lazy" src="img/authors/map.png" alt="" class="authors-bg">
+  <img loading="lazy" src="img/authors/circle.png" alt="" class="authors-circle">
+
+  <div class="authors-header">
+    <p class="authors-title" data-i18n="[html]authors.title"></p>
+    <div class="authors-text" data-i18n="[html]authors.description"></div>
+  </div>
+  <!-- /.authors-header -->
+
+  <div class="slider-arrows">
+    <div class="slider-arrow slider-arrow-prev authors-slider__arrow-prev"><img loading="lazy"
+                                                                                src="img/direction/arrow.png" alt="">
+    </div>
+    <div class="slider-arrow slider-arrow-next authors-slider__arrow-next"><img loading="lazy"
+                                                                                src="img/direction/arrow.png" alt="">
+    </div>
+  </div>
+
+  <div class="authors-slider owl-carousel">
+    <div class="authors-slide">
+      <div class="authors-block authors-block-1">
+        <div class="authors-block__img">
+          <img loading="lazy" src="img/authors/border.png" alt="" class="authors-block__img-border">
+          <picture>
+            <!--                            <source srcset="img/authors/author-1.webp" type="image/webp">-->
+            <!--                            <source srcset="img/authors/author-1.png" type="image/png">-->
+            <img loading="lazy" class="authors-block__img-main" src="img/authors/author-1.png" alt="">
+          </picture>
+          <div class="authors-block__more">
+            <div class="authors-block__more-plus">+</div>
+            <div class="authors-block__more-info" data-i18n="[html]authors.list.0.more_info"></div>
+          </div>
+        </div>
+        <div class="authors-block__name" data-i18n="authors.list.0.name"></div>
+        <div class="authors-block__text" data-i18n="[html]authors.list.0.description"></div>
+      </div>
+      <div class="authors-block authors-block-2">
+        <div class="authors-block__img">
+          <img loading="lazy" src="img/authors/border.png" alt="" class="authors-block__img-border">
+          <picture>
+            <source srcset="img/authors/author-2.webp" type="image/webp">
+            <source srcset="img/authors/author-2.png" type="image/png">
+            <img loading="lazy" class="authors-block__img-main" src="img/authors/author-2.png" alt="">
+          </picture>
+          <div class="authors-block__more">
+            <div class="authors-block__more-plus">+</div>
+            <div class="authors-block__more-info" data-i18n="[html]authors.list.1.more_info"></div>
+          </div>
+        </div>
+        <div class="authors-block__name" data-i18n="[html]authors.list.1.name"></div>
+        <div class="authors-block__text" data-i18n="[html]authors.list.1.description"></div>
+      </div>
+      <div class="authors-block authors-block-3">
+        <div class="authors-block__img">
+          <img loading="lazy" src="img/authors/border.png" alt="" class="authors-block__img-border">
+          <picture>
+            <source srcset="img/authors/author-3.webp" type="image/webp">
+            <source srcset="img/authors/author-3.png" type="image/png">
+            <img loading="lazy" class="authors-block__img-main" src="img/authors/author-3.png" alt="">
+          </picture>
+          <div class="authors-block__more">
+            <div class="authors-block__more-plus">+</div>
+            <div class="authors-block__more-info" data-i18n="[html]authors.list.2.more_info"></div>
+          </div>
+        </div>
+        <div class="authors-block__name" data-i18n="authors.list.2.name"></div>
+        <div class="authors-block__text" data-i18n="[html]authors.list.2.description"></div>
+      </div>
+      <div class="authors-block authors-block-4">
+        <div class="authors-block__img">
+          <img loading="lazy" src="img/authors/border.png" alt="" class="authors-block__img-border">
+          <picture>
+            <source srcset="img/authors/author-4.webp" type="image/webp">
+            <source srcset="img/authors/author-4.png" type="image/png">
+            <img loading="lazy" class="authors-block__img-main" src="img/authors/author-4.png" alt="">
+          </picture>
+          <div class="authors-block__more">
+            <div class="authors-block__more-plus">+</div>
+            <div class="authors-block__more-info" data-i18n="[html]authors.list.3.more_info"></div>
+          </div>
+        </div>
+        <div class="authors-block__name" data-i18n="authors.list.3.name"></div>
+        <div class="authors-block__text" data-i18n="[html]authors.list.3.description"></div>
+      </div>
+    </div>
+    <!-- /.authors-slide -->
+    <div class="authors-slide">
+      <div class="authors-block authors-block-1">
+        <div class="authors-block__img">
+          <img loading="lazy" src="img/authors/border.png" alt="" class="authors-block__img-border">
+          <picture>
+            <!-- <source srcset="img/authors/author-1.webp" type="image/webp">
+            <source srcset="img/authors/author-1.png" type="image/png"> -->
+            <img loading="lazy" class="authors-block__img-main" src="img/authors/author-5.jpg" alt="">
+          </picture>
+          <div class="authors-block__more">
+            <div class="authors-block__more-plus">+</div>
+            <div class="authors-block__more-info" data-i18n="[html]authors.list.4.more_info"></div>
+          </div>
+        </div>
+        <div class="authors-block__name" data-i18n="authors.list.4.name"></div>
+        <div class="authors-block__text" data-i18n="[html]authors.list.4.description"></div>
+      </div>
+      <div class="authors-block authors-block-2">
+        <div class="authors-block__img">
+          <img loading="lazy" src="img/authors/border.png" alt="" class="authors-block__img-border">
+          <picture>
+            <!-- <source srcset="img/authors/author-2.webp" type="image/webp">
+            <source srcset="img/authors/author-2.png" type="image/png"> -->
+            <img loading="lazy" class="authors-block__img-main" src="img/authors/author-6.jpg" alt="">
+          </picture>
+          <div class="authors-block__more">
+            <div class="authors-block__more-plus">+</div>
+            <div class="authors-block__more-info" data-i18n="[html]authors.list.5.more_info"></div>
+          </div>
+        </div>
+        <div class="authors-block__name" data-i18n="authors.list.5.name"></div>
+        <div class="authors-block__text" data-i18n="[html]authors.list.5.description"></div>
+      </div>
+      <div class="authors-block authors-block-3">
+        <div class="authors-block__img">
+          <img loading="lazy" src="img/authors/border.png" alt="" class="authors-block__img-border">
+          <picture>
+            <!-- <source srcset="img/authors/author-3.webp" type="image/webp">
+            <source srcset="img/authors/author-3.png" type="image/png"> -->
+            <img loading="lazy" class="authors-block__img-main" src="img/authors/author-7.jpg" alt="">
+          </picture>
+          <div class="authors-block__more">
+            <div class="authors-block__more-plus">+</div>
+            <div class="authors-block__more-info" data-i18n="[html]authors.list.6.more_info"></div>
+          </div>
+        </div>
+        <div class="authors-block__name" data-i18n="authors.list.6.name"></div>
+        <div class="authors-block__text" data-i18n="[html]authors.list.6.description"></div>
+      </div>
+      <div class="authors-block authors-block-4">
+        <div class="authors-block__img">
+          <img loading="lazy" src="img/authors/border.png" alt="" class="authors-block__img-border">
+          <picture>
+            <!-- <source srcset="img/authors/author-4.webp" type="image/webp">
+            <source srcset="img/authors/author-4.png" type="image/png"> -->
+            <img loading="lazy" class="authors-block__img-main" src="img/authors/author-8.jpg" alt="">
+          </picture>
+          <div class="authors-block__more">
+            <div class="authors-block__more-plus">+</div>
+            <div class="authors-block__more-info" data-i18n="[html]authors.list.7.more_info"></div>
+          </div>
+        </div>
+        <div class="authors-block__name" data-i18n="authors.list.7.name"></div>
+        <div class="authors-block__text" data-i18n="[html]authors.list.7.description"></div>
+      </div>
+    </div>
+    <!-- /.authors-slide -->
+  </div>
+</div>
+<!-- /.authors -->
+
+
+<div class="opportunities">
+  <div class="opportunities-header wow fadeInUp" data-i18n="[html]opportunities.title"></div>
+  <div class="opportunities-list">
+    <div class="opportunities-block">
+      <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt="">
+      </div>
+      <div class="opportunities-block__title" data-i18n="opportunities.list.0.title"></div>
+      <div class="opportunities-block__text opportunities-block__text-1" data-i18n="opportunities.list.0.text"></div>
+    </div>
+    <img loading="lazy" src="img/opportunities/star.png" alt="" class="opportunities-star">
+    <div class="opportunities-block">
+      <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt="">
+      </div>
+      <div class="opportunities-block__title" data-i18n="opportunities.list.1title"></div>
+      <div class="opportunities-block__text opportunities-block__text-2" data-i18n="opportunities.list.1.text"></div>
+    </div>
+    <img loading="lazy" src="img/opportunities/star.png" alt="" class="opportunities-star">
+    <div class="opportunities-block">
+      <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt="">
+      </div>
+      <div class="opportunities-block__title" data-i18n="opportunities.list.2.title"></div>
+      <div class="opportunities-block__text opportunities-block__text-3" data-i18n="opportunities.list.2.text"></div>
+    </div>
+  </div>
+</div>
+<!-- /.opportunities -->
+
+<div class="community">
+  <h2 class="community-header wow fadeInUp" data-i18n="[html]community.title"></h2>
+  <div class="community-list">
+    <div class="community-block">
+      <picture>
+        <source srcset="img/community/block-1.webp" type="image/webp">
+        <source srcset="img/community/block-1.png" type="image/png">
+        <img loading="lazy" src="img/community/block-1.png" alt=""
+             class="community-block__img community-block__img-1">
+      </picture>
+      <div class="community-block__title" data-i18n="community.list.0.title"></div>
+      <div class="community-block__text community-block__text-1" data-i18n="community.list.0.text"></div>
+    </div>
+    <img loading="lazy" src="img/community/star.png" alt="" class="community-star">
+    <div class="community-block">
+      <picture>
+        <source srcset="img/community/block-2.webp" type="image/webp">
+        <source srcset="img/community/block-2.png" type="image/png">
+        <img loading="lazy" src="img/community/block-2.png" alt=""
+             class="community-block__img community-block__img-2">
+      </picture>
+      <div class="community-block__title" data-i18n="community.list.1.title"></div>
+      <div class="community-block__text community-block__text-2" data-i18n="community.list.1.text"></div>
+    </div>
+    <img loading="lazy" src="img/community/star.png" alt="" class="community-star">
+    <div class="community-block">
+      <picture>
+        <source srcset="img/community/block-3.webp" type="image/webp">
+        <source srcset="img/community/block-3.png" type="image/png">
+        <img loading="lazy" src="img/community/block-3.png" alt=""
+             class="community-block__img community-block__img-3">
+      </picture>
+      <div class="community-block__title" data-i18n="community.list.2.title"></div>
+      <div class="community-block__text community-block__text-3" data-i18n="community.list.2.text"></div>
+    </div>
+  </div>
+</div>
+<!-- /.community -->
+
+<div class="tools" id="tools">
+  <div class="tools-top">
+    <div class="tools-header wow fadeInUp" data-i18n="[html]tools.title"></div>
+    <div class="tools-top__text" data-i18n="[html]tools.text"></div>
+  </div>
+  <div class="tools-slider owl-carousel">
+
+    <div class="tools-block tools-block__black">
+      <div class="tools-block__left">
+        <div class="tools-block__title-wrap">
+          <div class="tools-block__title">
+            <img loading="lazy" src="img/tools/star.png" alt="">
+            <p data-i18n="tools.list.0.title"></p>
+          </div>
+        </div>
+        <div class="tools-block__text" data-i18n="tools.list.0.text"></div>
+      </div>
+      <picture>
+        <source srcset="img/tools/tool-1.webp" type="image/webp">
+        <source srcset="img/tools/tool-1.png" type="image/png">
+        <img loading="lazy" src="img/tools/tool-1.png" alt="" class="tools-block__img">
+      </picture>
+    </div>
+    <!-- /.tools-block -->
+
+    <div class="tools-block tools-block__white">
+      <div class="tools-block__left">
+        <div class="tools-block__title-wrap">
+          <div class="tools-block__title">
+            <img loading="lazy" src="img/tools/star.png" alt="">
+            <p data-i18n="tools.list.1.title"></p>
+          </div>
+        </div>
+        <div class="tools-block__text" data-i18n="tools.list.1.text"></div>
+      </div>
+      <picture>
+        <source srcset="img/tools/tool-2.webp" type="image/webp">
+        <source srcset="img/tools/tool-2.png" type="image/png">
+        <img loading="lazy" src="img/tools/tool-2.png" alt="" class="tools-block__img">
+      </picture>
+    </div>
+    <!-- /.tools-block -->
+
+    <div class="tools-block tools-block__black">
+      <div class="tools-block__left">
+        <div class="tools-block__title-wrap">
+          <div class="tools-block__title">
+            <img loading="lazy" src="img/tools/star.png" alt="">
+            <p data-i18n="tools.list.2.title"></p>
+          </div>
+        </div>
+        <div class="tools-block__text" data-i18n="tools.list.2.text"></div>
+      </div>
+      <picture>
+        <source srcset="img/tools/tool-3.webp" type="image/webp">
+        <source srcset="img/tools/tool-3.png" type="image/png">
+        <img loading="lazy" src="img/tools/tool-3.png" alt="" class="tools-block__img">
+      </picture>
+    </div>
+    <!-- /.tools-block -->
+
+    <div class="tools-block tools-block__white">
+      <div class="tools-block__left">
+        <div class="tools-block__title-wrap">
+          <div class="tools-block__title">
+            <img loading="lazy" src="img/tools/star.png" alt="">
+            <p data-i18n="tools.list.3.title"></p>
+          </div>
+        </div>
+        <div class="tools-block__text" data-i18n="tools.list.3.text"></div>
+      </div>
+      <picture>
+        <source srcset="img/tools/tool-4.webp" type="image/webp">
+        <source srcset="img/tools/tool-4.png" type="image/png">
+        <img loading="lazy" src="img/tools/tool-4.png" alt="" class="tools-block__img">
+      </picture>
+    </div>
+    <!-- /.tools-block -->
+
+    <div class="tools-block tools-block__black">
+      <div class="tools-block__left">
+        <div class="tools-block__title-wrap">
+          <div class="tools-block__title">
+            <img loading="lazy" src="img/tools/star.png" alt="">
+            <p data-i18n="tools.list.4.title"></p>
+          </div>
+        </div>
+        <div class="tools-block__text" data-i18n="tools.list.4.text"></div>
+      </div>
+      <picture>
+        <source srcset="img/tools/tool-5.webp" type="image/webp">
+        <source srcset="img/tools/tool-5.png" type="image/png">
+        <img loading="lazy" src="img/tools/tool-5.png" alt="" class="tools-block__img">
+      </picture>
+    </div>
+    <!-- /.tools-block -->
+
+    <div class="tools-block tools-block__white">
+      <div class="tools-block__left">
+        <div class="tools-block__title-wrap">
+          <div class="tools-block__title">
+            <img loading="lazy" src="img/tools/star.png" alt="">
+            <p data-i18n="tools.list.5.title"></p>
+          </div>
+        </div>
+        <div class="tools-block__text" data-i18n="tools.list.5.text"></div>
+      </div>
+      <picture>
+        <source srcset="img/tools/tool-6.webp" type="image/webp">
+        <source srcset="img/tools/tool-6.png" type="image/png">
+        <img loading="lazy" src="img/tools/tool-6.png" alt="" class="tools-block__img">
+      </picture>
+    </div>
+    <!-- /.tools-block -->
+
+  </div>
+  <div class="tools-arrows">
+    <div class="slider-arrow slider-arrow-prev tools-slider__arrow-prev"><img loading="lazy"
+                                                                              src="img/direction/arrow.png" alt="">
+    </div>
+    <div class="tools-count">
+      <span class="tools-count__current"></span> / <span class="tools-count__total"></span>
+    </div>
+    <div class="slider-arrow slider-arrow-next tools-slider__arrow-next"><img loading="lazy"
+                                                                              src="img/direction/arrow.png" alt="">
+    </div>
+  </div>
+
+  <div class="tools-footer">
+    <p class="block-footer__text2" data-i18n="[html]tools.footer.text"></p>
+    <div class="btn-wrap btn-center">
+      <a id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up">
+        <div class="btn-wrap ">
+          <button class="btn">
+            <div class="btn-title" data-i18n="button.start_free"></div>
+            <div class="btn-text" data-i18n="button.register"></div>
+          </button>
+          <div class="btn-light"></div>
+        </div>
+      </a>
+      <div class="btn-light"></div>
+    </div>
+  </div>
+</div>
+<!-- /.tools -->
+
+<div class="history" id="history">
+  <h2 class="history-header wow fadeInUp" data-i18n="[html]history.header"></h2>
+  <div class="history-title"></div>
+
+  <div class="history-wrap">
+    <div class="history-block">
+      <div class="history-block__title" data-i18n="history.successful_stories"></div>
+      <div class="owl-carousel history-slider history-slider__success">
+
+        <div class="history-video">
+          <iframe loading="lazy" src="https://kinescope.io/200852300" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-success.webp" type="image/webp">
+            <source srcset="img/history/video-success.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-success.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-success.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+        <div class="history-video">
+          <iframe loading="lazy" src="https://www.youtube.com/embed/m43rh-pI0P0"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-success.webp" type="image/webp">
+            <source srcset="img/history/video-success.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-success.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-success.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+        <div class="history-video">
+          <iframe loading="lazy" src="https://www.youtube.com/embed/m43rh-pI0P0"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-success.webp" type="image/webp">
+            <source srcset="img/history/video-success.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-success.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-success.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+        <div class="history-video">
+          <iframe loading="lazy" src="https://www.youtube.com/embed/m43rh-pI0P0"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-success.webp" type="image/webp">
+            <source srcset="img/history/video-success.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-success.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-success.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+        <div class="history-video">
+          <iframe loading="lazy" src="https://www.youtube.com/embed/m43rh-pI0P0"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-success.webp" type="image/webp">
+            <source srcset="img/history/video-success.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-success.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-success.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+        <div class="history-video">
+          <iframe loading="lazy" src="https://www.youtube.com/embed/m43rh-pI0P0"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-success.webp" type="image/webp">
+            <source srcset="img/history/video-success.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-success.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-success.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+      </div>
+      <div class="tools-arrows history-arrows">
+        <div class="slider-arrow slider-arrow-prev success-slider__arrow-prev"><img loading="lazy"
+                                                                                    src="img/direction/arrow.png"
+                                                                                    alt=""></div>
+        <div class="tools-count">
+          <span class="history-count__current success-count__current"></span> / <span
+            class="success-count__total"></span>
+        </div>
+        <div class="slider-arrow slider-arrow-next success-slider__arrow-next"><img loading="lazy"
+                                                                                    src="img/direction/arrow.png"
+                                                                                    alt=""></div>
+      </div>
+    </div>
+    <!-- /.history-block -->
+    <div class="history-block">
+      <div class="history-block__title" data-i18n="history.review"></div>
+      <div class="owl-carousel history-slider history-slider__review">
+
+
+        <div class="history-video">
+          <iframe src="https://kinescope.io/embed/200823648" width="560" height="315" frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; encrypted-media;" allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-review.webp" type="image/webp">
+            <source srcset="img/history/video-review.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-review.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-review.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+        <div class="history-video">
+          <iframe src="https://kinescope.io/embed/200782420" width="560" height="315" frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; encrypted-media;" allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-review.webp" type="image/webp">
+            <source srcset="img/history/video-review.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-review.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-review.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+        <div class="history-video">
+          <iframe src="https://kinescope.io/200850158" width="560" height="315" frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; encrypted-media;" allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-review.webp" type="image/webp">
+            <source srcset="img/history/video-review.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-review.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-review.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+        <div class="history-video">
+          <iframe src="https://kinescope.io/200850157" width="560" height="315" frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; encrypted-media;" allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-review.webp" type="image/webp">
+            <source srcset="img/history/video-review.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-review.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-review.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+        <div class="history-video">
+          <iframe src="https://kinescope.io/200823645" width="560" height="315" frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; encrypted-media;" allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-review.webp" type="image/webp">
+            <source srcset="img/history/video-review.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-review.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-review.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+        <div class="history-video">
+          <iframe src="https://kinescope.io/200823649" width="560" height="315" frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; encrypted-media;" allowfullscreen></iframe>
+          <picture>
+            <source srcset="img/history/video-review.webp" type="image/webp">
+            <source srcset="img/history/video-review.jpg" type="image/jpg">
+            <img loading="lazy" src="img/history/video-review.jpg" alt="">
+          </picture>
+          <div class="history-video__btn"><img loading="lazy" src="img/become/play.png" alt=""
+                                               class="history-video__btn-play"><img loading="lazy"
+                                                                                    src="img/history/text-review.png"
+                                                                                    alt=""
+                                                                                    class="history-video__btn-text">
+          </div>
+        </div>
+        <!-- /.history-video -->
+
+
+      </div>
+      <div class="tools-arrows history-arrows">
+        <div class="slider-arrow slider-arrow-prev review-slider__arrow-prev"><img loading="lazy"
+                                                                                   src="img/direction/arrow.png" alt="">
+        </div>
+        <div class="tools-count">
+          <span class="history-count__current review-count__current"></span> / <span
+            class="review-count__total"></span>
+        </div>
+        <div class="slider-arrow slider-arrow-next review-slider__arrow-next"><img loading="lazy"
+                                                                                   src="img/direction/arrow.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- /.history-block -->
+  </div>
+
+  <div class="btn-wrap btn-center">
+    <button class="btn popup-reg__open-2">
+      <a id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up">
+        <div style="color: white" class="btn-title" data-i18n="button.start_free"></div>
+      </a>
+
+      <div class="btn-text" data-i18n="button.register"></div>
+    </button>
+    <div class="btn-light"></div>
+  </div>
+
+</div>
+<!-- /.history -->
+
+
+<div class="opportunities create" id="create">
+  <div class="opportunities-header create-header wow fadeInUp" data-i18n="[html]opportunities.title"></div>
+   <div class="create-title"><span>Обладаете экспертностью в какой-либо сфере знаний,</span> имеете достижения и рейтин на платформе?</div>
+  <div class="opportunities-list">
+    <div class="opportunities-block">
+      <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt=""></div>
+      <div class="opportunities-block__title" data-i18n="create.list.0.title"></div>
+      <div class="opportunities-block__text" data-i18n="[html]create.list.0.text"></div>
+    </div>
+    <img loading="lazy" src="img/opportunities/star.png" alt="" class="opportunities-star">
+    <div class="opportunities-block">
+      <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt=""></div>
+      <div class="opportunities-block__title" data-i18n="create.list.1.title"></div>
+      <div class="opportunities-block__text" data-i18n="[html]create.list.1.text"></div>
+    </div>
+    <img loading="lazy" src="img/opportunities/star.png" alt="" class="opportunities-star">
+    <div class="opportunities-block">
+      <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt=""></div>
+      <div class="opportunities-block__title" data-i18n="create.list.2.title"></div>
+      <div class="opportunities-block__text" data-i18n="create.list.2.text"></div>
+    </div>
+    <img loading="lazy" src="img/opportunities/star.png" alt="" class="opportunities-star">
+    <div class="opportunities-block">
+      <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt=""></div>
+      <div class="opportunities-block__title" data-i18n="create.list.3.title"></div>
+      <div class="opportunities-block__text" data-i18n="create.list.3.text"></div>
+    </div>
+  </div>
+  <div class="opportunities-list">
+    <img loading="lazy" src="img/opportunities/star.png" alt="" class="opportunities-star hidden-desktop">
+    <div class="opportunities-block">
+      <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt=""></div>
+      <div class="opportunities-block__title" data-i18n="create.list.4.title"></div>
+      <div class="opportunities-block__text" data-i18n="create.list.4.text"></div>
+    </div>
+    <img loading="lazy" src="img/opportunities/star.png" alt="" class="opportunities-star">
+    <div class="opportunities-block">
+      <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt=""></div>
+      <div class="opportunities-block__title" data-i18n="create.list.5.title"></div>
+      <div class="opportunities-block__text" data-i18n="create.list.5.text"></div>
+    </div>
+    <img loading="lazy" src="img/opportunities/star.png" alt="" class="opportunities-star">
+    <div class="opportunities-block">
+      <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt=""></div>
+      <div class="opportunities-block__title" data-i18n="create.list.6.title"></div>
+      <div class="opportunities-block__text" data-i18n="create.list.6.text"></div>
+    </div>
+    <img loading="lazy" src="img/opportunities/star.png" alt="" class="opportunities-star">
+    <div class="opportunities-block">
+      <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt=""></div>
+      <div class="opportunities-block__title" data-i18n="create.list.7.title"></div>
+      <div class="opportunities-block__text" data-i18n="create.list.7.text"></div>
+    </div>
+  </div>
+
+  <div class="create-footer">
+    <div class="create-footer__title" data-i18n="[html]create.footer.title"></div>
+    <div class="create-footer__button">
+      <img loading="lazy" src="img/create/arrow.png" alt="">
+      <p class="link-line"><a style="color: white" id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up"
+                              data-i18n="button.find_out_more"></a></p>
+    </div>
+  </div>
+</div>
+<!-- /.create -->
+
+<div class="talk" id="talk">
+  <img loading="lazy" src="img/become/bg.png" alt="" class="talk-bg">
+  <h2 class="talk-header wow fadeInUp" data-i18n="[html]talk.title"></h2>
+
+  <div class="talk-circles">
+    <div class="talk-circle talk-circle-1" data-i18n="[html]talk.list_info.0"></div>
+    <div class="talk-circle talk-circle-2" data-i18n="[html]talk.list_info.1"></div>
+    <div class="talk-circle talk-circle-3" data-i18n="[html]talk.list_info.2"></div>
+    <div class="talk-circle talk-circle-4" data-i18n="[html]talk.list_info.3"></div>
+  </div>
+  <!-- /.talk-circles -->
+</div>
+<!-- /.talk -->
+
+<div class="calculator">
+
+  <div class="calculator-text">
+    <div class="calculator-text__title" data-i18n="[html]answer.title"></div>
+    <div class="calculator-list">
+      <div class="calculator-list__item">
+        <div class="calculator-list__check"><img loading="lazy" src="img/calculator/check.png" alt=""></div>
+        <div class="calculator-list__text" data-i18n="[html]calculator.list.0"></div>
+      </div>
+      <div class="calculator-list__item">
+        <div class="calculator-list__check"><img loading="lazy" src="img/calculator/check.png" alt=""></div>
+        <div class="calculator-list__text" data-i18n="[html]calculator.list.1"></div>
+      </div>
+      <div class="calculator-list__item">
+        <div class="calculator-list__check"><img loading="lazy" src="img/calculator/check.png" alt=""></div>
+        <div class="calculator-list__text" data-i18n="[html]calculator.list.2"></div>
+      </div>
+
+    </div>
+    <div class="calculator-text__footer" data-i18n="calculator.footer.text"></div>
+  </div>
+  <!-- /.calculator-text -->
+
+  <div class="calculator-main">
+    <div class="calculator-main__title" data-i18n="calculator.main.title"></div>
+    <div class="calculator-main__currency">
+      <div class="calculator-main__currency-text" data-i18n="[html]calculator.main.text"></div>
+      <div class="select-menu">
+        <div class="select-btn">
+          <span class="option__currency" data-currency="₽">₽</span><span
+            class="option__currency-text">Российские рубли</span>
+        </div>
+
+        <ul class="options">
+          <li class="option option--active">
+            <span class="option__currency" data-currency="₽">₽</span><span
+              class="option__currency-text">Российские рубли</span>
+          </li>
+          <li class="option">
+            <span class="option__currency" data-currency="£">£</span><span
+              class="option__currency-text">Pound sterling</span>
+          </li>
+          <li class="option">
+            <span class="option__currency" data-currency="$">$</span><span
+              class="option__currency-text">United States dollar</span>
+          </li>
+          <li class="option">
+            <span class="option__currency" data-currency="€">€</span><span
+              class="option__currency-text">Euro</span>
+          </li>
+          <li class="option">
+            <span class="option__currency" data-currency="₺">₺</span><span
+              class="option__currency-text">Türk lirası</span>
+          </li>
+          <li class="option">
+            <span class="option__currency" data-currency="₪">₪</span><span
+              class="option__currency-text">‏שקל חדש</span>
+          </li>
+          <li class="option">
+            <span class="option__currency" data-currency="֏">֏</span><span
+              class="option__currency-text">դրամ</span>
+          </li>
+          <li class="option">
+            <span class="option__currency" data-currency="₸">₸</span><span
+              class="option__currency-text">Қазақстан
+                                теңгесі</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="calculator-main__wrap">
+      <div class="calculator-main__text" data-i18n="[html]calculator.main.sold_courses"></div>
+      <div class="calculator-main__amount">
+        <div class="calculator-main__amount-minus"> -</div>
+        <div class="calculator-main__amount-number">1</div>
+        <div class="calculator-main__amount-plus">+</div>
+      </div>
+      <div class="calculator-main__text" data-i18n="[html]calculator.main.average_cost"></div>
+      <div class="calculator-main__slider">
+        <div id="calculator-main__line" class="calculator-main__line"></div>
+        <div class="calculator-main__slider-values">
+          <p>0</p>
+          <p>10 000</p>
+        </div>
+      </div>
+    </div>
+    <div class="calculator-main__total" data-i18n="[html]calculator.main.remuneration"></div>
+  </div>
+</div>
+
+<div class="tools-footer calculator-footer">
+  <p class="block-footer__text" data-i18n="[html]calculator.footer.title"></p>
+  <div class="btn-wrap">
+    <button class="btn popup-reg__open-2">
+      <div class="btn-title">
+        <a style="color: white" id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up" data-i18n="button.find_out_more"></a>
+      </div>
+    </button>
+    <div class="btn-light"></div>
+  </div>
+</div>
+<!-- /.calculator -->
+
+<div class="answer" id="answer">
+  <div class="answer-top">
+    <h2 class="answer-header wow fadeInUp" data-i18n="[html]answer.title"></h2>
+    <picture>
+      <source srcset="img/answer/answer-img.webp" type="image/webp">
+      <source srcset="img/answer/answer-img.png" type="image/png">
+      <img loading="lazy" src="img/answer/answer-img.png" alt="" class="answer-top__img">
+    </picture>
+  </div>
+  <div class="answer-main">
+    <div class="answer-block">
+      <div class="answer-question">
+        <img loading="lazy" class="answer-arrow" src="img/answer/arrow.png" alt="">
+        <div class="answer-title" data-i18n="answer.list.0.title"></div>
+        <div class="answer-number">01</div>
+      </div>
+      <div class="answer-line"></div>
+      <div class="answer-text" data-i18n="answer.list.0.text"></div>
+    </div>
+    <div class="answer-block">
+      <div class="answer-question">
+        <img loading="lazy" class="answer-arrow" src="img/answer/arrow.png" alt="">
+        <div class="answer-title" data-i18n="answer.list.1.title"></div>
+        <div class="answer-number">04</div>
+      </div>
+      <div class="answer-line"></div>
+      <div class="answer-text" data-i18n="answer.list.1.text"></div>
+    </div>
+    <div class="answer-block">
+      <div class="answer-question">
+        <img loading="lazy" class="answer-arrow" src="img/answer/arrow.png" alt="">
+        <div class="answer-title" data-i18n="answer.list.2.title"></div>
+        <div class="answer-number">02</div>
+      </div>
+      <div class="answer-line" data-i18n="[html]answer.list.2.text"></div>
+      <div class="answer-text">
+      </div>
+    </div>
+    <div class="answer-block">
+      <div class="answer-question">
+        <img loading="lazy" class="answer-arrow" src="img/answer/arrow.png" alt="">
+        <div class="answer-title" data-i18n="answer.list.3.title"></div>
+        <div class="answer-number">05</div>
+      </div>
+      <div class="answer-line"></div>
+      <div class="answer-text" data-i18n="answer.list.3.text"></div>
+    </div>
+    <div class="answer-block">
+      <div class="answer-question">
+        <img loading="lazy" class="answer-arrow" src="img/answer/arrow.png" alt="">
+        <div class="answer-title"  data-i18n="answer.list.4.title"></div>
+        <div class="answer-number">03</div>
+      </div>
+      <div class="answer-line"></div>
+      <div class="answer-text"  data-i18n="answer.list.4.text"></div>
+    </div>
+    <div class="answer-block">
+      <div class="answer-question">
+        <img loading="lazy" class="answer-arrow" src="img/answer/arrow.png" alt="">
+        <div class="answer-title" data-i18n="answer.list.5.title"></div>
+        <div class="answer-number">06</div>
+      </div>
+      <div class="answer-line"></div>
+      <div class="answer-text" data-i18n="answer.list.5.text"></div>
+    </div>
+  </div>
+</div>
+<!-- /.answers -->
+
+<div class="footer">
+  <div class="footer-wrap">
+    <div class="header-logo">
+      <img loading="lazy" src="img/logo.png" alt="">
+      <p><span data-i18n="header.logo"></span></p>
+    </div>
+    <div class="footer-text">
+      <p data-i18n="[html]footer.copyright"></p>
+    </div>
+    <div class="footer-text">
+      <a href="privacy.docx" data-i18n="footer.platform_policy"></a>
+      <a href="privacy.html" data-i18n="footer.privacy_policy"></a>
+    </div>
+    <div class="footer-text">
+      <a href="additional1.docx" data-i18n="footer.application.0"></a>
+      <a href="additional2.docx" data-i18n="footer.application.1"></a>
+      <a href="additional3.docx" data-i18n="footer.application.2"></a>
+    </div>
+    <div class="footer-text">
+      <p data-i18n="[html]footer.paradigma"></p>
+    </div>
+    <!-- <div class="footer-text footer-paradigma">Сделано с любовью <br> в <a target="_blank" href="https://paradigma.website">paradigma.website</a></div> -->
+  </div>
+</div>
+<!-- /.footer -->
+
+<div class="popup popup-login">
+  <div class="popup-bg"></div>
+  <div class="popup-main">
+    <div class="popup-header">
+      <div class="popup-header__switch">
+        <div class="popup-header__switch-btn"></div>
+      </div>
+      <p data-i18n="button.sign_in"></p>
+    </div>
+    <form action="#">
+      <input type="text" placeholder="Ваш логин">
+      <input type="password" placeholder="Ваш пароль">
+      <button class="popup-btn" data-i18n="popup_login.button"></button>
+    </form>
+    <div class="popup-footer" data-i18n="popup_login.forgot_password"></div>
+  </div>
+</div>
+<!-- /.popup-login -->
+
+<div class="popup popup-reg">
+  <div class="popup-bg"></div>
+  <div class="popup-main">
+    <div class="popup-header">
+      <p data-i18n="button.sign_up"></p>
+    </div>
+    <form action="#">
+      <input type="text" placeholder="Ваш логин">
+      <input type="password" placeholder="Ваш email">
+      <input type="password" placeholder="Придумайте пароль">
+      <input type="password" placeholder="Повторите пароль">
+      <button class="popup-btn popup-btn__small" data-i18n="popup_register.button"></button>
+    </form>
+    <div class="popup-footer popup-login__open" data-i18n="[html]popup_register.account_exists"></div>
+  </div>
+</div>
+<!-- /.popup-login -->
+
+<div class="popup popup-reg-2">
+  <div class="popup-bg"></div>
+  <div class="popup-main">
+    <div class="popup-title" data-i18n="popup_register.register_button"></div>
+    <div class="popup-text" data-i18n="[html]popup_register.account_exists"></div>
+    <form action="#">
+      <input type="text" placeholder="Ваш логин">
+      <input type="password" placeholder="Ваш email">
+      <input type="password" placeholder="Придумайте пароль">
+      <input type="password" placeholder="Повторите пароль">
+      <button class="popup-btn popup-btn__small" data-i18n="popup_register.button"></button>
+    </form>
+    <div class="popup-footer popup-login__open" data-i18n="[html]popup_register.account_exists"></div>
+  </div>
+</div>
+<!-- /.popup-login -->
+
+<div class="popup leave">
+  <div class="popup-bg"></div>
+  <div class="leave-main">
+    <div class="leave-header" data-i18n="popup_leave.tiitle"></div>
+    <div class="leave-text" data-i18n="popup_leave.text"></div>
+    <div class="leave-footer">
+      <p data-i18n="popup_leave.footer.title"></p>
+      <div class="leave-download">
+        <a href="img/gift.docx">
+          <button class="leave-btn" data-i18n="button.download"></button>
+        </a>
+        <div class="leave-check">
+          <label class="container">
+            <input type="checkbox" checked>
+            <span class="leave-checkmark"><img loading="lazy" src="img/popup/check.png" alt=""></span>
+          </label>
+          <p data-i18n="popup_leave.agree"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="popup popup-video">
+  <div class="popup-bg"></div>
+  <div class="popup-main popup-main__video">
+    <iframe src="https://kinescope.io/embed/200823152" width="40vw" height="auto" frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture; encrypted-media;" allowfullscreen></iframe>
+  </div>
+</div>
+<!-- /.popup-login -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.js"
+        integrity="sha512-ZKqmaRVpwWCw7S7mEjC89jDdWRD/oMS0mlfH96mO0u3wrPYoN+lXmqvyptH4P9mY6zkoPTSy5U2SwKVXRY5tYQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.3/i18nextBrowserLanguageDetector.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/modernizr-custom.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script type="module" src="js/ui.js"></script>
+<script type="module" src="js/api.js"></script>
+<script type="module" src="js/getAds.js"></script>
+<script type="module" src="js/insertAdsDataToHtml.js"></script>
+<script type="module" src="js/dropdown.js"></script>
+<script type="module" src="js/i18n.js"></script>
+<script type="module" src="js/main.js"></script>
+<script>
+  let calculatorNumber = 1;
+  let calculatorResult = 0;
+  let result = $('.calculator-main__total-result');
+
+  function calc() {
+    return (startSlider.noUiSlider.get() * calculatorNumber) * 7 / 10;
+  }
+
+  $('.calculator-main__amount-minus').click(function () {
+    if (calculatorNumber != 1) {
+      calculatorNumber--
+    }
+    $('.calculator-main__amount-number').text(calculatorNumber);
+    result.text(calc());
+  });
+  $('.calculator-main__amount-plus').click(function () {
+    calculatorNumber++
+    $('.calculator-main__amount-number').text(calculatorNumber);
+    result.text(calc());
+  });
+
+  // let startSlider = $('#calculator-main__line');
+  var startSlider = document.getElementById('calculator-main__line');
+  let calculatorValue = $('.calculator-value')
+
+
+  noUiSlider.create(startSlider, {
+    start: 3200,
+    connect: 'lower',
+    step: 100,
+    tooltips: true,
+    format: {
+      from: function (value) {
+        return parseInt(value);
+      },
+      to: function (value) {
+        return parseInt(value);
+      }
+    },
+    range: {
+      'min': 0,
+      'max': 10000
+    }
+  });
+
+  startSlider.noUiSlider.on('update', function () {
+    $('.calculator-value').text(startSlider.noUiSlider.get())
+    result.text(calc());
+  });
+</script>
+</body>
+
+</html>
