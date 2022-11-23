@@ -3,7 +3,7 @@ $(function () {
     .use(i18nextBrowserLanguageDetector)
     .init({
       debug: true,
-      fallbackLng: 'en',
+      fallbackLng: 'ru',
       resources: {
         ru: {
           translation: {
@@ -101,6 +101,7 @@ $(function () {
                   "2 модуля",
                   "4 модуля",
                   "5 модулей",
+                  "6 модулей",
                   "8 модулей"
                 ]
               },
@@ -295,7 +296,7 @@ $(function () {
               }
             },
             answer: {
-              title: "<span class=\"text-stroke text-stroke__green\">Ответы</span> на часто задаваемые вопросы",
+              title: "Кому подойдет?",
               list: [
                 {
                   title: "Можно ли использовать платформу с мобильного устройства?",

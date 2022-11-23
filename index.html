@@ -218,7 +218,7 @@
             <div class="direction-block__title" data-i18n="direction.slider.title.1"></div>
             <div class="direction-block__text" data-i18n="direction.slider.descriptions.1"></div>
           </div>
-          <div class="direction-block__module" data-i18n="direction.slider.modules.3"></div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.2"></div>
         </div>
       </div>
       <!-- /.direction-line -->
@@ -293,7 +293,7 @@
             <div class="direction-block__title" data-i18n="direction.slider.title.9"></div>
             <div class="direction-block__text" data-i18n="direction.slider.descriptions.9"></div>
           </div>
-          <div class="direction-block__module" data-i18n="direction.slider.modules.1"></div>
+          <div class="direction-block__module" data-i18n="direction.slider.modules.4"></div>
         </div>
       </div>
       <div class="direction-line">
@@ -889,8 +889,8 @@
       <a id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up">
         <div class="btn-wrap ">
           <button class="btn">
-            <div class="btn-title" data-i18n="direction.start_free"></div>
-            <div class="btn-text" data-i18n="direction.register"></div>
+            <div class="btn-title" data-i18n="button.start_free"></div>
+            <div class="btn-text" data-i18n="button.register"></div>
           </button>
           <div class="btn-light"></div>
         </div>
@@ -1554,7 +1554,9 @@
 
 <div class="opportunities create" id="create">
   <div class="opportunities-header create-header wow fadeInUp" data-i18n="[html]opportunities.title"></div>
-   <div class="create-title"><span>Обладаете экспертностью в какой-либо сфере знаний,</span> имеете достижения и рейтин на платформе?</div>
+  <div class="create-title"><span>Обладаете экспертностью в какой-либо сфере знаний,</span> имеете достижения и рейтин
+    на платформе?
+  </div>
   <div class="opportunities-list">
     <div class="opportunities-block">
       <div class="opportunities-block__check"><img loading="lazy" src="img/opportunities/check.png" alt=""></div>
@@ -1727,7 +1729,8 @@
   <div class="btn-wrap">
     <button class="btn popup-reg__open-2">
       <div class="btn-title">
-        <a style="color: white" id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up" data-i18n="button.find_out_more"></a>
+        <a style="color: white" id="sign_up" href="https://app.magiclime.academy/auth/?type=sign_up"
+           data-i18n="button.find_out_more"></a>
       </div>
     </button>
     <div class="btn-light"></div>
@@ -1769,8 +1772,8 @@
         <div class="answer-title" data-i18n="answer.list.2.title"></div>
         <div class="answer-number">02</div>
       </div>
-      <div class="answer-line" data-i18n="[html]answer.list.2.text"></div>
-      <div class="answer-text">
+      <div class="answer-line"></div>
+      <div class="answer-text" data-i18n="[html]answer.list.2.text">
       </div>
     </div>
     <div class="answer-block">
@@ -1785,11 +1788,11 @@
     <div class="answer-block">
       <div class="answer-question">
         <img loading="lazy" class="answer-arrow" src="img/answer/arrow.png" alt="">
-        <div class="answer-title"  data-i18n="answer.list.4.title"></div>
+        <div class="answer-title" data-i18n="answer.list.4.title"></div>
         <div class="answer-number">03</div>
       </div>
       <div class="answer-line"></div>
-      <div class="answer-text"  data-i18n="answer.list.4.text"></div>
+      <div class="answer-text" data-i18n="answer.list.4.text"></div>
     </div>
     <div class="answer-block">
       <div class="answer-question">
@@ -1944,7 +1947,6 @@
 <script>
   let calculatorNumber = 1;
   let calculatorResult = 0;
-  let result = $('.calculator-main__total-result');
 
   function calc() {
     return (startSlider.noUiSlider.get() * calculatorNumber) * 7 / 10;
