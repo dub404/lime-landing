@@ -328,7 +328,15 @@ $(function () {
               copyright: "Copyright 2022 <br> Все права защищены",
               platform_policy: "Политика Платформы (скачать)",
               privacy_policy: "Политика конфединциальности",
-              application: "Приложение № {number}",
+              public_offer: "Публичная офферта",
+              notification: "Уведомление",
+              application: [
+                "Приложение №1",
+                "Приложение №2",
+                "Приложение №3",
+                "Приложение №4",
+                "Приложение №5",
+              ],
               paradigma: "Сделано с любовью <br> в paradigma.website"
             },
             popup_login: {

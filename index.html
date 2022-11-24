@@ -1817,6 +1817,8 @@
       <p data-i18n="[html]footer.copyright"></p>
     </div>
     <div class="footer-text">
+      <a href="notification.docx" data-i18n="footer.notification"></a>
+      <a href="public_offer.docx" data-i18n="footer.public_offer"></a>
       <a href="privacy.docx" data-i18n="footer.platform_policy"></a>
       <a href="privacy.html" data-i18n="footer.privacy_policy"></a>
     </div>
@@ -1824,6 +1826,8 @@
       <a href="additional1.docx" data-i18n="footer.application.0"></a>
       <a href="additional2.docx" data-i18n="footer.application.1"></a>
       <a href="additional3.docx" data-i18n="footer.application.2"></a>
+      <a href="additional4.docx" data-i18n="footer.application.3"></a>
+      <a href="additional5.docx" data-i18n="footer.application.4"></a>
     </div>
     <div class="footer-text">
       <p data-i18n="[html]footer.paradigma"></p>
@@ -1947,6 +1951,7 @@
 <script>
   let calculatorNumber = 1;
   let calculatorResult = 0;
+  const result = $('.calculator-main__total-result');
 
   function calc() {
     return (startSlider.noUiSlider.get() * calculatorNumber) * 7 / 10;
