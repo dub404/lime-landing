@@ -31,7 +31,7 @@ $(function () {
                 download: "Скачать"
               },
               main: {
-                title: "Современное образование <span>без</span> ограничений",
+                title: "Современное <br/> образование <br/> <span>без</span> ограничений",
                 description: "с возможностью получения дохода",
                 list_info: {
                   any_age: "Для любого <br> возраста",
@@ -226,12 +226,13 @@ $(function () {
                 }
               },
               history: {
-                header: "Вдохновись <span class=\"text-stroke text-stroke__green\">историями успеха</span> <br> и отзывами об обучении",
+                header: "Вдохновись <br> <span class=\"text-stroke text-stroke__green\">историями успеха</span> <br> и отзывами об обучении",
                 successful_stories: "Истории успеха",
                 review: "Отзывы об обучении"
               },
               create: {
                 title: "Создавай и <span class=\"opportunities-header__white2 create-header__white\">продавай</span> <span class=\"create-header__stroke text-stroke\">свои <img loading=\"lazy\" src=\"img/create/star.png\" alt=\"\"> курсы</span> <br class=\"hidden-desktop\"> по всему миру",
+                text: "<span>Обладаете экспертностью в какой-либо сфере знаний, </span> имеете достижения и рейтин на платформе?",
                 list: [
                   {
                     title: "интерфейс",
@@ -369,9 +370,9 @@ $(function () {
                 navbar: {
                   courses: "Courses",
                   authors: "Authors",
-                  about_platform: "About_platform",
-                  partners_program: "Partners_program",
-                  successful_stories: "Successful_stories",
+                  about_platform: "About platform",
+                  partners_program: "Partners program",
+                  successful_stories: "Successful stories",
                   own_course: "Свой курс",
                   answers: "Answers"
                 }
@@ -385,7 +386,7 @@ $(function () {
                 download: "dawnload"
               },
               main: {
-                title: "Modern education <span>with no </span> limitations",
+                title: "Modern <br/> education <br/> <span>with no </span> limitations",
                 description: "with posibility to get income",
                 list_info: {
                   any_age: "Any <br> age",
@@ -597,7 +598,7 @@ $(function () {
               history:
                 {
                   header:
-                    "Get inspired <span class=\"text-stroke text-stroke__green\">with uccessful stories</span> <br> and the references of the training",
+                    "Get inspired <br> <span class=\"text-stroke text-stroke__green\">with uccessful stories</span> <br> and the references of the training",
                   successful_stories:
                     "Successful stories",
                   review:
@@ -607,7 +608,8 @@ $(function () {
               create:
                 {
                   title:
-                    "Create and <span class=\"opportunities-header__white2 create-header__white\">sell</span> <span class=\"create-header__stroke text-stroke\">свои <img loading=\"lazy\" src=\"img/create/star.png\" alt=\"\"> кcourses</span> <br class=\"hidden-desktop\"> around the whole world",
+                    "Create and <span class=\"opportunities-header__white2 create-header__white\">sell</span> <span class=\"create-header__stroke text-stroke\">your <img loading=\"lazy\" src=\"img/create/star.png\" alt=\"\"> courses</span> <br class=\"hidden-desktop\"> around the whole world",
+                  text: "<span>Are you an expert in any area of knowledge, </span> do you have achievements and a rating on the platform?",
                   list:
                     [
                       {
@@ -694,8 +696,7 @@ $(function () {
               ,
               answer:
                 {
-                  title:
-                    "Who will suit to?",
+                  title: "Who will suit to?",
                   list:
                     [
                       {
