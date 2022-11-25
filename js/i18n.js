@@ -40,7 +40,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Стань современным <br> и востребованным <span class=\"text-stroke\">специалистом</span>",
+                title: "Стань современным <br> и востребованным <br> <span class=\"text-stroke\">специалистом</span>",
                 description: "Приглашаем в <span>уникальное сообщество профессионалов своего дела, начинающих специалистов и просто увлеченных людей</span><br />из разных сфер деятельности по всему миру",
                 main: {
                   intro: "В «Lime Academy» <span>можно приобрести актуальные знания и необходимые навыки</span> для освоения новых интернет-профессий и успешной реализации своего потенциала",
@@ -395,7 +395,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Become modern <br> and wanted <span class=\"text-stroke\">expert</span>",
+                title: "Become modern <br> and wanted <br> <span class=\"text-stroke\">expert</span>",
                 description: "Invite to <span>a unique community of professionals in their field, beginners and just passionate people</span><br />from various areas of activity around the world",
                 main: {
                   intro: "In «Lime Academy» <span>you can acquire relevant knowledge and necessary skills</span> to learn new Internet professions and successfully realize your potential",
