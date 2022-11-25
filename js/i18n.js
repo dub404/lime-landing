@@ -1,5 +1,4 @@
 const BASE_LANG = window.navigator.language.split('-')[0];
-console.log('BASE_LANG ', BASE_LANG);
 
 $(function () {
   i18next
@@ -371,47 +370,47 @@ $(function () {
                   courses: "Courses",
                   authors: "Authors",
                   about_platform: "About platform",
-                  partners_program: "Partners program",
-                  successful_stories: "Successful stories",
-                  own_course: "Свой курс",
+                  partners_program: "Partner program",
+                  successful_stories: "Stories of success",
+                  own_course: "Own course",
                   answers: "Answers"
                 }
               },
               button: {
-                sign_in: "sign in",
-                sign_up: "sign up",
-                register: "Register and get more information",
-                start_free: "start free",
-                find_out_more: "find out more",
-                download: "dawnload"
+                sign_in: "Sign in",
+                sign_up: "Sign up",
+                register: "Register and find more",
+                start_free: "Start for free",
+                find_out_more: "Learn more",
+                download: "Download"
               },
               main: {
-                title: "Modern <br/> education <br/> <span>with no </span> limitations",
-                description: "with posibility to get income",
+                title: "Modern education <span>without</span> limitations",
+                description: "with income-generating opportunities",
                 list_info: {
-                  any_age: "Any <br> age",
+                  any_age: "For all <br> ages",
                   unlimited_access: "Unlimited  <br> access",
-                  areas_of_study: "8 areas of <br> study"
+                  areas_of_study: "8 areas of <br> training"
                 }
               },
               become: {
-                title: "Become modern <br> and wanted <br> <span class=\"text-stroke\">expert</span>",
-                description: "Invite to <span>a unique community of professionals in their field, beginners and just passionate people</span><br />from various areas of activity around the world",
+                title: "Become a modern <br> and in-demand <br> <span class=\"text-stroke\">professional</span>",
+                description: "Welcome to <span>a unique community of professionals, aspiring professionals and passionate people</span><br />from all fields around the world",
                 main: {
-                  intro: "In «Lime Academy» <span>you can acquire relevant knowledge and necessary skills</span> to learn new Internet professions and successfully realize your potential",
-                  info: "We <span>combined theory and practice into a system,</span> due to which users of our platform start earning during the training!",
-                  mission: "Our mission is unite people</strong> all over the world into a partnership community, create conditions for the disclosure of their creative potential and teach each person to earn money with the help of modern technologies"
+                  intro: "At Lime Academy, <span>you can gain the knowledge and skills you need</span> to learn new online professions and reach your full potential",
+                  info: "We <span>combined theory and practice into a system,</span> which allows our platform users to start earning while they are learning!",
+                  mission: "Our mission is to unite people</strong> all over the world into a partnership community, create conditions for the disclosure of their creative potential and teach each person to earn money with the help of modern technologies"
                 },
                 about: {
-                  programs: "<div class=\"become-circle__title\">80<span>+</span></div> <div class=\"become-circle__text\">training programm</div>",
+                  programs: "<div class=\"become-circle__title\">80<span>+</span></div> <div class=\"become-circle__text\">training programms</div>",
                   trainers: "<div class=\"become-circle__title\">50<span>+</span></div> <div class=\"become-circle__text\">expert trainers</div>",
-                  members: "<div class=\"become-circle__text\">more</div> <div class=\"become-circle__title become-circle__title-small\">300<span>к</span></div> <div class=\"become-circle__text\">человек в нашем сообществе </div>"
+                  members: "<div class=\"become-circle__text\">over</div> <div class=\"become-circle__title become-circle__title-small\">300<span>к</span></div> <div class=\"become-circle__text\">people in our community </div>"
                 }
               },
               direction: {
                 header: {
-                  title: "Choose the best <span class=\"text-stroke text-stroke__green\">area</span> for you",
-                  text: "<p><span>Courses for any level of knowledge and goals</span> </p> <p>You don't need higher education or any prior <span>training</span></p>"
+                  title: "Choose the best <span class=\"text-stroke text-stroke__green\">area</span> direction for you",
+                  text: "<p><span>Courses for all levels of knowledge and objectives</span> </p> <p>No higher education or prior training required <span>training</span></p>"
                 },
                 buttons: [
                   "Personal growth",
@@ -428,18 +427,19 @@ $(function () {
                     "Resource",
                     "Introspection",
                     "Self Presentation",
-                    "Personal branding on the Internet",
+                    "Personal brand online",
                     "Motivation",
                     "Settings",
-                    "Influence on the buyer",
-                    "How to tell about your company on the Internet",
+                    "Impact on the customer",
+                    "How to tell people about your company online",
                     "People, processes, technologies",
                     "Sales Through Values",
-                    "Unpacking the Personality",
+                    "Unpacking the identity",
                     "Buyer Behavior",
                     "Personal brand development",
-                    "Development of an online business development strategy",
-                    "How to Improve the Performance of Search Network Campaigns"],
+                    "Designing a business development strategy online",
+                    "How to improve the effectiveness of search network campaigns"
+                  ],
                   descriptions: [
                     "You will learn how your condition affects sales and what prevents you and your customers from being in the resource. Get acquainted with the channels of perception through which people receive information.",
                     "The client is a reflection of you. Therefore, first of all, you must understand not how to sell to a client, but how to sell to yourself. Look deeper into yourself and analyze how you present yourself and how you are perceived.",
@@ -458,22 +458,20 @@ $(function () {
                     "4 modules",
                     "5 modules",
                     "6 modules",
-                    "8 modules"
+                    "8 modules",
                   ]
                 },
                 footer: {
-                  text: "<span>Join now</span> and choose an area "
+                  text: "<span>Join now</span> and choose a direction"
                 }
               },
-
-
               authors: {
                 title: "<span class=\"text-stroke text-stroke__green\">Authors of<br></span>the courses",
                 description: "Our experts <span>lead to the goal</span> and make sure that the interest in the leaOur experts <span>lead to the goal</span> and make sure that the interest in learning does not fade awayg does not fade away",
                 list: [
                   {
                     name: "Ainur ZINNATULIN",
-                    description: "Entrepreneur, <br> TV presenter and radio host.<br> Winner of the \"Teffi\" award",
+                    description: "Entrepreneur, <br> TV presenter and radio host.<br> Teffi Award winner",
                     more_info: "Author of the books The Fear Pill, 5 Steps to Your Perfect Interview, Only Fear Stops You, The Art of Charming Strangers. Public speaking and public speaking coach. A person with a great sense of humor."
                   },
                   {
@@ -484,10 +482,10 @@ $(function () {
                   {
                     name: "Yulia Dolgova",
                     description: "Entrepreneur, psychologist,<br>energy coach.<br>Author of The Debt Principle»",
-                    more_info: "Within 13 years, Julia Dolgova has packaged best practices into business building and monetization training programs for both beginners and experienced entrepreneurs. Her systematic approach to training will allow you to eliminate instability in sales. She is also the organizer and speaker of large-scale events online and offline.."
+                    more_info: "Within 13 years, Yulia Dolgova has packaged best practices into business building and monetization training programs for both beginners and experienced entrepreneurs. Her systematic approach to training will allow you to eliminate instability in sales. She is also the organizer and speaker of large-scale events online and offline.."
                   },
                   {
-                    name: "Anna Semienova",
+                    name: "Anna Semenova",
                     description: "Entrepreneur, business coach. <br> Author of the course<br class=\"mobile_break\"> Big people - big checks. <br> Powerful motivator and leader of a big team",
                     more_info: "Anna Semenova's extensive practical experience allowed her to accumulate and systematize knowledge into a full cycle training system. Organizer and speaker of thematic online marathons. Always in a simple and accessible language, through specific examples, she teaches you to sell consistently without stress and fear.."
                   },
@@ -504,284 +502,223 @@ $(function () {
                   {
                     name: "SVETLANA SKORNIAKOVA",
                     description: "Entrepreneur. Author of the course Target Audience <br> and trainings\n on promotion in social networks",
-                    more_info: "For 4 years of active work on the Internet, Svetlana Skornyakova has selected effective tools that allow you to receive an incoming flow of customers and partners into your business. The course Target Audience will help you to identify the groups of your target audience, to draw up a USP for each of the groups. You will learn about the methods and techniques of work, draw up your content plan, learn how to find business partners via the Internet."
-                  }
-                  ,
+                    more_info: "In 4 years of active work on the internet, Svetlana Skorniakova has selected effective tools that allow you to receive an incoming flow of clients and partners into your business. The course Target Audience will help you to identify your target audience groups and to compose your UTP for each group. You will learn about the methods and techniques of work, draw up your content plan, learn how to find partners in business through the internet."
+                  },
                   {
-                    name: "EVGENI AND OLGA ZHARKOVY",
-                    description: "MLM entrepreneurs. <br>\n                        Experts for cold circle working",
-                    more_info: "On the course of Evgeny and Olga Zharkov, you will learn where to get the phone numbers of potential partners, how to properly maintain your telephone directory with the contacts of business candidates. You will learn how to identify the target audience and receive scripts for phone calls, master the skill of the cold call technique. Eugene and Olga will teach you how to overcome fear and share psychological techniques for effective work."
+                    name: "EVGENII AND OLGA ZHARKOVY",
+                    description: "MLM entrepreneurs. <br>Experts for cold circle working",
+                    more_info: "On Evgenii and Olga Zharkovs`course you will learn where to get the phone numbers of the potential partners, how to properly maintain your telephone directory with the contacts of business candidates. You will learn how to identify the target audience and receive scripts for phone calls, master the skill of the cold call technique. Eugenii and Olga will teach you how to overcome fear and share psychological techniques for effective work."
                   }
                 ]
               },
-              "opportunities":
-                {
-                  title: "Вы <span class=\"opportunities-header__white\">unlimeted</span> in learning opportunities",
-                  list:
-                    [
-                      {
-                        title: "Anywhere",
-                        text: "Learn at home, on the road, on vacation or on your lunch break"
-                      },
-                      {
-                        title: "Whenever it's convenient",
-                        text: "Learn at your own pace without any time limits"
-                      },
-                      {
-                        title: "In any order",
-                        text: "Take several courses at once or in order"
-                      }
-                    ]
-                }
+              opportunities: {
+                title: "You`re <span class=\"opportunities-header__white\">unlimited</span> in learning opportunities",
+                list: [
+                  {
+                    title: "Anywhere",
+                    text: "Learn at home, on the road, on vacation or on your lunch break"
+                  },
+                  {
+                    title: "Whenever it's convenient",
+                    text: "Learn at your own pace without any time limits"
+                  },
+                  {
+                    title: "In any order",
+                    text: "Take several courses at once or in sequence"
+                  }
+                ]
+              }
               ,
-              community:
-                {
-                  title:
-                    "The biggest <span class=\"text-stroke text-stroke__green\">comunity</span> of specialists, experts, experienced users and novices",
-                  list:
-                    [
-                      {
-                        title: "Like-minded people",
-                        text: "You study, discuss issues with a mentor and help beginners"
-                      },
-                      {
-                        title: "Communication",
-                        text: "Communication with course authors, speakers, chats, video conferences"
-                      },
-                      {
-                        title: "Ambiance",
-                        text: "On our platform - youfeel at home warm and comfortable"
-                      }
-                    ]
-                }
+              community: {
+                title: "The biggest <span class=\"text-stroke text-stroke__green\">comunity</span> of specialists, experts, experienced users and novices",
+                list: [
+                  {
+                    title: "Like-minded people",
+                    text: "You study, discuss issues with a mentor and help beginners"
+                  },
+                  {
+                    title: "Communication",
+                    text: "Communication with course authors, speakers, chats, video conferences"
+                  },
+                  {
+                    title: "Ambiance",
+                    text: "It's cosy and homely on our platform"
+                  }
+                ]
+              }
               ,
-              tools:
-                {
-                  title:
-                    "We have created the best tools for <span class=\"text-stroke text-stroke__green\">learning",
-                  text:
-                    "Learning platform <br><span>with full functionality</span>",
-                  list:
-                    [
-                      {
-                        title: "Knowledge base",
-                        text: "Long lasting training programs, short intensives by youself"
-                      },
-                      {
-                        title: "Personalized learning",
-                        text: "You choose interesting courses, chats and webinars"
-                      },
-                      {
-                        title: "Webinars and online chats",
-                        text: "online chats with mentors and teams, audio and video broadcasts"
-                      },
-                      {
-                        title: "Your own progress monitoring",
-                        text: "Due to the help of your personal account, you can track your progress in learning"
-                      },
-                      {
-                        title: "Achievements, awards and ranking",
-                        text: "Competitions, unique tasks and achievements"
-                      },
-                      {
-                        title: "Games and spare time ",
-                        text: "Games, forums and communication on various topics are available on the platform"
-                      }
-                    ],
-                  footer:
-                    {
-                      text:
-                        "<span>Take a free introductory course</span> on working on the platform"
-                    }
+              tools: {
+                title: "We have created the best tools for <span class=\"text-stroke text-stroke__green\">learning",
+                text: "Learning platform <br><span>with full functionality</span>",
+                list: [
+                  {
+                    title: "Knowledge base",
+                    text: "Long lasting training programs, short intensives by youself"
+                  },
+                  {
+                    title: "Personalized learning",
+                    text: "You choose interesting courses, chats and webinars"
+                  },
+                  {
+                    title: "Webinars and online chats",
+                    text: "Online chats with mentors and teams, audio and video broadcasts"
+                  },
+                  {
+                    title: "Monitoring your own progress",
+                    text: "Due to the help of your personal account, you can track your progress in learning"
+                  },
+                  {
+                    title: "Achievements, awards and ranking",
+                    text: "Competitions, unique tasks and achievements"
+                  },
+                  {
+                    title: "Games and spare time ",
+                    text: "Games, forums and communication on various topics are available on the platform"
+                  }
+                ],
+                footer: {
+                  text: "<span>Take a free introductory course</span> on working on the platform"
                 }
+              }
               ,
               history:
                 {
-                  header:
-                    "Get inspired <br> <span class=\"text-stroke text-stroke__green\">with uccessful stories</span> <br> and the references of the training",
-                  successful_stories:
-                    "Successful stories",
-                  review:
-                    "References of training"
-                }
-              ,
+                  header: "Get inspired <br/><span class=\"text-stroke text-stroke__green\">with stories of success</span> <br> and training feedback",
+                  successful_stories: "Stories of success",
+                  review: "Training feedback"
+                },
               create:
                 {
-                  title:
-                    "Create and <span class=\"opportunities-header__white2 create-header__white\">sell</span> <span class=\"create-header__stroke text-stroke\">your <img loading=\"lazy\" src=\"img/create/star.png\" alt=\"\"> courses</span> <br class=\"hidden-desktop\"> around the whole world",
-                  text: "<span>Are you an expert in any area of knowledge, </span> do you have achievements and a rating on the platform?",
+                  title: "Create and <span class=\"opportunities-header__white2 create-header__white\">sell</span> <span class=\"create-header__stroke text-stroke\"> your <img loading=\"lazy\" src=\"img/create/star.png\" alt=\"\"> courses</span> <br class=\"hidden-desktop\"> around the world",
                   list:
                     [
                       {
-                        title: "interface",
+                        title: "Interface",
                         text: "<span>Convenient interface.</span> Everything is clear <br> even without instructions"
                       },
                       {
-                        title: "functionality",
+                        title: "Functionality",
                         text: "Tools for any <br> online learning formats</span>"
                       },
                       {
-                        title: "adaptability",
-                        text: "The platform interface is adapted for all gadgets"
+                        title: "Adaptability",
+                        text: "The platform interface is adapted for any types of gadgets"
                       },
                       {
-                        title: "Courses Store",
+                        title: "Course Store",
                         text: "Useful topics by interest"
                       },
                       {
                         title: "Back office",
-                        text: "Statistics and management of all processes from a personal account"
+                        text: "Statistics and management of all processes in a personal account"
                       },
                       {
-                        title: "Capabilities",
+                        title: "Opportunities",
                         text: "Build up and sell your mastership in any field of activity"
                       },
                       {
-                        title: "Afilliate programs",
+                        title: "Partnership programs",
                         text: "Automatic recompenses for expanding your customer network"
                       }
                     ],
-                  footer:
+                  footer: {
+                    title: "<span>Create engaging courses and <span class=\"text-stroke text-stroke__green\">capitalise on your</span> <br> due to your <img loading=\"lazy\" src=\"img/create/star_green.png\" alt=\"\"> expertise</span>"
+                  }
+                },
+              talk: {
+                title: "Tell about the possibilities of the platform and <span><div class=\"talk-header__circles\"><div class=\"talk-header__circle\"></div><div class=\"talk-header__circle\"></div></div> gain money </span> <br> in partner programs",
+                list_info:
+                  [
+                    "<div class=\"talk-circle__text\">over</div><div class=\"talk-circle__title talk-circle__title-small\">300<span>к</span></div><div class=\"talk-circle__text\">partners <br> around <br> the world</div>",
+                    "<div class=\"talk-circle__text\">over</div><div class=\"talk-circle__title talk-circle__title-small\">50<span>к <span class=\"talk-circle__text__dollar\">$</span></div><div class=\"talk-circle__text\">paid out<br> to partners</div>",
+                    "<div class=\"talk-circle__title\">1500<span>+</span></div><div class=\"talk-circle__text\">new clients<br> every<br> month</div>",
+                    "<div class=\"talk-circle__text\">over</div><div class=\"talk-circle__title talk-circle__title-small\">2 <span>years</span></div><div class=\"talk-circle__text\">in online-<br> education</div>"
+                  ]
+              },
+              calculator: {
+                title: "Who will it work for?",
+                list:
+                  [
+                    "Anyone who wants to make money <br> from selling educational <br> products",
+                    "Bloggers, owners of Telegram channels and websites <br>",
+                    "Beginners and experienced internet<br>entrepreneurs, marketers, <br>network industry experts"
+                  ],
+                footer: {
+                  title: "Start earning <span>right now</span>",
+                  text: "Simply recommend us to your friends"
+                },
+                main: {
+                  title: "How much can you gain from selling your course?",
+                  text: "Select <span>currency</span>",
+                  sold_courses: "<span>The number</span> <br class=\"hidden-mobile\"> of sold courses <br class=\"hidden-mobile\"> for a month",
+                  average_cost: "<span>Average <br class=\"hidden-mobile\"> price <br class=\"hidden-mobile\"></span> of the course",
+                  remuneration: "Your remuneration: <br class=\"hidden-desktop\"> <span> monthly<span class=\"calculator-main__total-result\">700</span></span>"
+                }
+              },
+              answer: {
+                title: "Who will it work for?",
+                list:
+                  [
                     {
-                      title:
-                        "<span>Create engaging courses and <span class=\"text-stroke text-stroke__green\">gain money</span> <br> due to your <img loading=\"lazy\" src=\"img/create/star_green.png\" alt=\"\"> of mastership</span>"
-                    }
-                }
-              ,
-              talk:
-                {
-                  title:
-                    "Tell about the possibilities of the platform and <span><div class=\"talk-header__circles\"><div class=\"talk-header__circle\"></div><div class=\"talk-header__circle\"></div></div> gain money </span> <br> in in affiliate programs",
-                  list_info:
-                    [
-                      "<div class=\"talk-circle__text\">more</div><div class=\"talk-circle__title talk-circle__title-small\">300<span>к</span></div><div class=\"talk-circle__text\">partners <br> around <br> the world</div>",
-                      "<div class=\"talk-circle__text\">more</div><div class=\"talk-circle__title talk-circle__title-small\">50<span>к <span class=\"talk-circle__text__dollar\">$</span></div><div class=\"talk-circle__text\">paid out<br> to partners</div>",
-                      "<div class=\"talk-circle__title\">1500<span>+</span></div><div class=\"talk-circle__text\">new clients<br> every<br> month</div>",
-                      "<div class=\"talk-circle__text\">more</div><div class=\"talk-circle__title talk-circle__title-small\">2 <span>years</span></div><div class=\"talk-circle__text\">online-<br> education</div>"
-                    ]
-                }
-              ,
-              calculator:
-                {
-                  title:
-                    "Who will suit to?",
-                  list:
-                    [
-                      "For everyone who wants to gain money by selling educational <br> products",
-                      "For bloggers, owners of <br> Telegram channels and sites",
-                      "Beginners and experienced Internet <br>entrepreneurs, marketers, <br> network industry experts"
-                    ],
-                  footer:
+                      title: "Can I use the platform from a mobile device?",
+                      text: "The platform is available in a variety of devices including desktop, laptop, tablet or phone."
+                    },
                     {
-                      title:
-                        "Start gaining <span>right now</span>",
-                      text:
-                        "Just recommend us to your friends"
-                    }
-                  ,
-                  main:
+                      title: "How much time should I devote to training? I also have to work!",
+                      text: "You can choose a convenient rhythm and training schedule. Most users combine our Academy and employment. Many of them have already left recruitment completely and are now developing and earning only online."
+                    },
                     {
-                      title:
-                        "How much can you gain from selling your course?",
-                      text:
-                        "Select <span>currency</span>",
-                      sold_courses:
-                        "<span>The number</span> <br class=\"hidden-mobile\"> of sold courses <br class=\"hidden-mobile\"> during a month",
-                      average_cost:
-                        "<span>Average <br class=\"hidden-mobile\"> price <br class=\"hidden-mobile\"></span> of the course",
-                      remuneration:
-                        "Your monthly : <br class=\"hidden-desktop\"> <span>remuneration <span class=\"calculator-main__total-result\">700</span></span>"
-                    }
-                }
-              ,
-              answer:
-                {
-                  title: "Who will suit to?",
-                  list:
-                    [
-                      {
-                        title: "Can i use the platform from a mobile device?",
-                        text: "The platform is available in a variety of devices including desktop, laptop, tablet or phone."
-                      },
-                      {
-                        title: "How much time should be devoted to training? I am working besides!",
-                        text: "You yourself can choose a convenient rhythm and training schedule. Most users combine our Academy and employment. Many of them have already completely quit hiring and are now developing and earning only online.."
-                      },
-                      {
-                        title: "How can I find a right course?",
-                        text: "You need to register for free on the platform, take an introductory course, read a brief description of the products in your personal account and choose the course that is relevant to you. <br /> You can also contact active users and experts of our platform who will help you navigate and choose the right course."
-                      },
-                      {
-                        title: "Why are you better than others?",
-                        text: "There is no limit to perfection ... To say that someone is better and someone is worse is not entirely true and correct. Our task is a positive result of each participant. We just do our job and try to do it well. How we do it is best to ask our users. Look at the reviews. We also offer to register for free and get acquainted with the platform from the inside. We are sure you will like us!"
-                      },
-                      {
-                        title: "How is the training going on?",
-                        text: "Each course is based on lectures, which may include videos, slides, text, instructions, and practice applications. Chats are also organized on the platform, where users communicate in the learning process and exchange experiences, forums on current topics, regular online broadcasts and webinars are held."
-                      },
-                      {
-                        title: "I want to learn how to make money. If your platform can help me with this?",
-                        text: "Yes sure! Our platform contains courses based on the personal experience of practicing Internet entrepreneurs and network business leaders. In addition, we have a very generous referral bonus accumulative program, which means that you can earn money already in the learning process. There is also an opportunity to become the author of courses on our platform and earn money selling them!"
-                      }
-                    ]
-                }
-              ,
-              footer:
-                {
-                  copyright:
-                    "Copyright 2022 <br> All rights reserved",
-                  platform_policy:
-                    "Platform policy (download)",
-                  privacy_policy:
-                    "Privacy policy",
-                  public_offer: "Public offer",
-                  notification: "Notification",
-                  application:
-                    [
-                      "Application №1",
-                      "Application №2",
-                      "Application №3",
-                      "Application №4",
-                      "Application №5",
-                    ],
-                  paradigma:
-                    "Made with love in paradigma.website"
-                }
-              ,
-              popup_login:
-                {
-                  button:
-                    "Enter",
-                  forgot_password:
-                    "Forgot password"
-                }
-              ,
-              popup_register:
-                {
-                  button:
-                    "Register",
-                  account_exists:
-                    "Already have an account? <span>Enter</span>",
-                  register_button:
-                    "Register",
-                  learn_more:
-                    "learn more"
-                }
-              ,
-              popup_leave:
-                {
-                  title:
-                    "LEAVING NOW",
-                  text:
-                    "As a vote of our acquaintance, download a useful manual:",
-                  footer:
+                      title: "How can I find the right course?",
+                      text: "You need to register for free on the platform, take an introductory course, read a brief description of the products in your personal account and choose the course that is relevant to you. <br /> You can also contact active users and experts of our platform who will help you navigate and choose the right course."
+                    },
                     {
-                      title:
-                        "How to earn money while studying at any age?",
-                      agree:
-                        "You agree to the terms of personal data processing"
+                      title: "Why are you better than others?",
+                      text: "There is no limit to perfection ... To say that someone is better and someone is worse is not entirely true and correct. Our task is a positive result of each participant. We just do our job and try to do it well. How we do it is best to ask our users. Look at the feedback. We also offer to register for free and get acquainted with the platform from the inside. We are sure you will like us!"
+                    },
+                    {
+                      title: "How does the training go?",
+                      text: "Each course is based on lectures, which may include videos, slides, text, instructions, and practice applications. Chats are also organized on the platform, where users communicate in the learning process and exchange experiences, forums on current topics, regular online broadcasts and webinars are held."
+                    },
+                    {
+                      title: "I want to learn how to make money. Will your platform help me do that?",
+                      text: "Sure! Our platform contains courses based on the personal experience of practicing internet entrepreneurs and networking leaders. In addition, we have a very generous referral bonus program, which means that you can earn money while you're learning. You can also become an author of courses on our platform and earn money by selling them!"
                     }
+                  ]
+              },
+              footer: {
+                copyright: "Copyright 2022 <br> All rights reserved",
+                platform_policy: "Platform policy (download)",
+                privacy_policy: "Privacy policy",
+                public_offer: "Public offer",
+                notification: "Notification",
+                application:
+                  [
+                    "Appendix No.1",
+                    "Appendix No.2",
+                    "Appendix No.3",
+                    "Appendix No.4",
+                    "Appendix No.5",
+                  ],
+                paradigma: "Made with love in paradigma.website"
+              },
+              popup_login: {
+                button: "Enter",
+                forgot_password: "Forgot password?"
+              },
+              popup_register: {
+                button: "Register",
+                account_exists: "Got an account already? <span>Enter</span>",
+                register_button: "Register",
+                learn_more: "To learn more"
+              },
+              popup_leave: {
+                title: "LEAVING NOW?",
+                text: "As a vote of our acquaintance, download a useful manual:",
+                footer: {
+                  title: "How to earn money while studying at any age?",
+                  agree: "You agree to the terms of personal data processing"
                 }
+              }
             }
           }
         }
