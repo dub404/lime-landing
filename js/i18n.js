@@ -1,11 +1,12 @@
-const BASE_LANG = window.navigator.language.split('-')[0];
+import { getCookie } from './cookie.js';
+
+const language = getCookie('language');
 
 $(function () {
   i18next
-    .use(i18nextBrowserLanguageDetector)
     .init({
         debug: true,
-        fallbackLng: BASE_LANG,
+        fallbackLng: language,
         resources: {
           ru: {
             translation: {

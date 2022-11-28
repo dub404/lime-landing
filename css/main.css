@@ -2119,12 +2119,19 @@ button {
     font-size: 60px !important;
 }
 
+.select-language,
 .select-menu {
     width: 290rem;
     position: relative;
     z-index: 10;
 }
 
+.select-language {
+    width: 150rem;
+    text-transform: uppercase;
+}
+
+.select-language .select-btn,
 .select-menu .select-btn {
     display: flex;
     align-items: center;
@@ -2143,6 +2150,7 @@ button {
     z-index: 5;
 }
 
+.select-language .select-btn::after,
 .select-menu .select-btn::after {
     content: "";
     position: absolute;
@@ -2157,7 +2165,8 @@ button {
     z-index: -1;
 }
 
-.select-menu.active .options {
+.select-menu.active .options,
+.select-language.active .options {
     position: absolute;
     left: 0;
     right: 0;
@@ -2170,6 +2179,7 @@ button {
     border-radius: 34px;
 }
 
+.select-language .options,
 .select-menu .options {
     position: relative;
     background: #fff;

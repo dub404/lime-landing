@@ -1,6 +1,7 @@
 export const UI = {
   signUpButtons: document.querySelectorAll('#sign_up'),
   dropdown: {
+    optionMenuLanguage: document.querySelector(".select-language"),
     optionMenu: document.querySelector(".select-menu"),
     selectBtn: document.querySelector(".select-btn"),
     options: document.querySelectorAll(".option"),
