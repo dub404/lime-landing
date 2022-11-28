@@ -652,7 +652,7 @@ $(function () {
                   text: "Select <span>currency</span>",
                   sold_courses: "<span>The number</span> <br class=\"hidden-mobile\"> of sold courses <br class=\"hidden-mobile\"> for a month",
                   average_cost: "<span>Average <br class=\"hidden-mobile\"> price <br class=\"hidden-mobile\"></span> of the course",
-                  remuneration: "Your remuneration: <br class=\"hidden-desktop\"> <span> monthly<span class=\"calculator-main__total-result\">700</span></span>"
+                  remuneration: "Your remuneration: <br class=\"hidden-desktop\"> <span> monthly <span class=\"calculator-main__total-result\">700</span></span>"
                 }
               },
               answer: {
