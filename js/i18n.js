@@ -1,6 +1,6 @@
 import { getCookie } from './cookie.js';
 
-const language = getCookie('language');
+const language = getCookie('language') ?? 'ru';
 
 $(function () {
   i18next
