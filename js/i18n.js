@@ -54,7 +54,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Стань современным <br> и востребованным <br> <span class=\"text-stroke\">специалистом</span>",
+                title: "Стань современным <br> и востребованным <br><span class=\"text-stroke\">специалистом</span>",
                 description: "Приглашаем в <span>уникальное сообщество профессионалов своего дела, начинающих специалистов и просто увлеченных людей</span><br />из разных сфер деятельности по всему миру",
                 main: {
                   intro: "В «Lime Academy» <span>можно приобрести актуальные знания и необходимые навыки</span> для освоения новых интернет-профессий и успешной реализации своего потенциала",
@@ -409,7 +409,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Become a modern <br> and in-demand <br> <span class=\"text-stroke\">professional</span>",
+                title: "Become a modern <br> and in-demand <br><span class=\"text-stroke\">professional</span>",
                 description: "Welcome to <span>a unique community of professionals, aspiring professionals and passionate people</span><br />from all fields around the world",
                 main: {
                   intro: "At Lime Academy, <span>you can gain the knowledge and skills you need</span> to learn new online professions and reach your full potential",
@@ -768,7 +768,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Заманауи <br> және қажетті <span class=\"text-stroke\">маман бол</span>",
+                title: "Заманауи <br> және қажетті <br><span class=\"text-stroke\">маман бол</span>",
                 description: "Біз сізді <span>өз саласындағы кәсіпқойлардың бірегей қауымдастығына, жаңадан бастаушыларға және бүкіл әлем бойынша әр түрлі қызмет салаларынан ынталы адамдарды шақырамыз</span><br />",
                 main: {
                   intro: "«Lime академияда» сіз жаңа онлайн мамандықтарды меңгеру және өз әлеуетіңізді сәтті жүзеге асыру үшін <span>жаңа білім мен қажетті дағдыларды ала аласыз</span>",
@@ -1120,7 +1120,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Deveni un modern <br> și căutat <span class=\"text-stroke\">specialist</span>",
+                title: "Deveni un modern <br> și căutat <br><span class=\"text-stroke\">specialist</span>",
                 description: "Vă invităm la <span>o comunitate unică de profesioniști în domeniul lor, începători și doar oameni pasionați</span><br />din diferite domenii de activitate din întreaga lume",
                 main: {
                   intro: "La «Lime Academy» <span>poți dobândi cunoștințe actualizate și abilități necesare</span> pentru a stăpâni noi profesii",
@@ -1472,7 +1472,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Стань сучасным <br> і запатрабаваным <span class=\"text-stroke\">спецыялістам</span>",
+                title: "Стань сучасным <br> і запатрабаваным <br><span class=\"text-stroke\">спецыялістам</span>",
                 description: "Запрашаем у <span>ўнікальную супольнасць прафесіяналаў сваёй справы, пачаткоўцаў адмыслоўцаў і проста захопленых людзей</span><br />з розных сфер дзейнасці па ўсім свеце",
                 main: {
                   intro: "У \"Lime Academy\" <span>можна набыць актуальныя веды і неабходныя навыкі</span> для асваення новых інтэрнэт-прафесій і паспяховай рэалізацыі свайго патэнцыялу",
@@ -1824,7 +1824,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Werde ein moderner <br> und gefragter <span class=\"text-stroke\">Spezialist</span>",
+                title: "Werde ein moderner <br> und gefragter <br><span class=\"text-stroke\">Spezialist</span>",
                 description: "Wir laden in <span>eine einzigartige Gemeinschaft von Profis auf ihrem Gebiet, Youngstern und einfach motivierten Menschen</span><br />aus verschiedenen Gebieten rund um den Globus",
                 main: {
                   intro: "In der «Lime Academy» <span>kann man aktuelle Kenntnisse und nötige Fertigkeiten erwerben</span>, um neue Internet-Berufe auszulernen und sich selbst zu verwirklichen",
@@ -2176,7 +2176,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Դարձիր ժամանակակից <br> և պահանջված <span class=\"text-stroke\">մասնագետ</span>",
+                title: "Դարձիր ժամանակակից <br> և պահանջված <br><span class=\"text-stroke\">մասնագետ</span>",
                 description: "Հրավիրում ենք <span>իրենց ոլորտում պրոֆեսիոնալների եզակի համայնք, սկսնակ և պարզապես հետաքրքրասեր մարդկանց</span><br />ամբողջ աշխարհի գործունեության տարբեր ոլորտներից",
                 main: {
                   intro: "«Lime Academy» <span>դուք կարող եք ձեռք բերել համապատասխան գիտելիքներ և անհրաժեշտ հմտություններ</span> տիրապետել ինտերնետի նոր մասնագիտություններին և հաջողությամբ իրացնել դրանց ներուժը",
@@ -2528,7 +2528,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Deviens un <br> professionnel moderne <span class=\"text-stroke\">et en demande</span>",
+                title: "Deviens un <br> professionnel moderne <br><span class=\"text-stroke\">et en demande</span>",
                 description: "Bienvenue dans <span>une communauté unique de professionnels, de jeunes specialistes et de passionnés</span><br />dans domaines les plus divers du monde entier",
                 main: {
                   intro: "À «Lime Academy» <span>tu peux acquérir les connaissances et les compétences nécessaires</span> pour apprendre de nouveaux métiers en ligne et la réalisation réussie de ton potentiel",
@@ -2880,7 +2880,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Modern <br> ve talep edilen <span class=\"text-stroke\">uzman</span>ol",
+                title: "Modern <br> ve talep edilen <br><span class=\"text-stroke\">uzman</span>ol",
                 description: "<br>dünyanın dört bir yanındaki farklı faaliyet alanlarından <span>kendi alanında profesyoneller, acemi profesyoneller ve sadece hevesli insanlardan oluşan eşsiz bir topluluğa</span> sizi davet ediyoruz",
                 main: {
                   intro: "Lime Academy'de yeni internet mesleklerine hakim olmak ve potansiyellerini başarılı bir şekilde gerçekleştirmek için<span>güncel bilgi ve gerekli becerileri satın alabilirsiniz</span> ",
@@ -3232,7 +3232,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Diventa uno specialista <br> moderno e <span class=\"text-stroke\">ricercato</span>",
+                title: "Diventa uno specialista <br> moderno e <br><span class=\"text-stroke\">ricercato</span>",
                 description: "Ti invitiamo ad unirti ad una <span>comunità unica di veri professionisti, giovani specialisti e semplicemente persone appassionate</span><br />da vari settori in tutto il mondo",
                 main: {
                   intro: "Nella \"Lime Academy\" <span>si può ottenere conoscenze pertinenti e competenze necessarie</span> per padroneggiare nuove professioni online e realizzare con successo il proprio potenziale",
@@ -3584,7 +3584,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Стань сучасним <br> і затребуваним <span class=\"text-stroke\">спеціалістом</span>",
+                title: "Стань сучасним <br> і затребуваним <br><span class=\"text-stroke\">спеціалістом</span>",
                 description: "Запрошуємо до <span>унікальної спільноти спрофесіоналів своєї справи, спеціалістів-початківців і просто захоплених людей</span><br />з різних сфер діяльності у всьому світі",
                 main: {
                   intro: "У «Lime Academy» <span>можня отримати актуальні знання та необхідні нвички</span> для опранування нових інтернет-професій і успішної реалізації свого потенціалу",
