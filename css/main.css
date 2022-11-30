@@ -351,6 +351,7 @@ button {
     align-items: center;
     position: relative;
     cursor: pointer;
+    margin: 0 10px;
 }
 
 .header-login p {
@@ -2121,14 +2122,17 @@ button {
 
 .select-language,
 .select-menu {
-    width: 290rem;
     position: relative;
     z-index: 10;
 }
 
+.select-menu {
+    width: 290rem;
+}
+
 .select-language {
-    width: 150rem;
-    text-transform: uppercase;
+    width: 200rem;
+    margin-left: 20px;
 }
 
 .select-language .select-btn,
@@ -2223,6 +2227,10 @@ button {
 }
 
 .option__currency-text {
+    margin-right: 10px;
+}
+
+.option__language-icon {
     margin-right: 10px;
 }
 
