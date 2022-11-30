@@ -12,6 +12,7 @@ export const languages = {
   it: 'Italiano',
   uk: 'Український',
   ar: 'العربية',
+  az: 'Azərbaycan',
 };
 
 const language = getCookie('language') ?? 'ru';
@@ -1832,7 +1833,7 @@ $(function () {
                   mission: "Unsere Mission ist es, die Menschen </strong> auf der ganzen Welt in einer Gemeinschaft zu vereinen, die Bedingungen für Erschließung ihres kreativen Potentials zu schaffen und jedem Menschen beizubringen, mit Hilfe moderner Technologien Geld zu verdienen"
                 },
                 about: {
-                  programs: "<div class=\"become-circle__title\">80<span>+</span></div> <div class=\"become-circle__text\">Trainingsprogramme</div>",
+                  programs: "<div class=\"become-circle__title\">80<span>+</span></div> <div class=\"become-circle__text\">Trainings</div> programme",
                   trainers: "<div class=\"become-circle__title\">50<span>+</span></div> <div class=\"become-circle__text\">fachkundige Trainer</div>",
                   members: "<div class=\"become-circle__text\">mehr als</div> <div class=\"become-circle__title become-circle__title-small\">300<span>k</span></div> <div class=\"become-circle__text\">Menschen in unserer Gemeinschaft </div>"
                 }
@@ -1943,7 +1944,7 @@ $(function () {
                 ]
               },
               opportunities: {
-                title: "Ihre <span class=\"opportunities-header__white\">Möglichkeiten für das Lernen haben</span> keine Grenzen",
+                title: "Ihre <span class=\"opportunities-header__white\">Möglichkeiten</span> für das Lernen haben keine Grenzen",
                 list: [
                   {
                     title: "Überall",
@@ -3900,6 +3901,358 @@ $(function () {
                 footer: {
                   title: "Як у будь-якому віці заробляти навчаючись?",
                   agree: "Ви погоджуєтеся з умовами обробки персональних даних"
+                }
+              }
+            }
+          },
+          az: {
+            translation: {
+              header: {
+                logo: "Mütəxəssisləri tərəfindən hazırlanmış kursların beynəlxalq onlayn platforması",
+                navbar: {
+                  courses: "Kurslar",
+                  authors: "Müəliflər",
+                  about_platform: "Platform haqqında",
+                  partners_program: "Tərəfdaşlıq proqramı",
+                  successful_stories: "Uğur hekayələri",
+                  own_course: "Öz kursu",
+                  answers: "Suallar və cavablar"
+                }
+              },
+              button: {
+                sign_in: "Daxil ol",
+                sign_up: "Qeydiyyat",
+                register: "Qeydiyyatdan keçin və daha çox məlumat əldə edin",
+                start_free: "Pulsuz başlayın",
+                find_out_more: "Daha çox məlumat əldə edin",
+                download: "Yükləyin"
+              },
+              main: {
+                title: "<span>Məhdudiyyətsiz</span> müasir təhsil",
+                description: "gəlir əldə etmək imkanı ilə",
+                list_info: {
+                  any_age: "İstənilən <br> yaş üçün",
+                  unlimited_access: "Məhdudiyyətsiz <br> giriş",
+                  areas_of_study: "Təlimin <br> 8 istiqaməti"
+                }
+              },
+              become: {
+                title: "Müasir <br> və axtarılan <br><span class=\"text-stroke\">mütəxəssis ol</span>",
+                description: "Biz dünyada müxtəlif fəaliyyət sahələrindən <span>öz sahəsində peşəkarlar, yeni mütəxəssislər və sadəcə həvəsli insanlardan ibarət unikal cəmiyyətə dəvət edirik</span><br />",
+                main: {
+                  intro: "«Lime Academy»-də siz yeni onlayn peşələrə öyrənmək və potensialınızı uğurla reallaşdırmaq üçün <span>müasir bilik və lazımi bacarıqlar əldə edə bilərsiniz</span>",
+                  info: "Biz <span>nəzəriyyə və təcrübəni bir sistemdə birləşdirdik</span> və bu sistemin sayəsində platformamızın istifadəçiləri təlim zamanı qazanmağa başlayırlar!",
+                  mission: "Bizim missiyamız </strong>dünyanın hər yerindən insanları tərəfdaşlıq cəmiyyətində birləşdirmək, onların yaradıcı potensialının üzə çıxarılması üçün şərait yaratmaq və hər bir insana müasir texnologiyaların köməyi ilə pul qazanmağı öyrətməkdir"
+                },
+                about: {
+                  programs: "<div class=\"become-circle__title\">80<span>+</span></div> <div class=\"become-circle__text\">təlim proqramlar</div>",
+                  trainers: "<div class=\"become-circle__title\">50<span>+</span></div> <div class=\"become-circle__text\">mütəxəssis-təlimçilər</div>",
+                  members: "<div class=\"become-circle__text\">cəmiyyətimizdə</div> <div class=\"become-circle__title become-circle__title-small\">300<span>к</span></div> <div class=\"become-circle__text\">-dən çox iştirakçı var </div>"
+                }
+              },
+              direction: {
+                header: {
+                  title: "Öz üçün <span class=\"text-stroke text-stroke__green\">ən yaxşı istiqaməti</span> seç",
+                  text: "<p><span>İstənilən səviyyəli bilik və məqsədlər üçün kurslar</span> </p> <p>Ali təhsil və ya hər hansı əvvəlki təlim tələb <span>olunmur</span></p>"
+                },
+                buttons: [
+                  "Fərdi inkişaf",
+                  "Marketinq",
+                  "Ümumi təhsil",
+                  "Xarici dillər",
+                  "Maliyyə",
+                  "Rəqəmsal savadlılıq",
+                  "Xüsusi",
+                  "Bütün istiqamətlər"
+                ],
+                slider: {
+                  title: [
+                    "Vəsait",
+                    "Özünüdərketmə",
+                    "Özünü təqdim etmə",
+                    "İnternetdə şəxsi brend",
+                    "Motivasiya",
+                    "Münasibətlər",
+                    "Alıcılar üzərindəki təsiri",
+                    "Şirkətinizi onlayn necə reklam etmək olar",
+                    "İnsanlar, proseslər, texnologiyalar",
+                    "Dəyərə əsaslanan satışlar",
+                    "Şəxsiyyətin təqdimatı",
+                    "Alıcının davranışı",
+                    "Şəxsi brendin inkişafı",
+                    "Onlayn biznesin inkişafı strategiyasının hazırlanması",
+                    "Axtarış şəbəkəsində kampaniyalarınızın effektivliyi necə yüksəltmək olar"
+                  ],
+                  descriptions: [
+                    "Vəziyyətinizin satışa necə təsir etdiyini və sizin və müştərilərinizin hazır vəsaitda olmağınıza nəyin mane olduğunu öyrənəcəksiniz. İnsanların məlumat aldıqları qavrayış kanalları ilə tanış olacaqsınız.",
+                    "Müştəri sizin əksinizdir. Ona görə də ilk növbədə müştəriyə necə satacağınızı deyil, özünüzə necə satacağınızı başa düşməlisiniz. Özünüzə daha dərindən baxın və özünüzü necə təqdim etdiyinizi və necə qəbul edildiyinizi təhlil edin.",
+                    "Özünü təqdim etmə öz müsbət obrazı yaratmaq, müştərini və ya auditoriyanı maraqlandırmaq üçün bacarığıdır. Özünü təqdim etmə bacarığı şəxsi brendin inkişafının başladığı əsas bacarıqdır.",
+                    "Müasir dünyada sosial şəbəkələrsiz şəxsi brendin inkişafı mümkün deyil. Kursda siz sosial şəbəkələrdə öz yerinizi tapmağı, rəqiblər arasında itməməyi və bloqunuzdan pul qazanmağı öyrənəcəksiniz.",
+                    "Heç olubmu ki, həqiqətən istədiyiniz bir şey, amma onu gəlməyən \"sonra\" ilə təxirə salınır? Səbəb motivasiya çatışmazlığıdır. Kursda biz təhlil edirik: motivasiya haradan gəlir və öz motivasiyanızı necə artırmaq olar.",
+                    "Kasıb\"la \"zəngin\"in təfəkkürü arasında nə fərq var? Nə üçün kimsə həyatdan asanlıqla keçir və hər şeydə uğur qazanır, digərləri isə öz qabiliyyətlərinə və gücünə sonsuz şübhə ilə yanaşır?",
+                    "Yaxşı menecerin əsas qaydası müştərinin həmişə birinci yerdə olmasıdır. Ən əsası müştərinin əhvalı və rifahıdır",
+                    "Öyrənmə yolunuzu seçin: biznes, şəxsi brend və ya marketinq. Instagram-da daha çox müştəri və izləyici əldə etməyi öyrənin.",
+                    "Biz bir məhsul və ya xidməti almırıq, biz bu malların, xidmətlərin və ya onları satan insanların bizə verdiyi əhvalı alırıq. Buna \"Yoluxma Effekti\" deyilir.",
+                    "Satışda hansı dəyərlərin olduğunu və onlardan müvəffəqiyyət vasitəsi kimi necə istifadə edəcəyinizi öyrənəcəksiniz. \"Şəxsiyyətin təqdimatı\" anlayışını öyrənin və bu prosesdə səhvlərdən qaçınmağı öyrənin.",
+                    "Şəxsi brend sizi rəqiblərinizdən fərqləndirən, məhsulun təqdimatına və ya biznesin aparılmasına fərdi yanaşmanızdır. Onu yaratmaq üçün ilk addımı atın!",
+                    "Məhsulun dəyərini ünsiyyətə daxil etməyi öyrənin, məhsulun tanıtımı və bazara çıxarılması üçün strategiya hazırlayın. Məhsul yanaşması ilə marketinq bacarıqlarınızı gücləndirin."
+                  ],
+                  modules: [
+                    "2 modul",
+                    "4 modul",
+                    "5 modul",
+                    "6 modul",
+                    "8 modul"
+                  ]
+                },
+                footer: {
+                  text: "<span>İndi qoşul </span> və öz istiqamətini seç"
+                }
+              },
+              authors: {
+                title: "<span class=\"text-stroke text-stroke__green\">Kursların <br></span>müəlifləri",
+                description: "Mütəxəssislərimiz məqsədə doğru aparır və öyrənməyə marağın azalmamasını təmin edirlər",
+                list: [
+                  {
+                    name: "Aynur ZİNNATULİN",
+                    description: "Sahibkardır, <br>tele- və radio aparıcısıdır. «Teffi» mükafatının qalibi",
+                    more_info: "«Qorxuya qarşı həb», «Mükəmməl müsahibəniz üçün 5 addım», «Yalnız qorxu səni dayandırır», «Tanış olmayan insanları cəlb etmək bacarığı» kitablarının müəllifidir. Natiqlik və ictimai çıxış üzrə təlimçidir. Böyük yumor hissi olan insandır."
+                  },
+                  {
+                    name: "Aliya <br>Hurmatova",
+                    description: "Onlayn<br class=\"mobile_break\"> və oflayn satışlar üzrə müvəffəqiyyətli mütəxəssisdir.<br> Bir sıra onlayn kursların yaradıcı<br> və şəxsi məsləhətçidir.",
+                    more_info: "Aliyə Hurmatova satışlar, oflayn və onlayn təşviqat üzrə ekspertdir, eləcə də biznes konsaltinq üzrə mütəxəssisdir. 14 ildən artıq təcrübəsi olan peşəkar biznes təlimçidir. 2016-cı ildən iri şəbəkə şirkətləri üçün məsləhətlər verir və korporativ təlimlər keçirir, həmçinin müxtəlif biznes sahələri üzrə menecerlər və top menecerlər üçün təlimlərin müəllifidir. Onun kursu sizə satış sahəsində bacarıq səviyyənizi əhəmiyyətli dərəcədə artırmağa imkan verəcəkdir."
+                  },
+                  {
+                    name: "Yuliya Dolqova",
+                    description: "Sahibkardır, psixoloqdur,<br> insanın enerjisinin yüksəltməsi barədə təlimçidir.<br>«Dolqovanın prinsipi» kitabının müəllifidir",
+                    more_info: "13 il ərzində Yuliya Dolqova həm yeni başlayanlar, həm də təcrübəli sahibkarlar üçün biznesin qurulması və monetizasiya üzrə təlim proqramlarında ən yaxşı təcrübələri toplayıb. Onun təlimin sistemli yanaşması satışdakı qeyri-sabitliyi aradan qaldırmağa imkan verəcək. O, həmçinin onlayn və oflayn genişmiqyaslı tədbirlərin təşkilatçısı və spikeridir."
+                  },
+                  {
+                    name: "Anna Semyonova",
+                    description: "Sahibkardır, biznes təlimçisidir. <br> «Böyük insanlar böyük çeklərdir»<br class=\"mobile_break\"> kursun yaradıcıdır. <br> Güclü motivator və böyük komandanın lideri",
+                    more_info: "Anna Semyonovanın geniş praktiki təcrübəsi ona bilikləri «tam dövrəli» təlim sisteminə toplamağa və sistemləşdirməyə imkan verdi. Tematik onlayn marafonların təşkilatçısı və spikeri. Həmişə sadə və əlçatan bir dildə, konkret misallar vasitəsilə o, stress və qorxu olmadan ardıcıl satış etməyi öyrədir."
+                  },
+                  {
+                    name: "MİLA MATVEYEVA",
+                    description: "Marketoloqdur, spikerdir və motivatordur",
+                    more_info: "Şəbəkə marketinqi sənayesində 20 ildən artıq təcrübədir. Təcrübəsiz bir satıcıdan yüksək səviyyəli liderə keçdi. Fərqli fəaliyyət göstərən şirkətlərdə uğurla inkişaf edir. Təlim kursunda Mila Matveyeva sizə özünüz üçün böyük psixoloq olmağınıza, daxili potensialınızı açmaqda və pul axınınızı açmağa kömək edəcək praktiki üsulları açıqlayacaq."
+                  },
+                  {
+                    name: "Anastasiya Kotova",
+                    description: "İctimai çıxış və səhnə nitqi <br> üzrə mütəxəssisdir",
+                    more_info: "Yeni istifadəçilər üçün «İlk addımlar» təqdimatın müəllifi və «Satışda 5 addımlar. Dialoq sənəti.» kursun yarıdıcıdır. Anastasiya Kotovanın kursu nitq aparatınızı inkişaf etdirməyə və sıxaclardan qurtulmağa kömək edəcəkdir. Siz söz ehtiyatınızı genişləndirə və dinləyicilərinizin diqqətini necə cəlb etməyi öyrənə biləcəksiniz."
+                  },
+                  {
+                    name: "SVETLANA SKORNYAKOVA",
+                    description: "Sahibkardır. «Hədəf auditoriyası» kursunun <br> və sosial şəbəkələrdə təbliğatla bağlı təlimlərin müəllifidir.",
+                    more_info: "İnternetdə 4 illik aktiv iş üçün Svetlana Skornyakova biznesinizə daxil olan müştərilərin və tərəfdaşların axınını qəbul etməyə imkan verən effektiv vasitələr seçdi. “Hədəf auditoriyası” kursu sizə hədəf auditoriyanızın qruplarını müəyyən etməyə, qrupların hər biri üçün unikal satış təklifi tərtib etməyə kömək edəcək. Siz iş üsulları və yolları haqqında məlumat əldə edəcək, məzmun planınızı tərtib edəcək, İnternet vasitəsilə biznes tərəfdaşları tapmağı öyrənəcəksiniz."
+                  },
+                  {
+                    name: "YEVQENİY JARKOV VƏ OLQA JARKOVA",
+                    description: "Çoxsəviyyəli marketinq sahibkarlardı. <br>«Soyuq» müştərilərin dairəsi ilə işləməyidə mütəxəssislərdi",
+                    more_info: "Yevqeniy və Olqa Zharkovların kursunda siz potensial tərəfdaşların telefon nömrələrini haradan əldə edəcəyinizi, işgüzar namizədlərin kontaktları ilə telefon kataloqunuzu necə düzgün saxlamağı öyrənəcəksiniz. Hədəf auditoriyasını necə müəyyənləşdirməyi və telefon zəngləri üçün skriptləri qəbul etməyi, «soyuq zəng» texnikasının bacarıqlarını mənimsəməyi öyrənəcəksiniz. Yevqeniy və Olqa sizə qorxuya qalib gəlməyi və effektiv iş üçün psixoloji üsulları paylaşmağı öyrədərlər."
+                  }
+                ]
+              },
+              opportunities: {
+                title: "Öyrənmə imkanlarınız <br><span class=\"opportunities-header__white\">məhdudiyyət yoxdur</span>",
+                list: [
+                  {
+                    title: "Hər yerdə",
+                    text: "Evdə, yolda, tətildə və ya nahar fasiləsində öyrənin"
+                  },
+                  {
+                    title: "Rahat vaxtda",
+                    text: "Heç bir vaxt məhdudiyyəti olmadan öz sürətinizlə öyrənin"
+                  },
+                  {
+                    title: "İstənilən qaydada",
+                    text: "Eyni anda və ya ardıcıl olaraq bir neçə kurs keçin"
+                  }
+                ]
+              },
+              community: {
+                title: "Mütəxəssislərin, ekspertlərin, təcrübəli və yeni istifadəçilərin ən böyük <span class=\"text-stroke text-stroke__green\">cəmiyyətimiz",
+                list: [
+                  {
+                    title: "Məsləkdaşlar",
+                    text: "Siz öyrənirsiniz, təlimçi ilə məsələləri müzakirə edirsiniz və yeni istifadəçilərə kömək edirsiniz"
+                  },
+                  {
+                    title: "Ünsiyyət",
+                    text: "Kurs müəllifləri və spikerləri ilə, ya da söhbətlər və video konfranslar vasitəsi ilə ünsiyyət"
+                  },
+                  {
+                    title: "Atmosfer şəaraiti",
+                    text: "Bizim platformada evdəki kimi isti və rahat atmosferdir"
+                  }
+                ]
+              },
+              tools: {
+                title: "Biz ən yaxşı <br><span class=\"text-stroke text-stroke__green\">təlim alətlərini yaratmışıq",
+                text: "<br><span>Tam funksional</span> öyrənmə platforması",
+                list: [
+                  {
+                    title: "Bilik bazası",
+                    text: "Uzun müddətli təlim proqramları, qısa intensivliklər"
+                  },
+                  {
+                    title: "Fərdiləşdirilmiş təlim",
+                    text: "Siz özünüz maraqlı kurslar, söhbətlər və vebinarlar seçirsiniz"
+                  },
+                  {
+                    title: "Vebinarlar və onlayn söhbətlər",
+                    text: "Təlimçilər və komandalar ilə onlayn söhbətlər, audio və video yayımlar"
+                  },
+                  {
+                    title: "Öz müvəffəqiyyət dərəcəsinə nəzarəti",
+                    text: "Şəxsi hesabınızın köməyi ilə siz öyrənmədə irəliləyişinizi izləyə bilərsiniz"
+                  },
+                  {
+                    title: "Nailiyyət, mükafatlar və reytinq",
+                    text: "Müsabiqələr, unikal tapşırıqlar və nailiyyətlər"
+                  },
+                  {
+                    title: "Oyunlar və istirahət",
+                    text: "Platformada müxtəlif mövzularda oyunlar, forumlar və ünsiyyət mövcuddur"
+                  }
+                ],
+                footer: {
+                  text: "Platformada işləməyi haqqında <span>pulsuz tanışlıq kursu keç</span>"
+                }
+              },
+              history: {
+                header: "<span class=\"text-stroke text-stroke__green\">Uğur hekayələri</span> <br> və təlim üzrə rəylərindən ilham al",
+                successful_stories: "Uğur hekayələri",
+                review: "Təlim üzrə rəylər"
+              },
+              create: {
+                title: "<span class=\"create-header__stroke text-stroke\">Öz <img loading=\"lazy\" src=\"img/create/star.png\" alt=\"\"> kursları</span> <br class=\"hidden-desktop\"> dünya üzrə yarat və <span class=\"opportunities-header__white2 create-header__white\">sat</span>",
+                list: [
+                  {
+                    title: "interfeys",
+                    text: "<span>Rahat interfeys.</span> Əlavə təlimat olmadan da <br> hər şey aydındır"
+                  },
+                  {
+                    title: "funksionallıq",
+                    text: "İstənilən formatda onlayn təlim<br> üçün alətlər</span>"
+                  },
+                  {
+                    title: "uyğunlaşma qabiliyyəti",
+                    text: "Platformanın interfeysi bütün qadcetlər üçün uyğunlaşdırılıb"
+                  },
+                  {
+                    title: "Kurslar marketi",
+                    text: "Maraqlar üzrə faydalı mövzular"
+                  },
+                  {
+                    title: "Əməliyyatlar üzrə ofis",
+                    text: "Şəxsi hesabdan bütün proseslərin statistikası və idarə edilməsi"
+                  },
+                  {
+                    title: "Fürsətlər",
+                    text: "İstənilən fəaliyyət sahəsində təcrübənizi inkişaf et və sat"
+                  },
+                  {
+                    title: "Bonuslar",
+                    text: "Platformada nailiyyətlərə üçün hədiyyəlik kursları"
+                  },
+                  {
+                    title: "Tərəfdaşlıq proqramları",
+                    text: "Müştəri şəbəkənizi genişləndirmək üçün avtomatik mükafatlar"
+                  }
+                ],
+                footer: {
+                  title: "<span>Maraqlı kurslar yarat və <span class=\"text-stroke text-stroke__green\"> öz </span> <br>təcrübədən <img loading=\"lazy\" src=\"img/create/star_green.png\" alt=\"\"> qazan</span>"
+                }
+              },
+              talk: {
+                title: "Platformanın imkanları haqqında danış və ortaq <span><div class=\"talk-header__circles\"><div class=\"talk-header__circle\"></div><div class=\"talk-header__circle\"></div></div> proqramlarda qazan</span> <br>",
+                list_info: [
+                  "<div class=\"talk-circle__text\">dünya üzrə</div><div class=\"talk-circle__title talk-circle__title-small\">300<span>к</span></div><div class=\"talk-circle__text\">-dən çox <br> tərəfdaş <br></div>",
+                  "<div class=\"talk-circle__text\">tərəfdaşlara</div><div class=\"talk-circle__title talk-circle__title-small\">50<span>к <span class=\"talk-circle__text__dollar\">$</span></div><div class=\"talk-circle__text\">-dan çox ödənilir<br></div>",
+                  "<div class=\"talk-circle__title\">hər ay</div><div class=\"talk-circle__text\">1500<span>+</span><br>yeni<br> müştəri</div>",
+                  "<div class=\"talk-circle__text\">onlayn təhsildə</div><div class=\"talk-circle__title talk-circle__title-small\">2 <span>ildən</span></div><div class=\"talk-circle__text\">çox<br></div>"
+                ]
+              },
+              calculator: {
+                title: "Kim üçün yaradılıb?",
+                list: [
+                  "Təhsil məhsulları sataraq <br> pul qazanmaq istəyən <br> hər kəs üçün",
+                  "Bloggerlər, Telegram kanallarının və saytlarının <br> sahiblər üçün",
+                  "Yeni başlayanlar və təcrübəli İnternet<br> sahibkarları, marketoloqlar, <br> şəbəkə sənayesi ekspertlər üçün"
+                ],
+                footer: {
+                  title: "<span>İndidən </span>qazanmağa başlayın",
+                  text: "Sadəcə bizi dostlarınıza tövsiyə edin"
+                },
+                main: {
+                  title: "Kursunuzu satmaqla nə qədər qazana bilərsiniz?",
+                  text: "<span>Valyuta</span> seçin",
+                  sold_courses: "Ayda <br class=\"hidden-mobile\">satılan kursların<br class=\"hidden-mobile\"> <span>sayı</span>",
+                  average_cost: "Kursun <span>orta <br class=\"hidden-mobile\"> qiyməti<br class=\"hidden-mobile\"></span>",
+                  remuneration: "Mükafatınız: <br class=\"hidden-desktop\"> <span>ayda <span class=\"calculator-main__total-result\">700</span></span>"
+                }
+              },
+              answer: {
+                title: "Kim üçün yaradılıb?",
+                list: [
+                  {
+                    title: "Mən platformanı mobil cihazdan istifadə edə bilərəm?",
+                    text: "Platformaya masa üstü, noutbuk, planşet və ya telefon daxil olmaqla müxtəlif cihazlardan daxil olmaq mümkündür."
+                  },
+                  {
+                    title: "Təlimə nə qədər vaxt ayrılmalıyam? Mən hələ də işləyirəm!",
+                    text: "Rahat bir ritm və təlim cədvəlini özünüz seçirsiniz. Əksər istifadəçilər Akademiyamızdaki təlimi və öz məşğulluğu uyğunlaşdırır. Onların bir çoxu artıq öz iş yerindən tamamilə ayrılıb və indi yalnız internet vasitəsilə inkişaf edir və qazanır."
+                  },
+                  {
+                    title: "Mənə lazım olan kursu necə tapa bilərəm?",
+                    text: "Siz platformada pulsuz qeydiyyatdan sonra tanışlıq kursu keçib, şəxsi hesabınızda məhsulların qısa təsvirini oxumalı və sizə uyğun kursu seçməlisiniz. <br /> Siz həmçinin platformada istiqamətlənməyə və sizə uyğun kursu seçməyə kömək üçün platformamızın aktiv istifadəçiləri və ekspertləri ilə əlaqə saxlaya bilərsiniz."
+                  },
+                  {
+                    title: "Niyə digər platformalardan sizi seçməliyəm?",
+                    text: "Mükəmməlliyin həddi yoxdur... Kiminsə daha yaxşı, kiminsə pis olduğunu demək tam düzgün deyil. Bizim məqsədimiz hər bir iştirakçının müsbət nəticəsidir. Biz sadəcə öz işimizi görürük və onu yüksək səviyyədə görməyə çalışırıq. Bunun haqqında siz ən yaxşısı rəylərə baxanda və istifadəçilərimizdən soruşa bilərisiniz. Biz həmçinin pulsuz qeydiyyat və daxil olduqdan sonra platforma ilə tanış olmaq təklif edirik. Əminik ki, bəyənəcəksiniz!"
+                  },
+                  {
+                    title: "Təlim necə keçir?",
+                    text: "Hər bir kurs videolar, slaydlar, mətn, təlimatlar və təcrübə proqramlarından ibarət mühazirələrə əsaslanır. İstifadəçilərin təlim prosesində ünsiyyət qurduğu və təcrübə mübadiləsi apardığı platformada söhbətlər də təşkil edilir, aktual mövzular üzrə forumlar, müntəzəm onlayn yayımlar və vebinarlar keçirilir."
+                  },
+                  {
+                    title: "Mən pul qazanmağı öyrənmək istəyirəm. Platformanız bu işdə mənə kömək edəcəkmi?",
+                    text: "Əlbəttə! Platformamız internet sahibkarlarının və şəbəkə biznesi liderlərinin şəxsi təcrübəsinə əsaslanan kursları ehtiva edir. Bundan əlavə, bizdə çox səxavətli referal bonuslar toplama proqramı var, yəni siz artıq öyrənmə prosesində pul qazana bilərsiniz. Platformamızda kursların müəllifi olmaq və onları sataraq pul qazanmaq imkanı da var!"
+                  }
+                ]
+              },
+              footer: {
+                copyright: "Copyright 2022 <br> Bütün hüquqlar qorunur",
+                platform_policy: "Platforma siyasəti (yüklə)",
+                privacy_policy: "Gizlilik siyasəti",
+                application: [
+                  "Qoşma №1",
+                  "Qoşma №2",
+                  "Qoşma №3",
+                  "Qoşma №4",
+                  "Qoşma №5"
+                ],
+                paradigma: "<br>paradigma.website tərəfindən sevgi ilə hazırlanmışdır"
+              },
+              popup_login: {
+                button: "Giriş",
+                forgot_password: "Şifrəni unutmusunuz?"
+              },
+              popup_register: {
+                button: "Qeydiyyatdan keçin",
+                account_exists: "Hesabınız var? <span>Daxil olun</span>",
+                register_button: "Qeydiyyatdan keçin",
+                learn_more: "daha çox məlumat almaq üçün"
+              },
+              popup_leave: {
+                title: "ARTIQ GEDİRSİNİZ?",
+                text: "Tanışlığımızın əlaməti olaraq, faydalı təlimatı yükləyin:",
+                footer: {
+                  title: "İstənilən yaşda təlimi keçərək necə pul qazanmaq olar?",
+                  agree: "Siz şəxsi məlumatların emalı şərtləri ilə razılaşırsınız"
                 }
               }
             }
