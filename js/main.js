@@ -1,4 +1,5 @@
 import { UI } from './ui.js';
+import { languages } from './i18n.js';
 import { BASE_URL } from './api.js';
 import { selectDropdownOption } from './dropdown.js';
 import { insertAdsDataToHtml } from './insertAdsDataToHtml.js';
@@ -7,6 +8,10 @@ import { getCookie, setCookie } from './cookie.js';
 const searchParams = new URLSearchParams(window.location.search)
 const language = getCookie('language');
 const BASE_LANG = window.navigator.language.split('-')[0];
+
+const activeLanguage = language ?? BASE_LANG;
+
+const languageTranslate = languages[activeLanguage];
 
 if (!language) {
   setCookie('language', BASE_LANG);
@@ -22,8 +27,9 @@ for (const el of UI.signUpButtons) {
 document.querySelector('.select-btn-language')
   .insertAdjacentHTML(
     'afterbegin',
-    `<span className="option__currency-text">${language ?? BASE_LANG}</span>`
-  );
+    `<span class="flag-icon flag-icon-${activeLanguage === 'en' ? 'us' : activeLanguage} option__language-icon"></span>
+          <span class="option__currency-text option__language">${languageTranslate}</span>
+`);
 
 // const activeLanguage = document.querySelector('.select-btn-language')
 

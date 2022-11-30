@@ -1,4 +1,5 @@
 import { setCookie } from './cookie.js';
+import { languages } from './i18n.js';
 
 export const selectDropdownOption = ({ trigger, elementsWrap, elements, isLanguage = false }) => {
   trigger.addEventListener("click", () => elementsWrap.classList.toggle("active"));
@@ -11,7 +12,14 @@ export const selectDropdownOption = ({ trigger, elementsWrap, elements, isLangua
       elementsWrap.classList.remove("active");
 
       if (isLanguage) {
-        setCookie('language', item.querySelector('span').textContent.toLowerCase());
+        let language;
+        for (let key in languages) {
+        const optionLanguage = item.querySelector('.option__language').textContent;
+          if (optionLanguage.toLowerCase() === languages[key].toLowerCase()) {
+            language = key;
+          }
+        }
+        setCookie('language', language);
         window.location.reload();
       }
     });
