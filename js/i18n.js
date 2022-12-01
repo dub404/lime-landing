@@ -13,6 +13,8 @@ export const languages = {
   uk: 'Український',
   ar: 'العربية',
   az: 'Azərbaycan',
+  es: 'Español',
+  pt: 'Português',
 };
 
 const language = getCookie('language') ?? 'ru';
@@ -3937,7 +3939,7 @@ $(function () {
                 }
               },
               become: {
-                title: "Müasir <br> və axtarılan <br><span class=\"text-stroke\">mütəxəssis ol</span>",
+                title: "Müasir <br> və axtarılan <span class=\"text-stroke\">mütəxəssis ol</span>",
                 description: "Biz dünyada müxtəlif fəaliyyət sahələrindən <span>öz sahəsində peşəkarlar, yeni mütəxəssislər və sadəcə həvəsli insanlardan ibarət unikal cəmiyyətə dəvət edirik</span><br />",
                 main: {
                   intro: "«Lime Academy»-də siz yeni onlayn peşələrə öyrənmək və potensialınızı uğurla reallaşdırmaq üçün <span>müasir bilik və lazımi bacarıqlar əldə edə bilərsiniz</span>",
@@ -4056,7 +4058,7 @@ $(function () {
                 ]
               },
               opportunities: {
-                title: "Öyrənmə imkanlarınız <br><span class=\"opportunities-header__white\">məhdudiyyət yoxdur</span>",
+                title: "Öyrənmə imkanlarınız <span class=\"opportunities-header__white\">məhdudiyyət yoxdur</span>",
                 list: [
                   {
                     title: "Hər yerdə",
@@ -4090,7 +4092,7 @@ $(function () {
                 ]
               },
               tools: {
-                title: "Biz ən yaxşı <br><span class=\"text-stroke text-stroke__green\">təlim alətlərini yaratmışıq",
+                title: "Biz ən yaxşı <span class=\"text-stroke text-stroke__green\">təlim alətlərini yaratmışıq",
                 text: "<br><span>Tam funksional</span> öyrənmə platforması",
                 list: [
                   {
@@ -4253,6 +4255,706 @@ $(function () {
                 footer: {
                   title: "İstənilən yaşda təlimi keçərək necə pul qazanmaq olar?",
                   agree: "Siz şəxsi məlumatların emalı şərtləri ilə razılaşırsınız"
+                }
+              }
+            }
+          },
+          es: {
+            translation: {
+              header: {
+                logo: "Plataforma internacional online de los cursos de autor",
+                navbar: {
+                  courses: "Cursos",
+                  authors: "Autores",
+                  about_platform: "Acerca de la plataforma",
+                  partners_program: "Programa de socio",
+                  successful_stories: "Historias de éxito",
+                  own_course: "Curso propio",
+                  answers: "Respuestas a las preguntas"
+                }
+              },
+              button: {
+                sign_in: "Entrar",
+                sign_up: "Registro",
+                register: "Regístrese y llegue a saber más detalles",
+                start_free: "Comenzar gratis",
+                find_out_more: "Llegar a saber más detalles",
+                download: "Descargar"
+              },
+              main: {
+                title: "Educación moderna <span>sin</span> limitaciones",
+                description: "con posibilidad de generación de ingresos",
+                list_info: {
+                  any_age: "Para cualquier <br> edad",
+                  unlimited_access: "Acceso <br> ilimitado",
+                  areas_of_study: "8 direcciones <br> de enseñanza"
+                }
+              },
+              become: {
+                title: "Llega a ser un <span class=\"text-stroke\">especialista</span> moderno <br> y exigido",
+                description: "Invitamos en <span>la sociedad única a los profesionales en su campo, a los especialistas principiantes y simplemente a la gente apasionada</span><br />de diferentes esferas de las actividades por todo el mundo",
+                main: {
+                  intro: "En «Lime Academy» <span>se puede adquirir conocimientos actuales y habilidades necesarias</span> para dominar nuevas profesiones por internet y realizar su potencial con éxito",
+                  info: "¡Hemos <span>unido la teoría y práctica en un sistema</span> gracias al que los usuarios de nuestra plataforma comienzan a ganar ya durante el tiempo de estudios!",
+                  mission: "Nuestra misión es unir a la gente </strong> de todo el mundo en una sociedad de socios, crear las condiciones para descubrir su potencial creativo y enseñar a cada persona a ganar con ayuda de tecnologías modernas"
+                },
+                about: {
+                  programs: "<div class=\"become-circle__title\">80<span>+</span></div> <div class=\"become-circle__text\">programas de formación</div>",
+                  trainers: "<div class=\"become-circle__title\">50<span>+</span></div> <div class=\"become-circle__text\">entrenadores expertos</div>",
+                  members: "<div class=\"become-circle__text\">más de</div> <div class=\"become-circle__title become-circle__title-small\">300<span>к</span></div> <div class=\"become-circle__text\">personas en nuestra sociedad </div>"
+                }
+              },
+              direction: {
+                header: {
+                  title: "Selecciona la mejor <span class=\"text-stroke text-stroke__green\">dirección</span> para sí",
+                  text: "<p><span>Cursos para cualquier nivel de conocimientos y objetivos</span> </p> <p> <span>No se requiere</span> la educación superior o alguna preparación previa</p>"
+                },
+                buttons: [
+                  "Crecimiento personal",
+                  "Marketing",
+                  "De enseñanza general",
+                  "Lenguas extranjeras",
+                  "Finanzas",
+                  "Alfabetización digital",
+                  "Especiales",
+                  "Todas las direcciones"
+                ],
+                slider: {
+                  title: [
+                    "Recurso",
+                    "Autoanálisis",
+                    "Autopresentación",
+                    "Marca personal en internet",
+                    "Motivación",
+                    "Configuraciones",
+                    "Influencia sobre el comprador",
+                    "Cómo contar sobre su empresa en internet",
+                    "Gente, procesos, tecnologías",
+                    "Ventas a través de los valores",
+                    "Desembalaje de la identidad",
+                    "Comportamiento del comprador",
+                    "Desarrollo de la marca personal",
+                    "Elaboración de la estrategia de desarrollo del negocio online",
+                    "Cómo aumentar la efectividad de empresas en la red de búsqueda"
+                  ],
+                  descriptions: [
+                    "Ud. llegará a saber cómo su estado ejerce influencia sobre las ventas y qué le impide a Ud. y a sus compradores estar en el recurso. Conocerá los canales de percepción a través de los que la gente recibe la información.",
+                    "El cliente es el reflejo de Ud. Por eso, primero, Ud. no tendrá que comprender cómo vender al cliente, sino cómo vender a sí. Pase los ojos dentro de sí más profundo y analice cómo Ud. presenta a sí y cómo le perciben a Ud.",
+                    "La autopresentación es la habilidad de componer una imagen positiva sobre sí, despertar interés de su cliente o auditorio. El hábito de autopresentación es un hábito clave del que comienza el desarrollo de la marca personal.",
+                    "El desarrollo de la marca personal no es posible en el mundo moderno sin redes sociales. Durante el curso Ud. llegará a saber cómo encontrar su nicho en las redes sociales, no perderse entre los competidores y monetizar su blog.",
+                    "¿Solía haber tal cosa que Ud. quería mucho de hacer una cosa, pero la guardaba para “después” que no llegará nunca? La causa es la falta de motivación. Durante el curso estudiaremos: de dónde aparece la motivación y cómo aumentar por sí mismo su nivel.",
+                    "¿De qué se distingue el pensamiento de los “pobres” y “ricos”? ¿Por qué alguien va por la vida con facilidad y logra de hacer todo, pero los demás dudan infinitamente de sus propias capacidades y fuerzas?",
+                    "La regla principal de un buen gerente es cuando el cliente está siempre en primer lugar. Lo más importante es cómo él se siente y el bienestar.",
+                    "Seleccione su trayectoria de los estudios: el negocio, la marca personal o el marketing. Llegue a saber cómo atraer a más clientes y suscriptores en Instagram",
+                    "No compramos la mercancía o el servicio, sino el estado que nos dan estas mercancías, servicios o la gente que los vende. Esto se llama “Efecto de contaminación”.",
+                    "Ud. llegará a saber qué son los valores en las ventas y cómo usarlos en calidad del medio para alcanzar el éxito. Conocerá la noción “desembalaje de la identidad” y llegará a saber cómo evitar los errores durante este proceso.",
+                    "La marca personal es lo que le destaca a Ud. entre los competidores, su enfoque individual a la presentación de la mercancía o la gestión de negocio. ¡Haga el primer paso hacia su creación!",
+                    "Aprenderá a embalar el valor de producto en la comunicación, componer la estrategia de promoción y la salida de producto al mercado. Refuerce los hábitos de marketing con enfoque de producto"
+                  ],
+                  modules: [
+                    "2 módulos",
+                    "4 módulos",
+                    "5 módulos",
+                    "6 módulos",
+                    "8 módulos"
+                  ]
+                },
+                footer: {
+                  text: "<span>Únete ahora</span> y selecciona la dirección"
+                }
+              },
+              authors: {
+                title: "<span class=\"text-stroke text-stroke__green\">Autores <br></span>de los cursos",
+                description: "Nuestros expertos <span>llevan hacia el objetivo</span> y observan que el interés a los estudios no se extinga",
+                list: [
+                  {
+                    name: "Aynur ZINNATULIN",
+                    description: "Empresario, <br> presentador de televisión y presentador de radio. <br> Titular del premio «Teffy»",
+                    more_info: "Autor de los libros «Pastilla contra el miedo», «5 pasos hacia su entrevista ideal», «Sólo el miedo te molesta», «Arte de encantar a los desconocidos». Entrenador de los discursos públicos y el arte ororatoria. Una persona con perfecto sentido del humor."
+                  },
+                  {
+                    name: "Aliya <br>Khurmatova",
+                    description: "Práctico perfecto online<br class=\"mobile_break\"> de las ventas offline.<br> Autor del ciclo de los cursos online<br> y consultor personal",
+                    more_info: "Aliya Khurmatova es el experto en las ventas, la promoción offline y online, bien como el especialista en la esfera de consulta de negocio. El entrenador de negocio profesional con experiencia de más de 14 años. Desde el año 2016 consulta y realiza los estudios corporativos para las empresas de red grandes, así como es el autor de entrenamientos para los dirigentes y altos gerentes en diferentes esferas de negocio. Su curso nos permite elevar sustancialmente nuestro nivel de competencias en la esfera de ventas."
+                  },
+                  {
+                    name: "Yuliya Dolgova",
+                    description: "Empresario, psicólogo,<br> coaching energético.<br>Autor del libro «Principio de Dolgova»",
+                    more_info: "Durante 13 años Yuliya Dolgova ha empaquetado las mejores prácticas en los programas de estudio de la construcción y monetización de su negocio tanto para los principiantes, como para los empresarios experimentados. Su enfoque sistémico en los estudios le permite a Ud. a excluir la falta de estabilidad en las ventas. También es el organizador y altavoz de los eventos en escala online y offline."
+                  },
+                  {
+                    name: "Anna Semenova",
+                    description: "Empresario, entrenador de negocio. <br> Autor del curso<br class=\"mobile_break\"> «Gente grande, cheques grandes». <br> Motivador potente y líder de gran equipo",
+                    more_info: "La gran experiencia práctica de Anna Semenova ha permitido acumular y sistematizar los conocimientos en el sistema de enseñanza de “ciclo completo”. Organizador y altavoz de los maratones online temáticos. Ha enseñado siempre con lengua simple y disponible, a través de los ejemplos concretos de vender de una manera estable sin tensión y miedo."
+                  },
+                  {
+                    name: "MILA MATVEYEVA",
+                    description: "Marquetólogo, altavoz, motivador",
+                    more_info: "Experiencia de trabajo en la industria de marketing de red de más de 20 años. Ha pasado el camino desde el vendedor principiante hasta el Alto líder. Se ha desarrollado con éxito en las empresas con diferentes direcciones de actividades. Durante el curso didáctico Mila Matveyeva da a conocer las metodologías prácticas que ayudarán a Ud. a llegar a ser un psicólogo perfecto para sí mismo, descubrir su potencial interno y abrir su flujo monetario."
+                  },
+                  {
+                    name: "Anastasiya Kotova",
+                    description: "Experto en la esfera del arte oratoria <br> y discurso escénico",
+                    more_info: "Autor de la guía de inicio del novato «Primeros pasos\" y creador del curso \"5 pasos de las ventas. Arte de dialogar.\" El curso de Anastasiya Kotova le ayudará a Ud. a elaborar sus órganos articulatorios y deshacerse de las restricciones. Ud. podrá ampliar su léxico y aprenderá a hacer tales cosas que los oyentes literalmente “mirarán a su boca”."
+                  },
+                  {
+                    name: "SVETLANA SKORNYAKOVA",
+                    description: "Empresario. Autor del curso «Público meta» <br> y de los entrenamientos de promoción en las redes sociales",
+                    more_info: "Durante 4 años de trabajo activo en la red de internet Svetlana Skornyakova ha seleccionado las herramientas efectivas que permiten recibir el flujo de entrada de los clientes y socios en el negocio. El curso «Público meta» le ayudará a Ud. a determinar los grupos de su público meta, componer la oferta comercial única para cada uno de los grupos. Ud. llegará a saber sobre los métodos y técnicas de trabajo, compondrá su plano de contenido, aprenderá a encontrar a los socios para el negocio a través de internet."
+                  },
+                  {
+                    name: "YEVGENIY y OLGA ZHARKOV",
+                    description: "Empresarios de marketing multinivel. <br>Expertos de trabajo con círculo «frío»",
+                    more_info: "Durante el curso de Yevgeniy y Olga Zharkov Ud. llegará a saber dónde tomar los números de teléfonos de los socios potenciales, cómo gestionar su guía telefónica con contactos de los candidatos de negocio. Aprenderá a determinar al público meta y recibirá los scripts de llamadas telefónicas, asimilará la maestría de las técnicas de «llamada fría». Yevgeniy y Olga enseñarán a superar el miedo y compartirán las técnicas psicológicas para el trabajo efectivo."
+                  }
+                ]
+              },
+              opportunities: {
+                title: "Ud. <span class=\"opportunities-header__white\">no está limitado</span> en las capacidades de estudio",
+                list: [
+                  {
+                    title: "Donde quiera",
+                    text: "Aprenda en casa, por el camino, durante las vacaciones o en la hora de la comida"
+                  },
+                  {
+                    title: "Cuando sea cómodo",
+                    text: "Aprenda en su ritmo sin ningunas limitaciones de tiempo"
+                  },
+                  {
+                    title: "En cualquier orden",
+                    text: "Pase varios cursos de inmediato o por orden"
+                  }
+                ]
+              },
+              community: {
+                title: "<span class=\"text-stroke text-stroke__green\">Comunidad</span> más grande de especialistas, expertos, usuarios experimentados y novatos",
+                list: [
+                  {
+                    title: "Partidarios",
+                    text: "Ud. aprende, discute las cuestiones con instructores y ayuda a los principiantes"
+                  },
+                  {
+                    title: "Comunicación",
+                    text: "Comunicación con los autores de los cursos, altavoces, chats, videoconferencias"
+                  },
+                  {
+                    title: "Atmósfera",
+                    text: "En nuestra plataforma hace calor como en hogar y es confortable"
+                  }
+                ]
+              },
+              tools: {
+                title: "Hemos creado las mejores herramientas para <span class=\"text-stroke text-stroke__green\">los estudios",
+                text: "Plataforma de los estudios <br><span>con funcional completo</span>",
+                list: [
+                  {
+                    title: "Base de conocimientos",
+                    text: "Programas de los estudios de larga duración, intensivos de corta duración"
+                  },
+                  {
+                    title: "Estudios personalizados",
+                    text: "Ud. mismo selecciona los cursos interesantes, los chats y webinarios"
+                  },
+                  {
+                    title: "Webinarios y chats online",
+                    text: "Chats online con instructores y equipos, transmisiones de audio y video"
+                  },
+                  {
+                    title: "Control de aprovechamiento propio",
+                    text: "Con ayuda de espacio privado Ud. puede seguir sus éxitos en los estudios"
+                  },
+                  {
+                    title: "Éxitos, premios y ránking",
+                    text: "Competiciones, tareas únicas y éxitos"
+                  },
+                  {
+                    title: "Juegos y ocio",
+                    text: "La plataforma tiene los juegos disponibles, los foros y la comunicación de diferentes temas"
+                  }
+                ],
+                footer: {
+                  text: "<span>Pasa el curso de introducción gratis</span> de trabajo en la plataforma"
+                }
+              },
+              history: {
+                header: "Inspírate <span class=\"text-stroke text-stroke__green\">de las historias de éxito</span> <br> y opiniones sobre los estudios",
+                successful_stories: "Historias de éxito",
+                review: "Opiniones sobre los estudios"
+              },
+              create: {
+                title: "Crea y <span class=\"opportunities-header__white2 create-header__white\">vende</span> <span class=\"create-header__stroke text-stroke\">sus <img loading=\"lazy\" src=\"img/create/star.png\" alt=\"\"> cursos</span> <br class=\"hidden-desktop\"> por todo el mundo",
+                list: [
+                  {
+                    title: "Interfaz",
+                    text: "<span>Interfaz cómoda.</span> Todo se comprende <br> incluso sin instrucciones"
+                  },
+                  {
+                    title: "funcionalidad",
+                    text: "Herramientas para cualesquier <br> formatos de estudios online</span>"
+                  },
+                  {
+                    title: "adaptividad",
+                    text: "La interfaz de la plataforma está adaptada para todos los gadgets"
+                  },
+                  {
+                    title: "Tienda de los cursos",
+                    text: "Temas útiles según intereses"
+                  },
+                  {
+                    title: "Servicio de gestión",
+                    text: "Estadística y control de todos los procesos del espacio privado"
+                  },
+                  {
+                    title: "Capacidades",
+                    text: "Desarrolla y vende su pericia en cualquier esfera de actividades"
+                  },
+                  {
+                    title: "Bonos",
+                    text: "Cursos como regalo por los éxitos en la plataforma"
+                  },
+                  {
+                    title: "Programas de socio",
+                    text: "Remuneraciones automáticas por ampliación de la red de clientes"
+                  }
+                ],
+                footer: {
+                  title: "<span>Crea los cursos de atracción y <span class=\"text-stroke text-stroke__green\">gana</span> <br> con su <img loading=\"lazy\" src=\"img/create/star_green.png\" alt=\"\"> pericia</span>"
+                }
+              },
+              talk: {
+                title: "Cuenta sobre la capacidad de la plataforma y <span><div class=\"talk-header__circles\"><div class=\"talk-header__circle\"></div><div class=\"talk-header__circle\"></div></div> gana </span> <br> en los programas de socio",
+                list_info: [
+                  "<div class=\"talk-circle__text\">más de</div><div class=\"talk-circle__title talk-circle__title-small\">300<span>к</span></div><div class=\"talk-circle__text\">socios <br> en todo el <br> mundo</div>",
+                  "<div class=\"talk-circle__text\">más de</div><div class=\"talk-circle__title talk-circle__title-small\">50<span>K <span class=\"talk-circle__text__dollar\">$</span></div><div class=\"talk-circle__text\">pagados<br> a los socios</div>",
+                  "<div class=\"talk-circle__title\">1500<span>+</span></div><div class=\"talk-circle__text\">clientes nuevos<br> cada<br> mes</div>",
+                  "<div class=\"talk-circle__text\">más de</div><div class=\"talk-circle__title talk-circle__title-small\">2 <span>años</span></div><div class=\"talk-circle__text\">en la educación<br> online</div>"
+                ]
+              },
+              calculator: {
+                title: "¿A quién servirá?",
+                list: [
+                  "A todos que quieren ganar <br> en la venta de los productos <br> educativos",
+                  "A los blogueros, propietarios <br> de los canales de Telegram y los sitios",
+                  "A los principiantes y empresarios<br>online experimentados, a los marquetólogos, <br> a los expertos de la industria de red"
+                ],
+                footer: {
+                  title: "Comience a ganar <span>ahora mismo</span>",
+                  text: "Simlemente recomiéndenos a sus conocidos"
+                },
+                main: {
+                  title: "¿Cuánto se puede ganar de la venta de su curso?",
+                  text: "Seleccione <span>la divisa</span>",
+                  sold_courses: "<span>Número</span> <br class=\"hidden-mobile\"> de los cursos vendidos <br class=\"hidden-mobile\"> por mes",
+                  average_cost: "<span>Coste <br class=\"hidden-mobile\"> medio <br class=\"hidden-mobile\"></span> del curso",
+                  remuneration: "Su remuneración: <br class=\"hidden-desktop\"> <span>por mes <span class=\"calculator-main__total-result\">700</span></span>"
+                }
+              },
+              answer: {
+                title: "¿A quién servirá?",
+                list: [
+                  {
+                    title: "¿Se puede usar la plataforma desde el dispositivo móvil?",
+                    text: "La plataforma está disponible desde diferentes dispositivos, incluyendo el ordenador de sobremesa, el ordenador portátil, la tableta o el teléfono."
+                  },
+                  {
+                    title: "¿Cuánto tiempo es necesario prestar a los estudios? ¡Es que también yo trabajo!",
+                    text: "Ud. mismo selecciona el ritmo cómodo y el horario de estudios. La mayoría de usuarios hace simultanear nuestra Academia y la actividad lucrativa. Muchos de ellos ya han salido por completo de la actividad lucrativa, y ahora se desarrollan y ganan sólo online."
+                  },
+                  {
+                    title: "¿Cómo puedo seleccionar el curso conveniente?",
+                    text: "Es necesario formalizar el registro gratis en la plataforma, pasar el curso de introducción, ponerse al corriente de la descripción breve de los productos en el espacio privado y seleccionar el curso actual para sí. <br /> También se puede dirigir a los usuarios activos y expertos de nuestra plataforma, que ayudarán a orientarse y seleccionar el curso conveniente."
+                  },
+                  {
+                    title: "¿De qué uds. son mejores que otras plataformas?",
+                    text: "No existe el límite de la perfección... No está bastante correcto de decir que alguien sea mejor, y alguien sea peor. Nuestra tarea es el resultado positivo de cada participante. Simplemente hacemos lo nuestro y tratamos de hacerlo bien. Sería mejor de preguntar a nuestros usuarios sobre cómo lo logramos. Miren las opiniones. También ofrecemos a pasar un registro gratis y ponerse al corriente de la plataforma por dentro. ¡Estamos seguros que le va a gustar de estar con nosotros!"
+                  },
+                  {
+                    title: "¿Cómo pasan los estudios?",
+                    text: "La base de cada curso son las lecciones que pueden incluir los videos, las diapositivas, los textos, las instrucciones y aplicaciones para los trabajos prácticos. También en la plataforma están organizados los chats donde los usuarios se comunican durante el proceso de estudios y comparten la experiencia, los foros con temas actuales, se organizan las transmisiones online y los webinarios."
+                  },
+                  {
+                    title: "Quiero aprender de ganar. ¿Me ayudará su plataforma en esto?",
+                    text: "¡Ciertamente! En nuestra plataforma están reunidos los cursos basados sobre la experiencia personal de los empresarios por internet en ejercicio y los líderes del negocio de red. Además, tenemos un programa de afiliado rica de acumulación de bonos, lo que significa que se puede ganar ya durante los estudios. También existe la posibilidad de llegar a ser el autor de los cursos en nuestra plataforma y ganar en su venta!"
+                  }
+                ]
+              },
+              footer: {
+                copyright: "Copyright 2022 <br> Todos los derechos reservados",
+                platform_policy: "Política de la Plataforma (descargar)",
+                privacy_policy: "Política de confidencialidad",
+                application: [
+                  "Aplicación No. 1",
+                  "Aplicación No. 2",
+                  "Aplicación No. 3"
+                ],
+                paradigma: "Hecho con amor <br> en paradigma.website"
+              },
+              popup_login: {
+                button: "Entrada",
+                forgot_password: "¿Se le olvidó la contraseña?"
+              },
+              popup_register: {
+                button: "Registrarse",
+                account_exists: "¿Ya tiene la cuenta? <span>Entre</span>",
+                register_button: "Regístrese",
+                learn_more: "para llegar a saber más detalles"
+              },
+              popup_leave: {
+                title: "¿UD. YA SE VA?",
+                text: "Como señal de nuestro conocimiento descargue el manual útil:",
+                footer: {
+                  title: "¿Cómo ganar en cualquier edad cursando los estudios?",
+                  agree: "Ud. está de acuerdo con las condiciones de procesamiento de los datos personales"
+                }
+              }
+            }
+          },
+          pt: {
+            translation: {
+              header: {
+                logo: "Plataforma internacional online de cursos de autor",
+                navbar: {
+                  courses: "Cursos",
+                  authors: "Autores",
+                  about_platform: "Sobre a plataforma",
+                  partners_program: "Programa de sócio",
+                  successful_stories: "Histórias de êxito",
+                  own_course: "Curso próprio",
+                  answers: "Respostas às perguntas"
+                }
+              },
+              button: {
+                sign_in: "Entrar",
+                sign_up: "Registro",
+                register: "Registre-se e venha a saber mais detalhes",
+                start_free: "Começar gratuitamente",
+                find_out_more: "Vir a saber mais detalhes",
+                download: "Descarregar"
+              },
+              main: {
+                title: "Educação moderna <span>sem</span> limitações",
+                description: "com possibilidade de geração de ingressos",
+                list_info: {
+                  any_age: "Para qualquer <br> idade",
+                  unlimited_access: "Acesso <br> ilimitado",
+                  areas_of_study: "8 direções <br> de ensino"
+                }
+              },
+              become: {
+                title: "Torna-te um <span class=\"text-stroke\">especialista</span> moderno <br> e exigido",
+                description: "Convidamos na <span>sociedade única os profissionais em seu campo, os especialistas principiantes e simplesmente a gente apaixonada</span><br />de diferentes esferas das atividades por todo o mundo",
+                main: {
+                  intro: "Em «Lime Academy» <span>pode-se adquirir conhecimentos atuais e habilidades necessárias</span> para dominar novas profissões por internet e realizar seu potencial com êxito",
+                  info: "Temos <span>unido a teoria e prática em um sistema</span> graças ao que os usuários de nossa plataforma começam ganhar já durante o tempo de estudos!",
+                  mission: "Nossa missão é unir a gente </strong> de todo o mundo em uma sociedade de sócios, criar as condições para descobrir seu potencial criativo e ensinar cada pessoa ganhar com ajuda de tecnologias modernas"
+                },
+                about: {
+                  programs: "<div class=\"become-circle__title\">80<span>+</span></div> <div class=\"become-circle__text\">programas de formação</div>",
+                  trainers: "<div class=\"become-circle__title\">50<span>+</span></div> <div class=\"become-circle__text\">treinadores peritos</div>",
+                  members: "<div class=\"become-circle__text\">mais de</div> <div class=\"become-circle__title become-circle__title-small\">300<span>к</span></div> <div class=\"become-circle__text\">pessoas em nossa sociedade </div>"
+                }
+              },
+              direction: {
+                header: {
+                  title: "Seleciona a melhor <span class=\"text-stroke text-stroke__green\">direção</span> para si",
+                  text: "<p><span>Cursos para qualquer nível de conhecimentos e objetivos</span> </p> <p> <span>Não é requierida</span> a educação superior ou alguna preparação prévia</p>"
+                },
+                buttons: [
+                  "Crescimento pessoal",
+                  "Marketing",
+                  "De ensino geral",
+                  "Línguas estrangeiras",
+                  "Finanças",
+                  "Alfabetização digital",
+                  "Especiais",
+                  "Todas as direções"
+                ],
+                slider: {
+                  title: [
+                    "Recurso",
+                    "Auto-análise",
+                    "Autopresentação",
+                    "Marca pessoal em internet",
+                    "Motivação",
+                    "Configurações",
+                    "Influência sobre o comprador",
+                    "Como contar sobre sua empresa em internet",
+                    "Gente, processos, tecnologias",
+                    "Vendas através dos valores",
+                    "Desembalagem de identidade",
+                    "Comportamento do comprador",
+                    "Desenvolvimento da marca pessoal",
+                    "Elaboração da estratégia de desenvolvimento do negócio online",
+                    "Como aumentar a efetividade de empresas na rede de busca"
+                  ],
+                  descriptions: [
+                    "Você virá a saber como seu estado exerce influência sobre as vendas e que impede Você e seus compradores estarem no recurso. Conhecerá os canais de percepção através dos que a gente recebe a informação.",
+                    "O cliente é o reflexo de Você. Por isso, primeiro, Você não terá que compreender como vender a cliente, senão como vender a si. Passe os olhos dentro de si mais profundo e analize como Você presenta a si e como percebem Você",
+                    "A autopresentação é a habilidade de compor uma imagem positiva sobre si, despertar interesse de seu cliente ou auditório. O hábito de autopresentação é um hábito-chave do que começa o desenvolvimento da marca pessoal.",
+                    "O desenvolvimento da marca pessoal não é possível no mundo moderno sem redes sociais. Durante o curso Você virá a saber como encontrar seu nicho nas redes sociais, não se perder entre os competidores e monetizar seu blog.",
+                    "Havia tal coisa que Você queria muito de fazer uma coisa, mas a guardava para “depois” que não virá nunca? A causa é a falta de motivação. Durante o curso estudaremos: de onde aparece a motivação e como aumentar por si mesmo seu nível.",
+                    "De que é distinguido o pensamento dos “pobres” e “ricos”? Porquê alguém vai pela vida com facilidade e consegue fazer tudo, mas os demais duvidam infinitamente de suas próprias capacidades e forças?",
+                    "A regra principal de um bom gerente é quando o cliente está sempre em primeiro lugar. O mais importante é como ele sente-se e o bem-estar.",
+                    "Selecione sua trajetória de estudos: o negócio, a marca pessoal ou o marketing. Venha a saber como atrair mais clientes e subscritores em Instagram",
+                    "Não compramos a mercadoria ou o serviço, senão o estado que dão para nós estas mercadorias, serviços ou a gente que os vende. Isso chama-se “Efeito de contaminação”.",
+                    "Você virá a saber o que são os valores nas vendas e como usá-los em qualidade do meio para alcançar o êxito. Conhecerá a noção “desembalagem de identidade” e virá a saber como evitar os erros durante este processo.",
+                    "A marca pessoal é o que destaca Você entre os competidores, seu enfoco individual até a apresentação da mercadoria ou a gestão de negócio. Faça o primeiro passo até sua criação!",
+                    "Aprenderá embalar o valor de produto na comunicação, compor a estratégia de promoção e a saída de produto ao mercado. Reforce os hábitos de marketing com enfoco de produto"
+                  ],
+                  modules: [
+                    "2 módulos",
+                    "4 módulos",
+                    "5 módulos",
+                    "6 módulos",
+                    "8 módulos"
+                  ]
+                },
+                footer: {
+                  text: "<span>Une-te agora</span> e seleciona a direção"
+                }
+              },
+              authors: {
+                title: "<span class=\"text-stroke text-stroke__green\">Autores <br></span>de cursos",
+                description: "Nossos peritos <span>levam até o objetivo</span> e observam que o interesse até os estudos não se extinguir",
+                list: [
+                  {
+                    name: "Aynur ZINNATULIN",
+                    description: "Empresário, <br> apresentador de TV e apresentador de rádio. <br> Titular do prémio «Teffy»",
+                    more_info: "Autor dos livros «Pastilha contra o medo», «5 passos até sua entrevista ideal», «Apenas o medo te molesta», «Arte de encantar os desconhecidos». Treinador dos discursos públicos e a arte oratória. Uma pessoa com perfeito sentido de humor."
+                  },
+                  {
+                    name: "Aliya <br>Khurmatova",
+                    description: "Prático perfeito online<br class=\"mobile_break\"> das vendas offline.<br> Autor de ciclo de cursos online<br> e consultor pessoal",
+                    more_info: "Aliya Khurmatova é o perito nas vendas, a promoção offline e online, assim como o especialista na esfera de consulta de negócio. O treinador de negócio profissional com experiência de mais de 14 anos. Desde o ano 2016 consulta e realiza os estudos corporativos para as empresas de rede grandes, assim como é o autor de treinamentos para os dirigentes e altos gerentes em diferentes esferas de negócio. Seu curso nos permite elevar substancialmente nosso nível de competências na esfera de vendas."
+                  },
+                  {
+                    name: "Yuliya Dolgova",
+                    description: "Empresário, psicólogo,<br> coaching energético.<br>Autor de livro «Princípio de Dolgova»",
+                    more_info: "Durante 13 anos Yuliya Dolgova tem empacado as melhores práticas nos programas de estudo da construção e monetização de seu negócio tanto para os principiantes, como para os empresários experimentados. Seu enfoco sistémico nos estudos permite Você excluir a falta de estabilidade nas vendas. Também é o organizador e altifalante dos eventos em escala online e offline."
+                  },
+                  {
+                    name: "Anna Semenova",
+                    description: "Empresário, treinador de negócio. <br> Autor de curso<br class=\"mobile_break\"> «Gente grande, cheques grandes». <br> Motivador potente e líder de grande equipa",
+                    more_info: "A grande experiência prática de Anna Semenova tem permitido acumular e sistematizar os conhecimentos no sistema de ensino de “ciclo completo”. Organizador e altifalante de maratonas online temáticas. Tem ensinado sempre com língua simples e disponível, através dos exemplos concretos de vender de uma maneira estável sem tensão e medo."
+                  },
+                  {
+                    name: "MILA MATVEYEVA",
+                    description: "Marquetologista, altifalante, motivador",
+                    more_info: "Experiência de trabalho na indústria de marketing de rede de mais de 20 anos. Tem passado o caminho desde o vendedor principiante até o Alto líder. Desenvolveu-se com êxito nas empresas com diferentes direções de atividades. Durante o curso didático Mila Matveyeva da a conhecer as metodologias práticas que ajudarão Você se tornar um psicólogo perfeito para si mesmo, descobrir seu potencial interno e abrir seu fluxo monetário."
+                  },
+                  {
+                    name: "Anastasiya Kotova",
+                    description: "Perito na esfera da arte oratória <br> e discurso escénico",
+                    more_info: "Autor da guia de início do novato «Primeiros passos\" e criador de curso \"5 passos de vendas. Arte de dialogar.\" O curso de Anastasiya Kotova ajudará Você elaborar seus órgãos articulatórios e se livrar das restrições. Você poderá ampliar seu léxico e aprenderá fazer tais cosas que os ouvintes literalmente “olharão em sua boca”."
+                  },
+                  {
+                    name: "SVETLANA SKORNYAKOVA",
+                    description: "Empresário. Autor de curso «Público-alvo» <br> e dos treinamentos de promoção nas redes sociais",
+                    more_info: "Durante 4 anos de trabalho ativo na rede de internet Svetlana Skornyakova tem selecionado as ferramentas efetivas que permitem receber o fluxo de entrada dos clientes e sócios no negócio. O curso «Público-alvo» ajudará Você determinar os grupos de seu público-alvo, compor a oferta comercial única para cada um dos grupos. Você virá a saber sobre os métodos e técnicas de trabalho, comporá seu plano de conteúdo, aprenderá encontrar os sócios para o negócio através de internet."
+                  },
+                  {
+                    name: "YEVGENIY e OLGA ZHARKOV",
+                    description: "Empresários de marketing multi-nível. <br>Peritos de trabalho com círculo «frio»",
+                    more_info: "Durante o curso de Yevgeniy e Olga Zharkov Você virá a saber onde tomar os números de telefones dos sócios potenciais, como gestar sua guia telefónica com contatos dos candidatos de negócio. Aprenderá determinar o público-alvo e receberá os scripts de chamadas telefónicas, assimilará a mestria das técnicas de «chamada fria». Yevgeniy e Olga ensinarão superar o medo e compartilharão as técnicas psicológicas para o trabalho efetivo."
+                  }
+                ]
+              },
+              opportunities: {
+                title: "Você <span class=\"opportunities-header__white\">não é limitado</span> nas capacidades de estudo",
+                list: [
+                  {
+                    title: "Onde quiser",
+                    text: "Aprenda em casa, pelo caminho, durante as férias ou na hora do almoço"
+                  },
+                  {
+                    title: "Quando for cómodo",
+                    text: "Aprenda em seu ritmo sem nenhumas limitações de tempo"
+                  },
+                  {
+                    title: "Em qualquer ordem",
+                    text: "Passe vários cursos de imediato ou por ordem"
+                  }
+                ]
+              },
+              community: {
+                title: "<span class=\"text-stroke text-stroke__green\">Comunidade</span> mais grande de especialistas, peritos, usuários experimentados e novatos",
+                list: [
+                  {
+                    title: "Partidários",
+                    text: "Você aprende, discute as questões com instrutores e ajuda para os principiantes"
+                  },
+                  {
+                    title: "Comunicação",
+                    text: "Comunicação com os autores de cursos, altifalantes, chats, videoconferências"
+                  },
+                  {
+                    title: "Atmosfera",
+                    text: "Em nossa plataforma faz calor como em lar e é confortável"
+                  }
+                ]
+              },
+              tools: {
+                title: "Temos criado as melhores ferramentas para <span class=\"text-stroke text-stroke__green\">os estudos",
+                text: "Plataforma de estudos <br><span>com funcional completo</span>",
+                list: [
+                  {
+                    title: "Base de conhecimentos",
+                    text: "Programas de estudos de longa duração, intensivos de curta duração"
+                  },
+                  {
+                    title: "Estudos pessoalizados",
+                    text: "Você mesmo seleciona os cursos interessantes, os chats e webinários"
+                  },
+                  {
+                    title: "Webinários e chats online",
+                    text: "Chats online com instrutores e equipas, transmissões de áudio e vídeo"
+                  },
+                  {
+                    title: "Controlo de aproveitamento próprio",
+                    text: "Com ajuda de espaço privado Você pode seguir seus êxitos nos estudos"
+                  },
+                  {
+                    title: "Êxitos, prémios e ranking",
+                    text: "Competições, tarefas únicas e êxitos"
+                  },
+                  {
+                    title: "Jogos e lazer",
+                    text: "A plataforma tem os jogos disponíveis, os foros e a comunicação de diferentes temas"
+                  }
+                ],
+                footer: {
+                  text: "<span>Passa o curso de introdução gratuitamente</span> de trabalho na plataforma"
+                }
+              },
+              history: {
+                header: "Inspira-te <span class=\"text-stroke text-stroke__green\">das histórias de êxito</span> <br> e opiniões sobre os estudos",
+                successful_stories: "Histórias de êxito",
+                review: "Opiniões sobre os estudos"
+              },
+              create: {
+                title: "Cria e <span class=\"opportunities-header__white2 create-header__white\">vende</span> <span class=\"create-header__stroke text-stroke\">seus <img loading=\"lazy\" src=\"img/create/star.png\" alt=\"\"> cursos</span> <br class=\"hidden-desktop\"> por todo o mundo",
+                list: [
+                  {
+                    title: "Interface",
+                    text: "<span>Interface cómodo.</span> Todo é compreendido <br> inclusive sem instruções"
+                  },
+                  {
+                    title: "funcionalidade",
+                    text: "Ferramentas para quaisquier <br> formatos de estudos online</span>"
+                  },
+                  {
+                    title: "adaptividade",
+                    text: "A interface da plataforma é adaptada para todos os gadgets"
+                  },
+                  {
+                    title: "Loja de cursos",
+                    text: "Temas úteis segundo interesses"
+                  },
+                  {
+                    title: "Serviço de gestão",
+                    text: "Estadística e controlo de todos os processos do espaço privado"
+                  },
+                  {
+                    title: "Capacidades",
+                    text: "Desenvolve e vende sua perícia em qualquer esfera de atividades"
+                  },
+                  {
+                    title: "Bônus",
+                    text: "Cursos como presente pelos êxitos na plataforma"
+                  },
+                  {
+                    title: "Programas de sócio",
+                    text: "Remunerações automáticas por ampliação da rede de clientes"
+                  }
+                ],
+                footer: {
+                  title: "<span>Cria os cursos de atração e <span class=\"text-stroke text-stroke__green\">ganha</span> <br> com sua <img loading=\"lazy\" src=\"img/create/star_green.png\" alt=\"\"> perícia</span>"
+                }
+              },
+              talk: {
+                title: "Conta sobre a capacidade da plataforma e <span><div class=\"talk-header__circles\"><div class=\"talk-header__circle\"></div><div class=\"talk-header__circle\"></div></div> ganha </span> <br> nos programas de sócio",
+                list_info: [
+                  "<div class=\"talk-circle__text\">mais de</div><div class=\"talk-circle__title talk-circle__title-small\">300<span>к</span></div><div class=\"talk-circle__text\">sócios <br> em todo o <br> mundo</div>",
+                  "<div class=\"talk-circle__text\">mais de</div><div class=\"talk-circle__title talk-circle__title-small\">50<span>K <span class=\"talk-circle__text__dollar\">$</span></div><div class=\"talk-circle__text\">pagos<br> para os sócios</div>",
+                  "<div class=\"talk-circle__title\">1500<span>+</span></div><div class=\"talk-circle__text\">clientes novos<br> cada<br> mês</div>",
+                  "<div class=\"talk-circle__text\">mais de</div><div class=\"talk-circle__title talk-circle__title-small\">2 <span>anos</span></div><div class=\"talk-circle__text\">na educação<br> online</div>"
+                ]
+              },
+              calculator: {
+                title: "Para quem servirá?",
+                list: [
+                  "Para todos que querem ganhar <br> na venda dos produtos <br> educacionais",
+                  "Para os blogueiros, proprietários <br> dos canais de Telegram e os sites",
+                  "Para os principiantes e empresários<br>online experimentados, os marquetologistas, <br> os peritos da indústria de rede"
+                ],
+                footer: {
+                  title: "Comece ganhar <span>agora mesmo</span>",
+                  text: "Simlesmente que Você nos recomende para seus conhecidos"
+                },
+                main: {
+                  title: "Quanto pode-se ganhar da venda de seu curso?",
+                  text: "Selecione <span>a moeda</span>",
+                  sold_courses: "<span>Número</span> <br class=\"hidden-mobile\"> de cursos vendidos <br class=\"hidden-mobile\"> por mês",
+                  average_cost: "<span>Custo <br class=\"hidden-mobile\"> médio <br class=\"hidden-mobile\"></span> de curso",
+                  remuneration: "Sua remuneração: <br class=\"hidden-desktop\"> <span>por mês <span class=\"calculator-main__total-result\">700</span></span>"
+                }
+              },
+              answer: {
+                title: "Para quem servirá?",
+                list: [
+                  {
+                    title: "Pode-se usar a plataforma desde o dispositivo móvel?",
+                    text: "A plataforma é disponível desde diferentes dispositivos, incluindo o computador de mesa, o computador portátil, o tablete ou o telefone."
+                  },
+                  {
+                    title: "Quanto tempo é necessário prestar para os estudos? É que também eu trabalho!",
+                    text: "Você mesmo seleciona o ritmo cómodo e o horário de estudos. A maioria de usuários combinar nossa Academia e a atividade remunerada. Muitos deles já têm saído por completo da atividade remunerada, e agora desenvolvem-se e ganham apenas online."
+                  },
+                  {
+                    title: "Como posso seleccionar o curso conveniente?",
+                    text: "É necessário formalizar o registro gratuito na plataforma, passar o curso de introdução, se pôr ao corrente da descrição breve dos produtos no espaço privado e selecionar o curso atual para si. <br /> Também pode-se se dirigir até os usuários ativos e peritos de nossa plataforma, que ajudarão a se orientar e selecionar o curso conveniente."
+                  },
+                  {
+                    title: "De que vocês são melhores que outras plataformas?",
+                    text: "Não existe o limite da perfeição... Não é bastante correto dizer que alguém for melhor, e alguém for pior. Nossa tarefa é o resultado positivo de cada participante. Simplesmente fazemos o nosso e tentamos fazê-lo bem. Seria melhor de perguntar nossos usuários sobre como o conseguimos. Olhem as opiniões. Também oferecemos passar um registro gratuito e se pôr ao corrente da plataforma por dentro. Estamos seguros que vai-lhe gostar ficar conosco!"
+                  },
+                  {
+                    title: "Como passam os estudos?",
+                    text: "A base de cada curso são as lições que podem incluir os vídeos, as diapositivas, os textos, as instruções e aplicações para os trabalhos práticos. Também na plataforma são organizados os chats onde os usuários comunicam-se durante o processo de estudos e compartilham a experiência, os foros com temas atuais, são organizadas as transmissões online e os webinários."
+                  },
+                  {
+                    title: "Quero aprender ganhar. Me ajudará sua plataforma nisso?",
+                    text: "Certamente! Em nossa plataforma são reunidos os cursos baseados sobre a experiência pessoal dos empresários por internet em exercício e os líderes do negócio de rede. Além disso, temos um programa de afiliado rica de acumulação de bônus, o que significa que pode-se ganhar já durante os estudos. Também existe a possibilidade de se tornar o autor de cursos em nossa plataforma e ganhar em sua venda!"
+                  }
+                ]
+              },
+              footer: {
+                copyright: "Copyright 2022 <br> Todos os direitos reservados",
+                platform_policy: "Política da Plataforma (descarregar)",
+                privacy_policy: "Política de confidencialidade",
+                application: [
+                  "Aplicação No. 1",
+                  "Aplicação No. 2",
+                  "Aplicação No. 3"
+                ],
+                paradigma: "Feito com amor <br> em paradigma.website"
+              },
+              popup_login: {
+                button: "Entrada",
+                forgot_password: "Esqueceu a senha?"
+              },
+              popup_register: {
+                button: "Se registrar",
+                account_exists: "Já tem a conta? <span>Entre</span>",
+                register_button: "Registre-se",
+                learn_more: "para vir a saber mais detalhes"
+              },
+              popup_leave: {
+                title: "VOCÊ JÁ VAI-SE?",
+                text: "Como sinal de nosso conhecimento descarregue o manual útil:",
+                footer: {
+                  title: "Como ganhar em qualquer idade cursando os estudos?",
+                  agree: "Você está de acordo com as condições de processamento de dados pessoais"
                 }
               }
             }
