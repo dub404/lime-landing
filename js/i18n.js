@@ -3354,7 +3354,7 @@ $(function () {
                 ]
               },
               opportunities: {
-                title: "Le tue <span class=\"opportunities-header__white\">opportunità di studiare</span> non sono limitate",
+                title: "Le tue <span class=\"opportunities-header__white\">opportunità</span>  di studiare non sono limitate",
                 list: [
                   {
                     title: "Dove vuoi",
