@@ -15,6 +15,8 @@ export const languages = {
   az: 'Azərbaycan',
   es: 'Español',
   pt: 'Português',
+  pl: 'Polski',
+  ka: 'ქართული',
 };
 
 const language = getCookie('language') ?? 'ru';
@@ -4955,6 +4957,706 @@ $(function () {
                 footer: {
                   title: "Como ganhar em qualquer idade cursando os estudos?",
                   agree: "Você está de acordo com as condições de processamento de dados pessoais"
+                }
+              }
+            }
+          },
+          pl: {
+            translation: {
+              header: {
+                logo: "Międzynarodowa platforma internetowych kursów dla autorów",
+                navbar: {
+                  courses: "Kursy",
+                  authors: "Autorzy",
+                  about_platform: "O platformie",
+                  partners_program: "Program partnerski",
+                  successful_stories: "Historie sukcesu",
+                  own_course: "Własny kurs",
+                  answers: "Odpowiedzi na pytania"
+                }
+              },
+              button: {
+                sign_in: "Zaloguj się",
+                sign_up: "Rejestracja",
+                register: "Zarejestruj się i dowiedz się więcej",
+                start_free: "Rozpocznij bezpłatnie",
+                find_out_more: "Dowiedz się więcej",
+                download: "Pobierz"
+              },
+              main: {
+                title: "Nowoczesna edukacja <span>bez</span>ograniczeń",
+                opis: "generująca dochód",
+                list_info: {
+                  any_age: "Dla każdego <br> wieku",
+                  unlimited_access: "Nieograniczony <br> dostęp",
+                  areas_of_study: "8 obszarów nauczania"
+                }
+              },
+              become: {
+                title: "Zostań nowoczesnym <br> i poszukiwanym <span class=\"text-stroke\">specjalistą</span>",
+                description: "Zapraszamy <span>do wyjątkowej społeczności fachowców w swojej dziedzinie, początkujących i po prostu pasjonatów</span><br />z różnych dziedzin działalności na całym świecie",
+                main: {
+                  intro: "W \"Lime Academy\" <span>możesz zdobyć aktualną wiedzę i niezbędne umiejętności</span>, aby opanować nowe zawody online i skutecznie realizować swój potencjał",
+                  info: "<span>Połączyliśmy teorię i praktykę w system</span>, dzięki któremu użytkownicy naszej platformy już zaczynają zarabiać ucząc się!",
+                  mission: "Naszą misją jest łączenie ludzi </strong> na całym świecie w partnerską społeczność, stwarzanie warunków do ujawnienia ich potencjału twórczego oraz nauczanie każdego zarabiania pieniędzy przy pomocy nowoczesnych technologii"
+                },
+                about: {
+                  programs: "<div class=\"become-circle__title\">80<span>+</span></div> <div class=\"become-circle__text\">tutoriale</div>",
+                  trainers: "<div class=\"become-circle__title\">50<span>+</span></div> <div class=\"become-circle__text\">doświadczeni trenerzy</div>",
+                  members: "<div class=\"become-circle__text\">więcej</div> <div class=\"become-circle__title make-circle__title-small\">300<span>do</span></ div> <div class=\"become-circle__text\">osoba w naszej społeczności </div>"
+                }
+              },
+              direction: {
+                header: {
+                  title: "Wybierz najlepszy <span class=\"text-stroke text-stroke__green\">kierunek</span> dla siebie",
+                  text: "<p><span>Kursy na dowolnym poziomie wiedzy i o celach</span> </p> <p>Wykształcenie wyższe lub jakiekolwiek wcześniejsze przygotowanie <span>nie wymagane</span></p> "
+                },
+                buttons: [
+                  "Rozwój osobisty",
+                  "Marketing",
+                  "Ogólne wykształcenie",
+                  "Języki obce",
+                  "Finanse",
+                  "Umiejętności cyfrowe",
+                  "Specjalny",
+                  "Wszystkie kierunki"
+                ],
+                slider: {
+                  title: [
+                    "Zasoby",
+                    "Introspekcja",
+                    "Autoprezentacja",
+                    "Marka osobista w Internecie",
+                    "Motywacja",
+                    "Ustawienia",
+                    "Wpływ na kupującego",
+                    "Jak opowiedzieć o swojej firmie w Internecie",
+                    "Ludzie, procesy, technologie",
+                    "Sprzedaż poprzez wartości",
+                    "Rozpakowywanie osobowości",
+                    "Zachowanie kupującego",
+                    "Rozwój marki osobistej",
+                    "Opracowanie strategii rozwoju biznesu internetowego",
+                    "Jak poprawić skuteczność kampanii w sieci wyszukiwania"
+                  ],
+                  descriptions: [
+                    "Dowiesz się, jak Twoja kondycja wpływa na sprzedaż i co przeszkadza Tobie i Twoim klientom w byciu w zasobie. Zapoznasz się z kanałami percepcji, którymi ludzie otrzymują informacje.",
+                    "Klient jest odzwierciedleniem Ciebie. Dlatego przede wszystkim musisz zrozumieć nie jak sprzedawać klientowi, ale jak sprzedawać sobie. Zajrzyj głębiej w siebie i przeanalizuj, jak się prezentujesz i jak jesteś postrzegany",
+                    "Autoprezentacja to umiejętność kreowania pozytywnego wizerunku siebie, zainteresowania klienta lub odbiorców. Umiejętność autoprezentacji to kluczowa umiejętność, od której zaczyna się budowanie marki osobistej.",
+                    "Rozwój marki osobistej we współczesnym świecie nie jest możliwy bez sieci społecznościowych. Na kursie dowiesz się jak znaleźć swoją niszę w sieciach społecznościowych, nie zgubić się wśród konkurencji i zarabiać na swoim blogu.",
+                    "Zdarzyło Ci się kiedyś mieć coś, czego bardzo pragniesz, ale odkładasz to na „później”, które nigdy nie nadchodzi? Powodem jest brak motywacji. Na kursie przeanalizujemy: skąd bierze się motywacja i jak samodzielnie podnieś jego poziom dla siebie.",
+                    "Jaka jest różnica między myśleniem „biednych” a „bogatych”? Dlaczego ktoś idzie przez życie z łatwością i odnosi sukcesy we wszystkim, podczas gdy inni bez końca wątpią we własne możliwości i mocne strony?",
+                    "Główną zasadą dobrego managera jest to, że klient jest zawsze na pierwszym miejscu. Najważniejsze jest jego dobro i dobre samopoczucie.",
+                    "Wybierz swoją ścieżkę nauczania: biznes, marka osobista lub marketing. Dowiedz się, jak zdobyć więcej klientów i obserwujących na Instagramie",
+                    "Nie kupujemy produktu lub usługi, ale stan, który te towary, usługi lub osoby, które je sprzedają, dają nam. Nazywa się to „Efektem zarażania",
+                    "Dowiesz się, jakie wartości są w sprzedaży i jak je wykorzystać jako środek do sukcesu. Poznasz pojęcie „rozpakowywania osobowości” i dowiesz się, jak unikać błędów w tym procesie.",
+                    "Marka osobista to to, co wyróżnia Cię na tle konkurencji, Twoje indywidualne podejście do prezentacji produktu czy prowadzenia biznesu. Zrób pierwszy krok w kierunku jej stworzenia!",
+                    "Naucz się przetwarzać wartość produktu w komunikację, opracuj strategię promocji i wprowadzenia produktu na rynek. Wzmocnij swoje umiejętności marketingowe dzięki podejściu produktowemu"
+                  ],
+                  modules: [
+                    "2 moduły",
+                    "4 moduły",
+                    "5 modułów",
+                    "6 modułów",
+                    "8 modułów"
+                  ]
+                },
+                footer: {
+                  text: "<span>Dołącz teraz</span> i wybierz kierunek"
+                }
+              },
+              authors: {
+                title: "<span class=\"text-stroke text-stroke__green\">Авторы <br></span>курсов",
+                description: "Nasi eksperci <span>prowadzą do celu</span> i pilnują, aby zainteresowanie nauką nie słabło",
+                list: [
+                  {
+                    nazwa: "Ajnur ZINNATULIN",
+                    description: "Przedsiębiorca <br> prezenter telewizyjny i radiowy. <br> Laureat nagrody «Teffi»",
+                    more_info: "Autor książek «Pigułka na strach», «5 kroków do idealnego wywiadu», «Tylko strach cię powstrzymuje»,«Sztuka czarowania nieznajomych». Trener wystąpień publicznych i krasomówstwa. Człowiek z dużym poczuciem humoru."
+                  },
+                  {
+                    name: "Alija <br>Churmatowa",
+                    description: "Odnoszący sukcesy praktyk sprzedaży online<br class=\"mobile_break\"> i offline.<br> Autor serii kursów online<br> i konsultant osobisty",
+                    more_info: "Alija Churmatowa jest ekspertem ds. sprzedaży, promocji offline i online oraz specjalistą w zakresie doradztwa biznesowego. Profesjonalny trener biznesowy z ponad 14-letnim doświadczeniem. Od 2016 roku doradza i prowadzi szkolenia korporacyjne dla dużych firm sieciowych, a także jest autorką szkoleń dla kadry kierowniczej i top menedżerów z różnych obszarów biznesowych. Jej kurs pozwoli Ci znacznie podnieść poziom swoich kompetencji w obszarze sprzedaży."
+                  },
+                  {
+                    imię: "Julia Dołgowa",
+                    description: "Przedsiębiorca, psycholog,<br>trener energii.<br>Autor książki „Zasada Dołgowej",
+                    more_info: "Julia Dolgowa od 13 lat spakowała najlepsze praktyki w programy szkoleniowe dotyczące budowania i monetyzacji swojego biznesu zarówno dla początkujących, jak i doświadczonych przedsiębiorców. Jej systematyczne podejście do szkoleń pozwoli wyeliminować niestabilność w sprzedaży. Jest również organizatorem i prelegentem wielkich imprez online i offline."
+                  },
+                  {
+                    imię: "Anna Siemionowa",
+                    description: "Przedsiębiorca, trener biznesu. <br> Autor kursu<br class=\"mobile_break\"> \"Wielcy ludzie - duże rachunki\". <br> Potężny motywator i lider dużego zespołu",
+                    more_info: "Duże doświadczenie praktyczne Anny Semionowej pozwoliło jej zgromadzić i usystematyzować wiedzę w system szkolenia \"pełnego cyklu\". Organizator i prelegent tematycznych maratonów online. Zawsze prostym i przystępnym językiem, poprzez konkretne przykłady, uczy sprzedawać stabilnie, bez stresu i strachu"
+                  },
+                  {
+                    name: "MILA MATWIEJEWA",
+                    description: "Marketer, mówca, motywator",
+                    more_info: "Ponad 20 lat doświadczenia w branży marketingu sieciowego. Przeszła drogę od początkującego sprzedawcy do Top lidera. Z powodzeniem rozwijała się w firmach o różnych obszarach działalności. Na szkoleniu Mila Matwiejewa ujawni praktyczne techniki które pomogą Ci stać się dla siebie samego doskonałym psychologiem, ujawnią Twój wewnętrzny potencjał i otworzą przepływ gotówki."
+                  },
+                  {
+                    name: "Anastazja Kotowa",
+                    description: "Ekspert w dziedzinie oratorstwa i mowy scenicznej",
+                    more_info: "Autorka Poradnika dla początkujących \"Pierwsze kroki\" i twórca kursu \"5 kroków sprzedaży. Sztuka dialogu\". Kurs Anastazji Kotowej pomoże Ci rozwinąć aparat mowy i pozbyć się zacisków. Będziesz mógł poszerzyć swoje słownictwo i nauczyć się, jak sprawić, by słuchacze dosłownie „zajrzeli ci do ust”."
+                  },
+                  {
+                    name: "SWIETLANA SKORNYAKOWA",
+                    description: "Przedsiębiorca. Autor kursu „Grupa docelowa” <br> i szkoleń z mediów społecznościowych\n",
+                    more_info: "W ciągu 4 lat aktywnej pracy w Internecie Swetlana Skornyakowa wybrała skuteczne narzędzia, które pozwalają na przyjmowanie potoku klientów i partnerów do Twojej firmy. Kurs „Grupa docelowa” pomoże Ci zidentyfikować grupy docelowych odbiorców , stworzysz USP dla każdej z grup. Poznasz metody i techniki pracy, opracujesz plan treści, dowiesz się jak znaleźć partnerów biznesowych przez Internet."
+                  },
+                  {
+                    name: "JEWGENIJ i OLGA ŻARKOWY",
+                    description: "Przedsiębiorcy MLM. <br>Eksperci od «zimnego» kręgu",
+                    more_info: "Na kursie Jewgenija i Olgi Żarkowyczh dowiesz się, skąd wziąć numery telefonów potencjalnych partnerów, jak prawidłowo prowadzić książkę telefoniczną z kontaktami kandydatów biznesowych. Dowiesz się, jak zidentyfikować grupę docelową i odbieraj scenariusze rozmów telefonicznych, opanuj umiejętność techniki «cold call». Jewgienij i Olga nauczą Cię, jak pokonywać strach i podzielą się psychologicznymi technikami efektywnej pracy."
+                  }
+                ]
+              },
+              opportunities: {
+                title: "Nie jesteś<span class=\"opportunities-header__white\">ograniczony</span> w możliwościach uczenia się",
+                list: [
+                  {
+                    title: "Wszędzie",
+                    text: "Ucz się w domu, w podróży, na wakacjach lub na przerwie obiadowej"
+                  },
+                  {
+                    title: "Kiedy jest to wygodne",
+                    text: "Ucz się we własnym tempie bez ograniczeń czasowych"
+                  },
+                  {
+                    title: "W dowolnej kolejności",
+                    text: "Weź udział w wielu kursach jednocześnie lub po kolei"
+                  }
+                ]
+              },
+              community: {
+                title: "Największa <span class=\"text-stroke text-stroke__green\">Społeczność</span> specjalistów, ekspertów, zaawansowanych użytkowników i nowicjuszy",
+                list: [
+                  {
+                    tite: "Wspólnicy",
+                    text: "Uczysz się, omawiasz problemy z mentorem i pomagasz początkującym"
+                  },
+                  {
+                    title: "Komunikacja",
+                    text: "Komunikacja z autorami kursów, prelegentami, czaty, wideokonferencje"
+                  },
+                  {
+                    tytuł: "Atmosfera",
+                    text: "Na naszej platformie jest ciepło i wygodnie"
+                  }
+                ]
+              },
+              tools: {
+                title: "Stworzyliśmy najlepsze narzędzia do <span class=\"text-stroke text-stroke__green\">nauki",
+                text: "Platforma dydaktyczna <br><span>z pełną funkcjonalnością</span>",
+                list: [
+                  {
+                    title: "Baza wiedzy",
+                    text: "Długie programy studiów, krótkie kursy intensywne"
+                  },
+                  {
+                    title: "Nauczanie spersonalizowane",
+                    text: "Wybierasz ciekawe kursy, czaty i webinaria"
+                  },
+                  {
+                    title: "Webinaria i czaty na żywo",
+                    text: "czaty online z mentorami i zespołami, transmisje audio i wideo"
+                  },
+                  {
+                    title: "Sprawdzanie własnych postępów",
+                    text: "Za pomocą konta osobistego możesz śledzić swoje postępy w nauce"
+                  },
+                  {
+                    title: "Osiągnięcia, nagrody i oceny",
+                    text: "Konkursy, unikalne zadania i osiągnięcia"
+                  },
+                  {
+                    title: "Gry i rozrywka",
+                    text: "Na platformie dostępne są gry, fora i czaty na różne tematy"
+                  }
+                ],
+                footer: {
+                  text: "<span>Wypróbuj bezpłatny kurs wprowadzający</span> dotyczący pracy na platformie"
+                }
+              },
+              history: {
+                header: "Zainspiruj się <span class=\"text-stroke text-stroke__green\">historiami sukcesu</span> <br> i opiniami o nauce",
+                successful_stories: "Historie sukcesu",
+                review: "Recenzje szkoleń"
+              },
+              create: {
+                title: "Twórz i <span class=\"opportunities-header__white2 create-header__white\">sprzedawaj</span> <span class=\"create-header__stroke text-stroke\">swój <img loading=\"lazy\" src=\"img/create/star.png\" alt=\"\"> kursy</span> <br class=\"hidden-desktop\"> na całym świecie",
+                list: [
+                  {
+                    tytuł: "interfejs",
+                    text: "<span>Przyjazny dla użytkownika interfejs.</span> Wszystko jest jasne <br> nawet bez instrukcji"
+                  },
+                  {
+                    tytuł: "funkcjonalność",
+                    text: "Narzędzia do wszystkich <br> formatów nauki online</span>"
+                  },
+                  {
+                    title: "adaptacyjny",
+                    text: "Interfejs platformy dostosowany do wszystkich gadżetów"
+                  },
+                  {
+                    title: "Sklep kursów",
+                    text: "Przydatne tematy według zainteresowań"
+                  },
+                  {
+                    title: "Back Office",
+                    text: "Statystyki i zarządzanie wszystkimi procesami z konta osobistego"
+                  },
+                  {
+                    tytuł: "Możliwości",
+                    text: "Rozwijaj i sprzedawaj swoją wiedzę specjalistyczną w dowolnej dziedzinie"
+                  },
+                  {
+                    tytuł: "Bonusy",
+                    text: "Kursy w prezencie za osiągnięcia na platformie"
+                  },
+                  {
+                    title: "Programy partnerskie",
+                    text: "Automatyczne nagrody za rozszerzenie sieci klientów"
+                  }
+                ],
+                footer: {
+                  title: "<span>Twórz ciekawe kursy i <span class=\"text-stroke text-stroke__green\">zarabiaj</span> <br> na <img loading=\"lazy\" src=\" img/create/star_green.png\" alt=\"\"> ekspertyza</span>"
+                }
+              },
+              talk: {
+                title: "Opowiadaj o funkcjach platformy i <span><div class=\"talk-header__circles\"><div class=\"talk-header__circle\"></div><div class=\"talk-header__circle \"></div></div> zarabiaj </span> <br> w programach partnerskich",
+                list_info: [
+                  "<div class=\"talk-circle__text\">więcej</div><div class=\"talk-circle__title talk-circle__title-small\">300<span>do</span></div><div class=\"talk-circle__text\">partnerów <br>na całym <br> świecie</div>",
+                  "<div class=\"talk-circle__text\">więcej</div><div class=\"talk-circle__title talk-circle__title-small\">50<span>do <span class=\"talk-circle__text__dollar\">$</span></div><div class=\"talk-circle__text\">wypłacone <br> partnerom</div>",
+                  "<div class=\"talk-circle__title\">1500<span>+</span></div><div class=\"talk-circle__text\">nowi klienci<br>co<br>miesiąc</div>",
+                  "<div class=\"talk-circle__text\">więcej</div><div class=\"talk-circle__title talk-circle__title-small\">2 <span>lat</span></div><div class=\"talk-circle__text\">w edukacji<br>-online</div>"
+                ]
+              },
+              calculator: {
+                title: "Dla kogo?",
+                lista: [
+                  "Dla wszystkich, którzy chcą zarabiać na sprzedaży produktów edukacyjnych <br>",
+                  "Dla blogerów, właścicieli <br> Telegram-kanałów i witryn",
+                  "Początkujący i doświadczeni przedsiębiorcy internetowi, marketerzy <br>eksperci branży sieciowej"
+                ],
+                footer: {
+                  title: "Zacznij zarabiać <span>teraz</span>",
+                  text: "Po prostu poleć nas swoim znajomym"
+                },
+                main: {
+                  title: "Ile możesz zarobić na sprzedaży swojego kursu?",
+                  text: "Wybierz <span>walutę</span>",
+                  sold_courses: "<span>Liczba</span> <br class=\"hidden-mobile\"> sprzedanych <br class=\"hidden-mobile\"> kursów miesięcznie",
+                  average_cost: "<span>Średni <br class=\"hidden-mobile\"> koszt <br class=\"hidden-mobile\"></span> kursu",
+                  remuneration: "Twoje wynagrodzenie: <br class=\"hidden-desktop\"> <span>miesięcznie <span class=\"calculator-main__total-result\">700</span></span>"
+                }
+              },
+              answer: {
+                title: "Dla kogo?",
+                list: [
+                  {
+                    title: "Czy mogę korzystać z platformy z urządzenia mobilnego?",
+                    text: "Platforma jest dostępna z różnych urządzeń, w tym komputerów stacjonarnych, laptopów, tabletów i telefonów."
+                  },
+                  {
+                    title: "Ile czasu powinienem poświęcić na naukę? Nadal pracuję!",
+                    text: "Wybierasz dogodny dla siebie rytm i harmonogram nauki. Większość użytkowników łączy naszą Akademię i pracuje najemnie. Wielu z nich porzuciło już całkowicie zatrudnienie i teraz rozwija się i zarabia tylko online."
+                  },
+                  {
+                    title: "Jak znaleźć odpowiedni kurs?",
+                    text: "Musisz zarejestrować się bezpłatnie na platformie, wziąć udział w kursie wprowadzającym, przeczytać krótki opis produktów na swoim koncie osobistym i wybrać kurs, który jest dla Ciebie odpowiedni.<br /> Możesz także skontaktować się z aktywnymi użytkowników i ekspertów naszej platformy, którzy pomogą Ci w nawigacji i wyborze odpowiedniego kursu."
+                  },
+                  {
+                    title: "W czym ta platforma jest lepsza od innych platform?",
+                    text: "Perfekcja nie ma granic... Stwierdzenie, że ktoś jest lepszy, a ktoś gorszy, nie jest do końca poprawne i poprawne. Naszym zadaniem jest pozytywny wynik każdego uczestnika. Po prostu wykonujemy swoją pracę i staramy się robić to dobrze. Jak możemy to zrobić - najlepiej zapytać naszych użytkowników. Sprawdź opinie. Oferujemy również bezpłatną rejestrację i poznanie platformy od środka. Jesteśmy pewni, że Ci się u nas spodoba!"
+                  },
+                  {
+                    title: "Jak odbywa się szkolenie?",
+                    text: "Podstawą każdego kursu są wykłady, na które mogą składać się filmy, slajdy, tekst, instrukcje oraz aplikacje do ćwiczeń praktycznych. Platforma posiada również czaty, na których użytkownicy komunikują się w procesie nauki i wymieniają się doświadczeniami, fora tematyczne, regularne transmisje online i webinaria."
+                  },
+                  {
+                    title: "Chcę nauczyć się zarabiać pieniądze. Czy wasza platforma mi w tym pomoże?",
+                    text: "Oczywiście! Nasza platforma zawiera kursy oparte na osobistych doświadczeniach praktykujących przedsiębiorców internetowych i liderów biznesu sieciowego. Ponadto mamy bardzo hojny program akumulacyjny premii za polecenie, co oznacza, że możesz zarabiać pieniądze już w procesie nauki Istnieje również możliwość zostania autorem kursów na naszej platformie i zarabiania na ich sprzedaży!"
+                  }
+                ]
+              },
+              footer: {
+                copyright: "Copyright 2022 <br> Wszelkie prawa zastrzeżone",
+                platform_policy: "Zasady platformy (pobierz)",
+                privacy_policy: "Polityka prywatności",
+                application: [
+                  "Załącznik №1",
+                  "Załącznik №2",
+                  "Załącznik №3"
+                ],
+                paradigma: "Wykonane z miłością <br> na stronie paradigma.website"
+              },
+              popup_login: {
+                przycisk: "Zaloguj się",
+                forgot_password: "Nie pamiętasz hasła?"
+              },
+              popup_register: {
+                przycisk: "Zarejestruj się",
+                account_exists: "Masz już konto? <span>Zaloguj się</span>",
+                register_button: "Zarejestruj się",
+                learn_more: "dowiedz się więcej"
+              },
+              popup_leave: {
+                title: "JUŻ WYCHODZISZ?",
+                text: "W ramach naszej znajomości pobierz przydatną instrukcję:",
+                footer: {
+                  title: "Jak zarabiać w każdym wieku pod czas nauki?",
+                  agree: "Wyraąm zgodę z warunkami przetwarzania danych osobistych"
+                }
+              }
+            }
+          },
+          ka: {
+            translation: {
+              header: {
+                logo: "საავტორო  კურსების საერთაშორისო ონლაინ პლატფორმა",
+                navbar: {
+                  courses: "კურსები",
+                  authors: "ავტორები",
+                  about_platform: "პლატფორმის შესახებ",
+                  partners_program: "საპარტნერო პროგრამა",
+                  successful_stories: "წარმატების ისტორიები",
+                  own_course: "საკუთარი კურსი",
+                  answers: "პასუხები კითხვებზე"
+                }
+              },
+              button: {
+                sign_in: "შესვლა",
+                sign_up: "რეგისტრაცია",
+                register: "დარეგისტრირდი და გაიგე მეტი",
+                start_free: "დაიწყე უფასოდ",
+                find_out_more: "გაიგე მეტი",
+                download: "ჩამოტვირთვა"
+              },
+              main: {
+                title: "თანამედროვე განათლება <span>без</span> შეზღუდვების გარეშე",
+                description: "შემოსავლის მიღების შესაძლებლობით",
+                list_info: {
+                  any_age: "ნებისმიერი <br> ასაკისთვის",
+                  unlimited_access: "შეუზღუდავი <br> წვდომა",
+                  areas_of_study: "სწავლების <br> 8 მიმართულება"
+                }
+              },
+              become: {
+                title: "გახდი თანამედროვე <br> და მოთხოვნადი <span class=\"text-stroke\">სპეციალისტი</span>",
+                description: "გეპატიჟებით <span>თავისი საქმის პროფესიონალების, დამწყებ და უბრალოდ ვნებიანი ადამიანების უნიკალურ საზოგადოებაში</span><br />საქმიანობის სხვადასხვა სფეროდან მთელს მსოფლიოში",
+                main: {
+                  intro: "«Lime Academy»-აში <span>შეგიძლიათ შეიძინოთ აქტუალური ცოდნა და საჭირო უნარები</span> ახალი ინტერნეტ-პროფესიების დასაუფლებლად და თქვენი პოტენციალის წარმატებით რეალიზებისთვის",
+                  info: "ჩვენ <span>>თეორია და პრაქტიკა გავაერთიანეთ სისტემაში,</span> რომლის საშუალებით ჩვენი პლატფორმის მომხმარებლები შემოსავლის მიღებას იწყებენ უკვე სწავლის დროს!",
+                  mission: "ჩვენი მისიაა - გავაერთიანოთ ადამიანები </strong> მთელ მსოფლიოში პარტნიორულ საზოგადოებაში, შევქმნათ პირობები მათი შემოქმედებითი პოტენციალის გამოსავლენად და ვასწავლოთ თითოეულ ადამიანს ფულის გამომუშავება თანამედროვე ტექნოლოგიების დახმარებით"
+                },
+                about: {
+                  programs: "<div class=\"become-circle__title\">80<span>+</span></div> <div class=\"become-circle__text\">სასწავლო პროგრამა</div>",
+                  trainers: "<div class=\"become-circle__title\">50<span>+</span></div> <div class=\"become-circle__text\">ექსპერტების ტრენერი</div>",
+                  members: "<div class=\"become-circle__text\">300</div> <div class=\"become-circle__title become-circle__title-small\">მეტი<span>к</span></div> <div class=\"become-circle__text\">ადამიანი  ჩვენ საზოგადოებაში </div>"
+                }
+              },
+              direction: {
+                header: {
+                  title: "აირჩიე საუკეთესო <span class=\"text-stroke text-stroke__green\">მიმართულება</span> შენთვის",
+                  text: "<p><span>კურსები ცოდნის ყველა დონის და მიზნისთვის</span> </p> <p>უმაღლესი განათლება ან რაიმე წინასწარი მომზადება <span>საჭირო არ არის </span></p>"
+                },
+                buttons: [
+                  "პიროვნული ზრდა",
+                  "მარკეტინგი",
+                  "ზოგადსაგანმანათლებლო",
+                  "უცხო ენები",
+                  "ფინანსები",
+                  "ციფრული წიგნიერება",
+                  "სპეციალური",
+                  "ყველა მიმართულება"
+                ],
+                slider: {
+                  title: [
+                    "რესურსი",
+                    "თვითანალიზი",
+                    "თვითპრეზენტაცია",
+                    "პერსონალური ბრენდინგი ინტერნეტში",
+                    "მოტივაცია",
+                    "პარამეტრები",
+                    "მყიდველზე გავლენა ",
+                    "როგორ მოყვეთ თქვენი კომპანიის შესახებ ინტერნეტში",
+                    "ადამიანები, პროცესები, ტექნოლოგიები",
+                    "გაყიდვები ღირებულებების მეშვეობით",
+                    "პიროვნების ამოხსნა",
+                    "მყიდველის ქცევა",
+                    "პერსონალური ბრენდის განვითარება",
+                    "„ონლაინ ბიზნესის განვითარების სტრატეგიის შემუშავება",
+                    "როგორ ავამაღლოთ კამპანიების ეფექტურობა საძიებო ქსელში"
+                  ],
+                  descriptions: [
+                    "თქვენ შეიტყობთ, როგორ მოქმედებს თქვენი მდგომარეობა გაყიდვებზე და რა უშლის ხელს თქვენ და თქვენს მომხმარებლებს რესურსში ყოფნას. გაეცნობით აღქმის არხებს, რომლითაც ადამიანები იღებენ ინფორმაციას.",
+                    "კლიენტი  - თქვენი ანარეკლია. ამიტომ, პირველ რიგში, თქვენ უნდა გესმოდეთ არა როგორ მიყიდოთ კლიენტს, არამედ როგორ მიყიდოთ საკუთარ თავს. ჩაიხედეთ საკუთარ თავში ღრმად და გააანალიზეთ, როგორ წარმოგიდგენთ საკუთარ თავს და როგორ  აღიქვამენ თქვენ სხვები.",
+                    "თვითპრეზენტაცია არის საკუთარი თავის პოზიტიური იმიჯის შექმნის, კლიენტის ან აუდიტორიის დაინტერესების უნარი. თვითპრეზენტაციის უნარი არის ძირითადი უნარი, საიდანაც იწყება პერსონალური ბრენდის განვითარება.",
+                    "პერსონალური ბრენდის განვითარება შეუძლებელია თანამედროვე სამყაროში სოციალური ქსელების გარეშე. კურსზე თქვენ შეისწავლით როგორ იპოვოთ თქვენი ნიშა სოციალურ ქსელებში, არ დაიკარგოთ კონკურენტებს შორის და მოახდინოთ თქვენი ბლოგის მონეტიზაცია.",
+                    "გქონიათ ოდესმე ისეთი რამ, რომ რაღაც ძალიან გინდათ, მაგრამ გადადებთ \"მოგვიანებისთვის\", რომელიც არასდროს დგება? მიზეზი არის მოტივაციის ნაკლებობა. კურსზე გავაანალიზებთ: საიდან მოდის მოტივაცია და როგორ დამოუკიდებლად გაზარდო მისი დონე შენთვის.",
+                    "„რა განსხვავებაა «ღარიბისა» და «მდიდრის» აზროვნებას შორის? რატომ გადის ვიღაც ცხოვრებას მარტივად და ყველაფერში წარმატებას აღწევს, სხვები კი გაუთავებლად ეჭვობენ საკუთარ შესაძლებლობებსა და ძალებში?",
+                    "კარგი მენეჯერის მთავარი წესი ის არის, რომ კლიენტი ყოველთვის პირველ ადგილზეა. მთავარია მისი გუნება და კეთილდღეობა.",
+                    "აირჩიეთ თქვენი სწავლების ტრაექტორია: ბიზნესი, პერსონალური ბრენდი ან მარკეტინგი. ისწავლეთ როგორ მიიღოთ მეტი მომხმარებელი და იმდევარი Instagram-ში",
+                    "ჩვენ  ვყიდულობთ არა პროდუქტს ან მომსახურებას, არამედ იმ მდგომარეობას, რომელსაც გვაძლევს ეს საქონელი, მომსახურება ან ადამიანები, რომლებიც მათ ყიდიან. ამას ჰქვია “გადადების ეფექტი”.",
+                    "თქვენ შეიტყობთ, რა  არის ღირებულებები გაყიდვებში და როგორ გამოიყენოთ ისინი  წარმატების საშუალების სახით. გაეცნობით \"პიროვნების ა მოხსნის\" კონცეფციას და ისწავლით როგორ აიცილოთ შეცდომები ამ პროცესში.",
+                    "პერსონალური ბრენდი არის ის, რაც გამოგარჩევთ კონკურენტებისგან, თქვენი ინდივიდუალური მიდგომა პროდუქტის პრეზენტაციისა ან ბიზნესის მართვისადმი. გადადგი პირველი ნაბიჯი მისი შექმნისკენ!",
+                    "ისწავლეთ პროდუქტის ღირებულების შეფუთვა კომუნიკაციაში, შეიმუშავეთ პროდუქტის პოპულარიზაციისა და ბაზარზე გამოტანის სტრატეგია. გააძლიერეთ თქვენი მარკეტინგული უნარები პროდუქტის მიდგომით"
+                  ],
+                  modules: [
+                    "2 მოდული",
+                    "4 მოდული",
+                    "5 მოდული",
+                    "6 მოდული",
+                    "8 მოდული"
+                  ]
+                },
+                footer: {
+                  text: "<span>შეუერთდი ახლა</span> და აირჩიე მიმართულება"
+                }
+              },
+              authors: {
+                title: "<span class=\"text-stroke text-stroke__green\">Авторы <br></span>курсов",
+                description: "ჩვენი ექსპერტები<span>მიზნამდე მიჰყავთ </span> და თვალყურს ადევნებენ, რომ სწავლისადმი ინტერესი არ ქრებოდეს",
+                list: [
+                  {
+                    name: "აინურ ზინატულინი",
+                    description: "მეწარმე, <br> ტელეწამყვანი და რადიოწამყვანი. <br> ტეფის პრემიის მფლობელი",
+                    more_info: "წიგნების „შიშის აბები“, „5 ნაბიჯი თქვენს იდეალურ ინტერვიუმდე“, „შენ გიშლის მხოლოდ შიში“, „უცნობების მოხიბლვის ხელოვნება“ ავტორი. საჯარო გამოსვლებისა და ორატორული ხელოვნების მწვრთნელი. ადამიანი შესანიშნავი იუმორის გრძნობით."
+                  },
+                  {
+                    name: "ალია <br>ხურმატოვა ",
+                    description: "წარმატებული პრაქტიკოსი ონლაინ <br class=\"mobile_break\"> და ოფლაინ გაყიდვების.<br> ონლაინ კურსების ციკლის ავტორი<br> და პირადი კონსულტანტი",
+                    more_info: "ალია ხურმატოვა არის  ოფლაინ და ონლაინ გაყიდვების პრომოუშენის ექსპერტი, ასევე სპეციალისტი ბიზნეს კონსალტინგის დარგში. პროფესიონალური ბიზნეს ტრენერი 14 წელზე მეტი გამოცდილებით. 2016 წლიდან ის კონსულტაციას უწევს და ატარებს კორპორატიულ ტრენინგებს მსხვილი ქსელური კომპანიებისთვის, ასევე არის ტრენინგების ავტორი ხელძღვანელებისა და ტოპ მენეჯერებისთვის სხვადასხვა ბიზნეს სფეროებში. მისი კურსი საშუალებას მოგცემთ მნიშვნელოვნად გაზარდოთ თქვენი კომპეტენციების დონე გაყიდვების სფეროში."
+                  },
+                  {
+                    name: "იულია დოლგოვა",
+                    description: "მეწარმე, ფსიქოლოგი,,<br> ენერგეტიკული კოუჩი.<br>წიგნის «დოლგოვას პრინციპი» ავტორი",
+                    more_info: "13 წლის განმავლობაში იულია დოლგოვა მოათავსა თავისი ბიზნესის აწყობისა და მონეტიზაციის საუკეთესო პრაქტიკები  სასწავლო პროგრამებში, როგორც დამწყებთათვის, ასევე გამოცდილი მეწარმეებისთვის. ტრენინგისადმი მისი სისტემატური მიდგომა საშუალებას მოგცემთ აღმოფხვრათ არასტაბილურობა გაყიდვებში. ის ასევე არის  ფართომასშტაბიან ონლაინ და ოფლაინ ღონისძიებების ორგანიზატორი და სპიკერი."
+                  },
+                  {
+                    name: "ანა სემენოვა",
+                    description: "მეწარმე, ბიზნეს ტრენერი.  <br> ავტორი კურსის  <br class=\"mobile_break\"> \"დიდი ხალხი - დიდი ჩეკები.\". <br> ძლიერი მოტივატორი და დიდი გუნდის ლიდერი",
+                    more_info: "ანა სემენოვას დიდმა პრაქტიკულმა გამოცდილებამ მას საშუალება მისცა დაეგროვებინა და ცოდნის სისტემატიზაცია მოეხდინა  \"სრული ციკლის\" სასწავლო სისტემაში. თემატური ონლაინ მარათონების ორგანიზატორი და სპიკერი. ყოველთვის მარტივ და ხელმისაწვდომ ენაზე, კონკრეტული მაგალითებით, ის ასწავლის სტაბილურ გაყიდვას   დაძაბულობისა და შიშის გარეშე."
+                  },
+                  {
+                    name: "მილა მატვეევა",
+                    description: "მარკეტოლოგი, სპიკერი, მოტივატორი",
+                    more_info: "მუშაობის 20 წელზე მეტი გამოცდილება ქსელური მარკეტინგის ინდუსტრიაში. გაიარა გზა ახალბედა გამყიდველიდან  ტოპ ლიდერამდე. იგი წარმატებით განვითარდა კომპანიებში საქმიანობის სხვადასხვა სფეროებში. სწავლების კურსზე მილა მატვეევა გამოავლენს პრაქტიკულ მეთოდიკებს, რომელიც დაგეხმარებათ გახდეთ შესანიშნავი ფსიქოლოგი საკუთარი თავისთვის, გამოავლინოთ თქვენი შინაგანი პოტენციალი და გახსნათ თქვენი ფულადი ნაკადი."
+                  },
+                  {
+                    name: "ანასტასია კოტოვა",
+                    description: "ორატორული ხელოვნების და სასცენო მეტყველების  <br>  დარგში ექსპერტი",
+                    more_info : "დამწყებთათვის  გაიდის \"პირველი ნაბიჯები\" ავტორი და კურსის \"გაყიდვების 5 ნაბიჯი. დიალოგის მართვის ხელოვნება.\" შემქმნელი. ანასტასია კოტოვას კურსი დაგეხმარებათ განავითაროთ თქვენი სამეტყველო აპარატი და განთავისუფლდეთ შებოჭილობისგან. თქვენ შეძლებთ გააფართოვოთ თქვენი ლექსიკონი და ისწავლოთ როგორ აიძულოთ მსმენელები სიტყვასიტყვით  “ჩაიხედონ თქვენს პირში”."
+                  },
+                  {
+                    name: "სვეტლანა სკორნიაკოვა",
+                    description: "მეწარმე. კურსის \"სამიზნე აუდიტორია\" <br> და ტრენინგების\n სოციალურ ქსელებში პოპულარიზაციის შესახებ ავტორი",
+                    more_info: "ინტერნეტში აქტიური მუშაობის 4 წელზე მეტი ხნის განმავლობაში სვეტლანა სკორნიაკოვამ შეარჩია ეფექტური ინსტრუმენტები, რომლებიც საშუალებას იძლევიან მიიღოთ მომხმარებელთა და პარტნიორების შემომავალი ნაკადი თქვენს ბიზნესში. კურსი „სამიზნე აუდიტორია“  დაგეხმარებათ განსაზღვროთ თქვენი სამიზნე აუდიტორიის ჯგუფები, შექმნათ უნიკალური სავაჭრო წინადადება თითოეული ჯგუფისთვის. თქვენ გაეცნობით მუშაობის მეთოდებსა და ტექნიკას, შეიმუშავებთ თქვენს კონტენტ გეგმას, შეისწავლით თუ როგორ მოიძიოთ ბიზნეს პარტნიორები ინტერნეტის საშუალებით."
+                  },
+                  {
+                    name: "ევგენი და ოლგა ჟარკოვები",
+                    description: "MLM მეწარმეები. <br>\n «ცივ» წრესთან მუშაობის ექსპერტები",
+                    more_info: "ევგენი და ოლგა ჟარკოვების კურსზე გაიგებთ, სად უნდა აიღოთ პოტენციური პარტნიორების ტელეფონის ნომრები, როგორ სწორად მართოთ თქვენი სატელეფონო ცნობარი ბიზნესში კანდიდატების კონტაქტებით. თქვენ შეისწავლით სამიზნე აუდიტორიის იდენტიფიცირებას და მიიღეთ სატელეფონო ზარების სკრიპტებს, დაეუფლებით \"ცივი ზარის\" ტექნიკის უნარს. ევგენი და ოლგა გასწავლიან როგორ დაძლიოთ შიში და გაიზიარებენ ფსიქოლოგიურ ტექნიკას ეფექტური მუშაობისთვის."
+                  }
+                ]
+              },
+              opportunities: {
+                title: "თქვენ <span class=\"opportunities-header__white\">არ ხართ შეზღუდულები</span> სწავლების შესაძლებლობებში",
+                list: [
+                  {
+                    title: "სადაც გნებავთ",
+                    text: "ისწავლეთ სახლში, გზაში, შვებულების ან  სასადილო შესვენების"
+                  },
+                  {
+                    title: "როცა მოსახერხებელია",
+                    text: "ისწავლე საკუთარი ტემპით დროის ნებისმიერი შეზღუდვის გარეშე"
+                  },
+                  {
+                    title: "ნებისმიერი თანმიმდევრობით",
+                    text: "გაიარეთ რამდენიმე კურსი ერთდროულად ან თანმიმდევრობით"
+                  }
+                ]
+              },
+              community: {
+                title: "ყველაზე დიდი  <span class=\"text-stroke text-stroke__green\">საზოგადოება</span> სპეციალისტების, ექსპერტების, გამოცდილი მომხმარებლებისა და ახალბედების",
+                list: [
+                  {
+                    title: "თანამოაზრეები",
+                    text: "თქვენ სწავლობთ, განიხილავთ საკითხებს დამრიგებელთან და ეხმარებით დამწყებებს"
+                  },
+                  {
+                    title: "კომუნიკაცია",
+                    text: "კომუნიკაცია კურსის ავტორებთან, სპიკერებთან, ჩათები, ვიდეო კონფერენციები"
+                  },
+                  {
+                    title: "ატმოსფერო",
+                    text: "ჩვენს პლატფორმაზე - შინაურულად თბილა და კომფორტულია"
+                  }
+                ]
+              },
+              tools: {
+                title: "ჩვენ შევქმენით საუკეთესო ხელსაწყოები  <span class=\"text-stroke text-stroke__green\">სცავლებისთვის",
+                text: "სასწავლო პლატფორმა  <br><span>სრული ფუნქციონალით</span>",
+                list: [
+                  {
+                    title: "ცოდნის ბაზა",
+                    text: "ხანგრძლივი სასწავლო პროგრამები, მოკლე ინტენსივები"
+                  },
+                  {
+                    title: "პერსონალიზებული სწავლება",
+                    text: "თქვენ ირჩევთ საინტერესო კურსებს, ჩეთებსა და ვებინარებს"
+                  },
+                  {
+                    title: "ვებინარები და ონლაინ ჩათები",
+                    text: "ონლაინ ჩათები დამრიგებლებთან და გუნდებთან, აუდიო და ვიდეო ტრანსლაციები"
+                  },
+                  {
+                    title: "შენი მოსწრების კონტროლი",
+                    text: "თქვენი პირადი კაბინეტის საშუალებით შეგიძლიათ თვალყური ადევნოთ სწავლის პროგრესს"
+                  },
+                  {
+                    title: "მიღწევები, ჯილდოები და რეიტინგი",
+                    text: "შეჯიბრები, უნიკალური ამოცანები და მიღწევები"
+                  },
+                  {
+                    title: "თამაშები და დასვენება",
+                    text: "პლატფორმაზე ხელმისაწვდომია თამაშები, ფორუმები და ურთიერთობა სხვადასხვა თემაზე"
+                  }
+                ],
+                footer: {
+                  text: "<span>გაიარე უფასო შესავალი კურსი</span> პლატფორმაზე მუშაობის შესახებ"
+                }
+              },
+              history: {
+                header: "შთაგონდი <span class=\"text-stroke text-stroke__green\">წარმატების ისტორიებით</span> <br> და სწავლაზე გამოხმაურებებით",
+                successful_stories: "წარმატების ისტორიები",
+                review: "გამოხმაურებები სწავლებაზე"
+              },
+              create: {
+                title: "შექმენი და <span class=\"opportunities-header__white2 create-header__white\">გაყიდე</span> <span class=\"create-header__stroke text-stroke\">შენი <img loading=\"lazy\" src=\"img/create/star.png\" alt=\"\"> კურსები</span> <br class=\"hidden-desktop\"> მთელ სამყაროში",
+                list: [
+                  {
+                    title: "ინტერფეისი",
+                    text: "<span>მოსახერხებელი ინტერფეისი.</span> ყველაფერი გასაგებია <br> ინსტრუქციების გარეშეც"
+                  },
+                  {
+                    title: "ფუნქციონალობა",
+                    text: "ინსტრუმენტები ონლაინ სწავლების  <br> ნებისმიერი   ფორმატებისთვის</span>"
+                  },
+                  {
+                    title: "ადაპტირულობა",
+                    text: "პლატფორმის ინტერფეისი ადაპტირებულია ყველა გაჯეტისთვის"
+                  },
+                  {
+                    title: "კურსების მაღაზია",
+                    text: "სასარგებლო თემები ინტერესების მიხედვით"
+                  },
+                  {
+                    title: "ბექ ოფისი",
+                    text: "სტატისტიკა და ყველა პროცესის მართვა პირადი ანგარიშიდან"
+                  },
+                  {
+                    title: "შესაზლებლობები",
+                    text: "განვითარე და გაყიდე შენი ექსპერტულობა საქმიანობის ნებისმიერ სფეროში"
+                  },
+                  {
+                    title: "ბონუსები",
+                    text: "კურსები საჩუქრად პლატფორმაზე მიღწევებისთვის"
+                  },
+                  {
+                    title: "საპარტნიორო პროგრამები",
+                    text: "ავტომატური ჯილდოები საკლიენტო ქსელის გაფართოებისთვის"
+                  }
+                ],
+                footer: {
+                  title: "<span>შექმენით ჩასაბმელი კურსები და  <span class=\"text-stroke text-stroke__green\">გამოიმუშავე</span> <br> შენს <img loading=\"lazy\" src=\"img/create/star_green.png\" alt=\"\"> ექსპერტულობაზე</span>"
+                }
+              },
+              talk: {
+                title: "მოყევი პლატფორმის შესაძლებლობებზე და  <span><div class=\"talk-header__circles\"><div class=\"talk-header__circle\"></div><div class=\"talk-header__circle\"></div></div> გამოიმუშავე ფული  </span> <br> საპარტნიორო პროგრამებში",
+                list_info: [
+                  "<div class=\"talk-circle__text\">300</div><div class=\"talk-circle__title talk-circle__title-small\">მეტი<span>к</span></div><div class=\"talk-circle__text\">პარტნიორი <br> მთელ <br> მსოფლიოში</div>",
+                  "<div class=\"talk-circle__text\">50</div><div class=\"talk-circle__title talk-circle__title-small\">$<span>к <span class=\"talk-circle__text__dollar\">მეტი</span></div><div class=\"talk-circle__text\">გადახდილია<br> პარტნიორებისთვის</div>",
+                  "<div class=\"talk-circle__title\">1500<span>+</span></div><div class=\"talk-circle__text\">ახალი კლიენტი<br> ყოველ<br> თვეში</div>",
+                  "<div class=\"talk-circle__text\">2</div><div class=\"talk-circle__title talk-circle__title-small\">წელიწადზე <span>მეტი</span></div><div class=\"talk-circle__text\">вონლაინ-<br> განათლებაში</div>"
+                ]
+              },
+              calculator: {
+                title: "ვისთვის გამოდგება?",
+                list: [
+                  "ყველასთვის, ვისაც სურს გამოიმუშაოს ფული <br> საგანმანათლებლო პროდუქტების <br> გაყიდვით",
+                  "ბლოგერებისთვის, <br> Telegram-არხების და საიტების მფლობელებისთვის",
+                  "დამწყები და გამოცდილი ინტერნეტ-<br>მეწარმეებისთვის, მარკეტოლოგებისთვის, <br> ქსელური ინდუსტრიის ექსპერტებისთვის"
+                ],
+                footer: {
+                  title: "დაიწყე ფულის გამომუშავება <span>ახლავე</span>",
+                  text: "უბრალოდ გვირჩიეთ თქვენს ნაცნობებს"
+                },
+                main: {
+                  title: "რამდენი შეგიძლიათ მიიღოთ თქვენი კურსის გაყიდვით?",
+                  text: "აირჩიეთ <span>ვალუტა</span>",
+                  sold_courses: "<span>გაყიდული კურსების</span> <br class=\"hidden-mobile\"> რაოდენობა <br class=\"hidden-mobile\"> თვეში",
+                  average_cost: "<span>კურსის <br class=\"hidden-mobile\"> საშუალო <br class=\"hidden-mobile\"></span> ღირებულება",
+                  remuneration: "თქვენი ანაზღაურება:  <br class=\"hidden-desktop\"> <span>700<span class=\"calculator-main__total-result\">თვეში</span></span>"
+                }
+              },
+              answer: {
+                title: "ვისთვის გამოდგება?",
+                list: [
+                  {
+                    title: "შეიძლება თუ არა პლატფორმის გამოყენება  მობილური მოწყობილობიდან?",
+                    text: "პლატფორმაზე წვდომა შესაძლებელია სხვადასხვა მოწყობილობიდან, მათ შორის დესკტოპის, ნოუთბუკის, პლანშეტის ან ტელეფონიდან."
+                  },
+                  {
+                    title: "რამდენი დრო უნდა დავუთმო სწავლას? მე  ვმუშაობ კიდევაც!",
+                    text: "თქვენ თვითონ ირჩევთ სწავლის ტემპს და განრიგს. მომხმარებელთა უმეტესობა ათავსებს ჩვენს აკადემიას და მუშაობას. ბევრმა მათგანმა უკვე მთლიანად დატოვა სამსახური და ახლა ვითარდება და მუშაობს მხოლოდ ონლაინ რეჟიმში."
+                  },
+                  {
+                    title: "როგორ შევირჩიო შესაფერისი კურსი?",
+                    text: "თქვენ უნდა დარეგისტრირდეთ უფასოდ პლატფორმაზე, გაიაროთ შესავალი კურსი, გაეცნოთ პროდუქტების მოკლე აღწერას თქვენს პირად კაბინეტში და აირჩიოთ თქვენთვის აქტუალური კურსი. <br /> ასევე შეგიძლიათ მიმართოთ ჩვენი პლატფორმის აქტიურ მომხმარებლებს და ექსპერტებს, რომლებიც დაგეხმარებიან მიმართულების გამორკვევაში და სწორი კურსის არჩევაში."
+                  },
+                  {
+                    title: "რით ხართ სხვა პლატფორმებზე უკეთესი?",
+                    text: "სრულყოფილებას საზღვარი არ აქვს... იმის თქმა, რომ ვიღაც უკეთესია და ვიღაც უარესი, არ არის მთლად კორექტული და სწორი. ჩვენი ამოცანაა - თითოეული მონაწილის დადებითი შედეგი. ჩვენ უბრალოდ ვაკეთებთ ჩვენს საქმეს და ვცდილობთ გავაკეთოთ ეს კარგად. როგორ  ეს გამოგვდის - უმჯობესია ჩვენს მომხმარებლებს ჰკითხოთ. გაეცანით გამოხმაურებებს. ასევე გთავაზობთ უფასო რეგისტრაციას და გაეცანით პლატფორმას შიგნიდან. დარწმუნებული ვართ, რომ  ჩვენთან მოგეწონებათ!"
+                  },
+                  {
+                    title: "როგორ მიდის სწავლება?",
+                    text: "თითოეული კურსის საფუძველია ლექციები, რომლებიც შეიძლება მოიცავდეს ვიდეოებს, სლაიდებს, ტექსტს, ინსტრუქციებს და აპლიკაციებს პრაქტიკული სავარჯიშოებისთვის. ასევე პლატფორმაზე ორგანიზებულია ჩატები, სადაც მომხმარებლები ურთიერთობენ სასწავლო პროცესში და ცვლიან გამოცდილებას, ფორუმები აქტუალურ თემებზე, ტარდება რეგულარული ონლაინ ტრანსლაციები და ვებინარები."
+                  },
+                  {
+                    title: "მინდა ვისწავლო ფულის შოვნა. დამეხმარება თუ არა თქვენი პლატფორმა ამაში?",
+                    text: "რა თქმა უნდა! ჩვენი პლატფორმა შეიცავს კურსებს, რომლებიც დაფუძნებულია მოქმედ ინტერნეტ მეწარმეების და ქსელური ბიზნესის ლიდერების პერსონალურ გამოცდილებაზე. გარდა ამისა, ჩვენ გვაქვს ძალიან უხვი რეფერალური ბონუსების დაგროვების პროგრამა, რაც ნიშნავს , რომ ფულის გამომუშავება უკვე სასწავლო პროცესში შესაძლებელია. ასევე არის შესაძლებლობა გახდეთ ჩვენს პლატფორმაზე კურსების ავტორი და მიიღოთ ფული მათი გაყიდვით!”"
+                  }
+                ]
+              },
+              footer: {
+                copyright: "Copyright 2022 <br> ყველა უფლება დაცულია",
+                platform_policy: "პლატფორმის პოლიტიკა (ჩამოტვირთვა)",
+                privacy_policy: "კონფიდენციალურობის პოლიტიკა ",
+                application: [
+                  "აპლიკაცია №1",
+                  "აპლიკაცია №2",
+                  "აპლიკაცია №3"
+                ],
+                paradigma: "სიყვარულით დამზადებული  <br> в paradigma.website"
+              },
+              popup_login: {
+                button: "შესვლა",
+                forgot_password: "დაგავიწყდათ პაროლი?"
+              },
+              popup_register: {
+                button: "რეგისტრაცია",
+                account_exists: "უკვე გაქვთ აკაუნტი? <span>შესვლა</span>",
+                register_button: "დარეგისტრირდით",
+                learn_more: "რათა გაიგოთ მეტი"
+              },
+              popup_leave: {
+                title: "უკვე მიდიხართ?",
+                text: "ჩვენი გაცნობის აღსანიშნავად ჩამოტვირთეთ სასარგებლო სახელმძღვანელო:",
+                footer: {
+                  title: "როგორ ვიშოვო ფული ნებისმიერ ასაკში სწავლის დროს?",
+                  agree: "თქვენ ეთანხმებით პერსონალური მონაცემების დამუშავების პირობებს"
                 }
               }
             }
