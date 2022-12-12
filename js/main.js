@@ -4,6 +4,7 @@ import { BASE_URL } from './api.js';
 import { selectDropdownOption } from './dropdown.js';
 import { insertAdsDataToHtml } from './insertAdsDataToHtml.js';
 import { getCookie, setCookie } from './cookie.js';
+import { getIsRightText } from './getIsRightText.js';
 
 const searchParams = new URLSearchParams(window.location.search)
 const language = getCookie('language');
@@ -22,6 +23,36 @@ for (const el of UI.signUpButtons) {
   if (ref) {
     el.setAttribute('href', `${BASE_URL}?ref=${ref}`)
   }
+}
+
+const isRightText = getIsRightText(activeLanguage);
+
+console.log('isRightText', isRightText);
+
+if (isRightText) {
+  document.body.classList.add('text-align-right');
+  UI.flexElement.forEach((element) => {
+    element.classList.add('flex-reverse');
+  });
+
+  UI.flexElements.forEach((element) => {
+    element.forEach((item) => {
+      item.classList.add('flex-reverse');
+    });
+  });
+
+
+} else {
+  document.body.classList.remove('text-align-right');
+  UI.flexElement.forEach((element) => {
+    element.classList.remove('flex-reverse');
+  });
+
+  UI.flexElements.forEach((element) => {
+    element.forEach((item) => {
+      item.classList.remove('flex-reverse');
+    });
+  });
 }
 
 document.querySelector('.select-btn-language')

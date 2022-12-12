@@ -50,6 +50,14 @@ button {
     font-family: "TT Norms";
 }
 
+.text-align-right {
+    text-align: right;
+}
+
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+
 .btn {
     width: 502rem;
     height: 138rem;
@@ -431,6 +439,10 @@ button {
     justify-content: space-between;
 }
 
+.main-content.flex-reverse {
+    margin-left: 0;
+}
+
 .main-header {
     font-family: "Road Radio";
     font-size: 109rem;
@@ -479,6 +491,11 @@ button {
     width: 320rem;
 }
 
+body.text-align-right .main-text {
+    margin-left: 0;
+    margin-right: 40rem;
+}
+
 .main-list {
     margin-top: 23rem;
 }
@@ -494,7 +511,7 @@ button {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    padding-right: 98rem;
+    padding: 0 98rem;
     margin-bottom: 93rem;
 }
 
@@ -523,6 +540,11 @@ button {
     height: 1rem;
     width: 110rem;
     background: #fff;
+}
+
+.main-list__item.flex-reverse::before {
+    right: auto;
+    left: 0;
 }
 
 @-webkit-keyframes scale {
@@ -964,6 +986,7 @@ button {
     font-size: 24rem;
     font-weight: 700;
     letter-spacing: 0.6rem;
+    width: 370rem;
 }
 
 .mobile_break {
@@ -1504,6 +1527,11 @@ button {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+}
+
+.tools-block.flex-reverse {
+    padding-right: 100rem;
+    padding-left: 0;
 }
 
 .tools-block__black.webp {
@@ -2322,6 +2350,15 @@ button {
     -ms-flex-pack: center;
     justify-content: center;
     padding-left: 125rem;
+}
+
+.calculator-main.flex-reverse {
+    padding-right: 125rem;
+    padding-left: 0;
+}
+
+.calculator-main.flex-reverse .calculator-main__total {
+   text-align: center;
 }
 
 .calculator-main.webp {
@@ -3252,6 +3289,7 @@ button {
         -ms-flex-direction: column;
         flex-direction: column;
     }
+
 
     .main-header {
         width: 100%;
