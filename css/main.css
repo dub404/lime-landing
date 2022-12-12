@@ -670,6 +670,10 @@ body.text-align-right .main-text {
     margin-top: -20rem;
 }
 
+.become-top.flex-reverse .become-text__right {
+    text-align: left;
+}
+
 .become-circle {
     border-radius: 50%;
     width: 210rem;
@@ -956,6 +960,11 @@ body.text-align-right .main-text {
 .direction-block__star {
     margin-bottom: 22rem;
     width: 26rem !important;
+}
+
+body.text-align-right .direction-block__star {
+    margin-left: auto;
+    margin-right: 60rem;
 }
 
 .direction-block__wrap {
@@ -1477,6 +1486,10 @@ body.text-align-right .main-text {
     margin-top: 20rem;
 }
 
+.tools-top.flex-reverse .tools-top__text {
+    text-align: left;
+}
+
 .tools-top__text span {
     font-weight: 700;
 }
@@ -1510,6 +1523,11 @@ body.text-align-right .main-text {
 .tools-slider {
     margin-left: 150rem;
     margin-bottom: 67rem;
+}
+
+.tools-slider.flex-reverse {
+    margin-left: 0;
+    padding-right: 150rem;
 }
 
 .tools-block {
@@ -2322,6 +2340,11 @@ body.text-align-right .main-text {
     margin-right: 23rem;
 }
 
+.calculator.flex-reverse .calculator-list__check {
+    margin-right: 0;
+    margin-left: 23rem;
+}
+
 .calculator-list__check img {
     width: 13rem;
     -webkit-animation: scale 3s infinite;
@@ -2358,7 +2381,7 @@ body.text-align-right .main-text {
 }
 
 .calculator-main.flex-reverse .calculator-main__total {
-   text-align: center;
+    text-align: center;
 }
 
 .calculator-main.webp {
@@ -2407,6 +2430,11 @@ body.text-align-right .main-text {
     margin-right: 40rem;
 }
 
+.calculator-main__currency.flex-reverse .calculator-main__currency-text {
+    margin-right: 0;
+    margin-left: 40rem;
+}
+
 .calculator-main__currency-text span {
     font-weight: bold;
 }
@@ -2424,6 +2452,11 @@ body.text-align-right .main-text {
 .calculator-main__text {
     font-size: 18rem;
     margin-right: 30rem;
+}
+
+.calculator-main.flex-reverse .calculator-main__text {
+    margin-right: 0;
+    margin-left: 30rem;
 }
 
 .calculator-main__text span {
@@ -2445,6 +2478,11 @@ body.text-align-right .main-text {
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-right: 90rem;
+}
+
+.calculator-main.flex-reverse .calculator-main__amount {
+    margin-right: 0;
+    margin-left: 90rem;
 }
 
 .calculator-main__amount-minus,
@@ -3471,6 +3509,10 @@ body.text-align-right .main-text {
         line-height: 28rem;
         margin: auto;
         text-align: center;
+    }
+
+    .direction-top.flex-reverse .direction-header__text {
+        text-align: left;
     }
 
     .direction-header__text p {

@@ -27,8 +27,6 @@ for (const el of UI.signUpButtons) {
 
 const isRightText = getIsRightText(activeLanguage);
 
-console.log('isRightText', isRightText);
-
 if (isRightText) {
   document.body.classList.add('text-align-right');
   UI.flexElement.forEach((element) => {
@@ -40,8 +38,6 @@ if (isRightText) {
       item.classList.add('flex-reverse');
     });
   });
-
-
 } else {
   document.body.classList.remove('text-align-right');
   UI.flexElement.forEach((element) => {
@@ -61,8 +57,6 @@ document.querySelector('.select-btn-language')
     `<span class="flag-icon flag-icon-${activeLanguage === 'en' ? 'us' : activeLanguage} option__language-icon"></span>
           <span class="option__currency-text option__language">${languageTranslate}</span>
 `);
-
-// const activeLanguage = document.querySelector('.select-btn-language')
 
 selectDropdownOption({
   trigger: UI.dropdown.selectBtn,
@@ -146,6 +140,7 @@ toolsSlider.on('changed.owl.carousel', function (event) {
 toolsSlider.owlCarousel({
   autoWidth: true,
   margin: 58,
+  rtl: isRightText,
   responsive: {
     0: {
       autoWidth: false,
